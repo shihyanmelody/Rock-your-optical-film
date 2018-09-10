@@ -1,0 +1,1747 @@
+pageid,shelf,book,page,filepath,hasrefractive,hasextinction,rangeMin,rangeMax,points
+0,main,Ag,Johnson,main\Ag\Johnson.yml,1,1,0.1879,1.937,49
+2,main,Ag,McPeak,main\Ag\McPeak.yml,1,1,0.3,1.7,141
+3,main,Ag,Babar,main\Ag\Babar.yml,1,1,0.2066,12.4,69
+4,main,Ag,Wu,main\Ag\Wu.yml,1,1,0.287493,0.999308,450
+5,main,Ag,Werner,main\Ag\Werner.yml,1,1,0.017586,2.479684,150
+6,main,Ag,Stahrenberg,main\Ag\Stahrenberg.yml,1,1,0.12782,0.49594,361
+7,main,Ag,Windt,main\Ag\Windt.yml,1,1,0.00236,0.12157,36
+8,main,Ag,Hagemann,main\Ag\Hagemann.yml,1,1,2.48e-06,248.0,148
+12,main,Ag,Rakic-BB,main\Ag\Rakic-BB.yml,1,1,0.24797,12.398,200
+13,main,Ag,Rakic-LD,main\Ag\Rakic-LD.yml,1,1,0.24797,12.398,200
+14,main,Ag,Werner-DFT,main\Ag\Werner-DFT.yml,1,1,0.017586,2.479684,150
+15,main,Al,Rakic,main\Al\Rakic.yml,1,1,0.00012399,200.0,206
+16,main,Al,McPeak,main\Al\McPeak.yml,1,1,0.15,1.7,297
+17,main,Al,Larruquert,main\Al\Larruquert.yml,1,1,0.077,0.1135,13
+18,main,Al,Ordal,main\Al\Ordal.yml,1,1,0.667,200.0,51
+19,main,Al,Hagemann,main\Al\Hagemann.yml,1,1,1.033e-05,1240.0,148
+21,main,Al,Rakic-BB,main\Al\Rakic-BB.yml,1,1,0.061992,247.97,200
+22,main,Al,Rakic-LD,main\Al\Rakic-LD.yml,1,1,0.061992,247.97,1000
+23,main,MgAl2O4,Tropf,main\MgAl2O4\Tropf.yml,1,0,0.35,5.5,200
+24,main,Y3Al5O12,Zelmon,main\Y3Al5O12\Zelmon.yml,1,0,0.4,5.0,200
+25,main,Ar,Bideau-Mehu,main\Ar\Bideau-Mehu.yml,1,0,0.1404,0.5677,200
+26,main,Ar,Peck-0C,main\Ar\Peck-0C.yml,1,0,0.4679,2.0587,200
+27,main,Ar,Peck-15C,main\Ar\Peck-15C.yml,1,0,0.4679,2.0587,200
+28,main,Ar,Larsen,main\Ar\Larsen.yml,1,0,0.230283,0.56774,17
+29,main,Ar,Cuthbertson,main\Ar\Cuthbertson.yml,1,0,0.48,0.6708,200
+30,main,Ar,Sinnock-liquid-90K,main\Ar\Sinnock-liquid-90K.yml,1,0,0.3612,0.6439,9
+31,main,Ar,Sinnock-liquid-88K,main\Ar\Sinnock-liquid-88K.yml,1,0,0.3612,0.6439,9
+32,main,Ar,Sinnock-liquid-86K,main\Ar\Sinnock-liquid-86K.yml,1,0,0.3612,0.6439,9
+33,main,Ar,Sinnock-liquid-83.81K,main\Ar\Sinnock-liquid-83.81K.yml,1,0,0.3612,0.6439,9
+34,main,Ar,Sinnock-solid-83.81K,main\Ar\Sinnock-solid-83.81K.yml,1,0,0.3612,0.6439,9
+35,main,Ar,Sinnock-solid-80K,main\Ar\Sinnock-solid-80K.yml,1,0,0.3612,0.6439,9
+36,main,Ar,Sinnock-solid-70K,main\Ar\Sinnock-solid-70K.yml,1,0,0.3612,0.6439,9
+37,main,Ar,Sinnock-solid-60K,main\Ar\Sinnock-solid-60K.yml,1,0,0.3612,0.6439,9
+38,main,Ar,Sinnock-solid-50K,main\Ar\Sinnock-solid-50K.yml,1,0,0.3612,0.6439,9
+39,main,Ar,Sinnock-solid-40K,main\Ar\Sinnock-solid-40K.yml,1,0,0.3612,0.6439,9
+40,main,Ar,Sinnock-solid-30K,main\Ar\Sinnock-solid-30K.yml,1,0,0.3612,0.6439,9
+41,main,Ar,Sinnock-solid-20K,main\Ar\Sinnock-solid-20K.yml,1,0,0.3612,0.6439,9
+42,main,AlAs,Fern,main\AlAs\Fern.yml,1,0,0.56,2.2,200
+43,main,AlAs,Rakic,main\AlAs\Rakic.yml,1,1,0.2214,2.4797,200
+44,main,GaAs,Aspnes,main\GaAs\Aspnes.yml,1,1,0.2066,0.8266,46
+45,main,GaAs,Skauli,main\GaAs\Skauli.yml,1,0,0.97,17.0,200
+46,main,GaAs,Jellison,main\GaAs\Jellison.yml,1,1,0.234,0.84,187
+47,main,GaAs,Kachare,main\GaAs\Kachare.yml,1,0,1.4,11.0,200
+48,main,GaAs,Adachi,main\GaAs\Adachi.yml,1,1,0.20664,12.398,200
+49,main,GaAs,Rakic,main\GaAs\Rakic.yml,1,1,0.20664,12.398,200
+50,main,GaAs,Ozaki,main\GaAs\Ozaki.yml,1,1,0.2214,1.0332,500
+51,main,InAs,Aspnes,main\InAs\Aspnes.yml,1,1,0.2066,0.8266,46
+52,main,InAs,Lorimor,main\InAs\Lorimor.yml,1,0,3.7,31.3,200
+53,main,InAs,Adachi,main\InAs\Adachi.yml,1,1,0.20664,12.398,200
+54,main,CdGeAs2,Boyd-o,main\CdGeAs2\Boyd-o.yml,1,0,2.4,11.5,200
+55,main,CdGeAs2,Boyd-e,main\CdGeAs2\Boyd-e.yml,1,0,2.4,11.5,200
+56,main,ZnSiAs2,Boyd-o,main\ZnSiAs2\Boyd-o.yml,1,0,0.7,11.5,200
+57,main,ZnSiAs2,Boyd-e,main\ZnSiAs2\Boyd-e.yml,1,0,0.7,11.5,200
+58,main,Au,Johnson,main\Au\Johnson.yml,1,1,0.1879,1.937,49
+59,main,Au,McPeak,main\Au\McPeak.yml,1,1,0.3,1.7,141
+60,main,Au,Babar,main\Au\Babar.yml,1,1,0.2066,12.4,69
+61,main,Au,Olmon-ev,main\Au\Olmon-ev.yml,1,1,0.3,24.93,448
+62,main,Au,Olmon-sc,main\Au\Olmon-sc.yml,1,1,0.3,24.93,448
+63,main,Au,Olmon-ts,main\Au\Olmon-ts.yml,1,1,0.3,24.93,448
+64,main,Au,Werner,main\Au\Werner.yml,1,1,0.017586,2.479684,150
+65,main,Au,Windt,main\Au\Windt.yml,1,1,0.00236,0.12157,36
+66,main,Au,Ordal,main\Au\Ordal.yml,1,1,0.667,286.0,52
+67,main,Au,Hagemann,main\Au\Hagemann.yml,1,1,8.266e-06,248.0,149
+68,main,Au,Hagemann-2,main\Au\Hagemann-2.yml,1,1,0.003542,0.8266,124
+74,main,Au,Lemarchand-3.96nm,main\Au\Lemarchand-3.96nm.yml,1,1,0.35,1.8,291
+75,main,Au,Lemarchand-4.62nm,main\Au\Lemarchand-4.62nm.yml,1,1,0.35,1.8,291
+76,main,Au,Lemarchand-5.77nm,main\Au\Lemarchand-5.77nm.yml,1,1,0.35,1.8,291
+77,main,Au,Lemarchand-11.7nm,main\Au\Lemarchand-11.7nm.yml,1,1,0.35,1.8,291
+78,main,Au,Rakic-BB,main\Au\Rakic-BB.yml,1,1,0.24797,6.1992,200
+79,main,Au,Rakic-LD,main\Au\Rakic-LD.yml,1,1,0.24797,6.1992,200
+80,main,Au,Werner-DFT,main\Au\Werner-DFT.yml,1,1,0.017586,2.479684,150
+81,main,B,Fernandez-Perea,main\B\Fernandez-Perea.yml,1,1,0.001378047,0.180999976,1699
+82,main,BaB2O4,Eimerl-o,main\BaB2O4\Eimerl-o.yml,1,0,0.22,1.06,200
+83,main,BaB2O4,Eimerl-e,main\BaB2O4\Eimerl-e.yml,1,0,0.22,1.06,200
+86,main,BaB2O4,Zhang-o,main\BaB2O4\Zhang-o.yml,1,0,0.64,3.18,200
+87,main,BaB2O4,Zhang-e,main\BaB2O4\Zhang-e.yml,1,0,0.64,3.18,200
+88,main,BiB3O6,Umemura-Î±,main\BiB3O6\Umemura-alpha.yml,1,0,0.48,3.1,200
+89,main,BiB3O6,Umemura-Î²,main\BiB3O6\Umemura-beta.yml,1,0,0.48,3.1,200
+90,main,BiB3O6,Umemura-Î³,main\BiB3O6\Umemura-gamma.yml,1,0,0.48,3.1,200
+91,main,LiB3O5,Chen-Î±,main\LiB3O5\Chen-alpha.yml,1,0,0.2894,1.064,200
+92,main,LiB3O5,Chen-Î²,main\LiB3O5\Chen-beta.yml,1,0,0.2894,1.064,200
+93,main,LiB3O5,Chen-Î³,main\LiB3O5\Chen-gamma.yml,1,0,0.2894,1.064,200
+94,main,CsLiB6O10,Sasaki-o,main\CsLiB6O10\Sasaki-o.yml,1,0,0.19,2.75,200
+95,main,CsLiB6O10,Sasaki-e,main\CsLiB6O10\Sasaki-e.yml,1,0,0.19,2.75,200
+96,main,LuAl3(BO3)4,Fang-o,main\LuAl3(BO3)4\Fang-o.yml,1,0,0.266,1.338,200
+97,main,LuAl3(BO3)4,Fang-e,main\LuAl3(BO3)4\Fang-e.yml,1,0,0.266,1.338,200
+98,main,Be,Rakic-BB,main\Be\Rakic-BB.yml,1,1,0.24797,61.992,200
+99,main,Be,Rakic-LD,main\Be\Rakic-LD.yml,1,1,0.24797,61.992,1000
+100,main,Bi,Hagemann,main\Bi\Hagemann.yml,1,1,2.48e-06,6.199,150
+101,main,Bi,Werner,main\Bi\Werner.yml,1,1,0.017586,2.479684,150
+102,main,Bi,Werner-DFT,main\Bi\Werner-DFT.yml,1,1,0.017586,2.479684,150
+103,main,AgBr,SchrÃ¶ter,main\AgBr\Schroter.yml,1,0,0.495,0.67,200
+104,main,CsBr,Li,main\CsBr\Li.yml,1,0,0.21,55.0,200
+105,main,CsBr,Querry,main\CsBr\Querry.yml,1,1,0.213,149.2537,312
+106,main,CsBr,Rodney,main\CsBr\Rodney.yml,1,0,0.365,39.0,200
+107,main,KBr,Li,main\KBr\Li.yml,1,0,0.2,42.0,200
+108,main,LiBr,Li,main\LiBr\Li.yml,1,0,0.21,20.0,200
+109,main,NaBr,Li,main\NaBr\Li.yml,1,0,0.21,34.0,200
+110,main,RbBr,Li,main\RbBr\Li.yml,1,0,0.21,50.0,200
+111,main,TlBr,Palik,main\TlBr\Palik.yml,1,0,0.57,39.4,200
+112,main,TlBr,Schroter,main\TlBr\Schroter.yml,1,0,0.54,0.65,200
+113,main,C,Phillip,main\C\Phillip.yml,1,1,0.035424054,10.0,176
+114,main,C,Peter,main\C\Peter.yml,1,0,0.226,0.76,200
+115,main,C,Dore,main\C\Dore.yml,1,1,2.5,500.0,241
+116,main,C,Larruquert,main\C\Larruquert.yml,1,1,0.019656426,10.07918931,364
+117,main,C,Hagemann,main\C\Hagemann.yml,1,1,4.133e-05,124.0,100
+118,main,C,Djurisic-o,main\C\Djurisic-o.yml,1,1,0.030996,10.332,1000
+119,main,C,Djurisic-e,main\C\Djurisic-e.yml,1,1,0.030996,0.5904,1000
+120,main,C,Querry-DixonKS2,main\C\Querry-DixonKS2.yml,1,1,0.21,55.5556,612
+121,main,C,Querry-DixonHPN2,main\C\Querry-DixonHPN2.yml,1,1,0.2,55.5556,613
+122,main,C,Querry-Dixon200-10,main\C\Querry-Dixon200-10.yml,1,1,0.21,55.5556,612
+123,main,C,Querry-AsburyMicro260,main\C\Querry-AsburyMicro260.yml,1,1,0.21,55.5556,612
+124,main,C,Querry-Dixon1102,main\C\Querry-Dixon1102.yml,1,1,0.2,55.5556,613
+125,main,C,Querry-Asbury3222,main\C\Querry-Asbury3222.yml,1,1,0.2,55.5556,613
+126,main,C,Querry-Pyrolytic,main\C\Querry-Pyrolytic.yml,1,1,0.21,55.5556,612
+127,main,C,Weber,main\C\Weber.yml,1,1,0.210873,0.999007,499
+128,main,B4C,Larruquert,main\B4C\Larruquert.yml,1,1,0.001737709,21.53810759,1480
+129,main,SiC,Singh-o,main\SiC\Singh-o.yml,1,0,0.488,1.064,200
+130,main,SiC,Singh-e,main\SiC\Singh-e.yml,1,0,0.488,1.064,200
+137,main,SiC,Shaffer,main\SiC\Shaffer.yml,1,0,0.467,0.691,200
+138,main,SiC,Larruquert,main\SiC\Larruquert.yml,1,1,0.00615447,131.7250957,508
+139,main,TiC,Pfluger,main\TiC\Pfluger.yml,1,1,0.03107,2.4797,52
+140,main,VC,Pfluger,main\VC\Pfluger.yml,1,1,0.03107,2.4797,52
+141,main,CaCO3,Ghosh-o,main\CaCO3\Ghosh-o.yml,1,0,0.204,2.172,200
+142,main,CaCO3,Ghosh-e,main\CaCO3\Ghosh-e.yml,1,0,0.204,2.172,200
+143,main,CaMg(CO3)2,Querry-o,main\CaMg(CO3)2\Querry-o.yml,1,1,2.5,40.0,376
+144,main,CaMg(CO3)2,Querry-e,main\CaMg(CO3)2\Querry-e.yml,1,1,2.5,50.0,381
+146,main,Ca,Rodriguez-de_Marcos,main\Ca\Rodriguez-de Marcos.yml,1,1,0.001233674,0.316348631,1848
+147,main,Ce,Fernandez-Perea,main\Ce\Fernandez-Perea.yml,1,1,0.00103238,0.206638625,1265
+148,main,AgCl,Tilton,main\AgCl\Tilton.yml,1,0,0.578,20.6,200
+149,main,CsCl,Li,main\CsCl\Li.yml,1,0,0.18,40.0,200
+150,main,CuCl,Feldman,main\CuCl\Feldman.yml,1,0,0.43,2.5,200
+151,main,KCl,Li,main\KCl\Li.yml,1,0,0.18,35.0,200
+152,main,KCl,Querry,main\KCl\Querry.yml,1,1,0.22,166.6667,312
+153,main,LiCl,Li,main\LiCl\Li.yml,1,0,0.17,16.0,200
+154,main,NaCl,Li,main\NaCl\Li.yml,1,0,0.2,30.0,200
+155,main,NaCl,Querry,main\NaCl\Querry.yml,1,1,0.22,166.6667,312
+156,main,RbCl,Li,main\RbCl\Li.yml,1,0,0.18,40.0,200
+157,main,TlCl,Schroter,main\TlCl\Schroter.yml,1,0,0.43,0.66,200
+158,main,Co,Johnson,main\Co\Johnson.yml,1,1,0.188,1.937,49
+159,main,Co,Werner,main\Co\Werner.yml,1,1,0.017586,2.479684,150
+160,main,Co,Werner-DFT,main\Co\Werner-DFT.yml,1,1,0.017586,2.479684,150
+161,main,Cr,Johnson,main\Cr\Johnson.yml,1,1,0.188,1.937,49
+162,main,Cr,Rakic-BB,main\Cr\Rakic-BB.yml,1,1,0.24797,61.992,200
+163,main,Cr,Rakic-LD,main\Cr\Rakic-LD.yml,1,1,0.24797,61.992,1000
+168,main,Cu,Johnson,main\Cu\Johnson.yml,1,1,0.1879,1.937,49
+169,main,Cu,McPeak,main\Cu\McPeak.yml,1,1,0.3,1.7,141
+170,main,Cu,Babar,main\Cu\Babar.yml,1,1,0.2066,12.4,69
+171,main,Cu,Brimhall,main\Cu\Brimhall.yml,1,1,0.0101,0.0421,34
+172,main,Cu,Werner,main\Cu\Werner.yml,1,1,0.017586,2.479684,150
+173,main,Cu,Stahrenberg,main\Cu\Stahrenberg.yml,1,1,0.13776,0.49594,326
+174,main,Cu,Ordal,main\Cu\Ordal.yml,1,1,0.517,55.6,56
+175,main,Cu,Querry,main\Cu\Querry.yml,1,1,0.21,55.5556,612
+176,main,Cu,Hagemann,main\Cu\Hagemann.yml,1,1,2.48e-05,248.0,149
+177,main,Cu,Rakic-BB,main\Cu\Rakic-BB.yml,1,1,0.20664,12.398,200
+178,main,Cu,Rakic-LD,main\Cu\Rakic-LD.yml,1,1,0.20664,12.398,200
+179,main,Cu,Werner-DFT,main\Cu\Werner-DFT.yml,1,1,0.017586,2.479684,150
+180,main,Er,Larruquert,main\Er\Larruquert.yml,1,1,0.000783614,0.382667245,1329
+181,main,Eu,Fernandez-Perea,main\Eu\Fernandez-Perea.yml,1,1,0.000882651,0.149199984,1748
+182,main,BaF2,Li,main\BaF2\Li.yml,1,0,0.15,15.0,200
+183,main,BaF2,Querry,main\BaF2\Querry.yml,1,1,0.22,166.6667,312
+184,main,BaF2,Malitson,main\BaF2\Malitson.yml,1,0,0.2652,10.346,200
+185,main,CaF2,Malitson,main\CaF2\Malitson.yml,1,0,0.23,9.7,200
+186,main,CaF2,Daimon-20,main\CaF2\Daimon-20.yml,1,0,0.138,2.326,200
+187,main,CaF2,Daimon-25,main\CaF2\Daimon-25.yml,1,0,0.138,2.326,200
+188,main,CaF2,Li,main\CaF2\Li.yml,1,0,0.15,12.0,200
+190,main,CsF,Li,main\CsF\Li.yml,1,0,0.15,30.0,200
+191,main,KF,Li,main\KF\Li.yml,1,0,0.15,22.0,200
+192,main,LaF3,Laihoa-o,main\LaF3\Laihoa-o.yml,1,0,0.35,0.7,200
+193,main,LaF3,Laihoa-e,main\LaF3\Laihoa-e.yml,1,0,0.35,0.7,200
+195,main,LiF,Li,main\LiF\Li.yml,1,0,0.1,11.0,200
+196,main,LiCaAlF6,Woods-o,main\LiCaAlF6\Woods-o.yml,1,0,0.4,1.0,200
+197,main,LiCaAlF6,Woods-e,main\LiCaAlF6\Woods-e.yml,1,0,0.4,1.0,200
+198,main,NaF,Li,main\NaF\Li.yml,1,0,0.15,17.0,200
+199,main,MgF2,Dodge-o,main\MgF2\Dodge-o.yml,1,0,0.2,7.0,200
+200,main,MgF2,Dodge-e,main\MgF2\Dodge-e.yml,1,0,0.2,7.0,200
+201,main,MgF2,Li-o,main\MgF2\Li-o.yml,1,0,0.14,7.5,200
+202,main,MgF2,Li-e,main\MgF2\Li-e.yml,1,0,0.14,7.5,200
+204,main,PbF2,Malitson,main\PbF2\Malitson.yml,1,0,0.3,11.9,200
+205,main,RbF,Li,main\RbF\Li.yml,1,0,0.15,25.0,200
+207,main,SrF2,Rodriguez-de_Marcos,main\SrF2\Rodriguez-de Marcos.yml,1,1,0.001582488,682.162027,623
+208,main,SrF2,Li,main\SrF2\Li.yml,1,0,0.15,14.0,200
+209,main,SrF2,Feldman,main\SrF2\Feldman.yml,1,0,0.21,11.5,200
+210,main,ThF4,Heitmann,main\ThF4\Heitmann.yml,1,0,0.26,0.76,200
+211,main,YLiF4,Barnes-o,main\YLiF4\Barnes-o.yml,1,0,0.225,2.6,200
+212,main,YLiF4,Barnes-e,main\YLiF4\Barnes-e.yml,1,0,0.225,2.6,200
+213,main,Fe,Johnson,main\Fe\Johnson.yml,1,1,0.188,1.937,49
+214,main,Fe,Werner,main\Fe\Werner.yml,1,1,0.017586,2.479684,150
+215,main,Fe,Ordal,main\Fe\Ordal.yml,1,1,0.667,286.0,52
+216,main,Fe,Querry,main\Fe\Querry.yml,1,1,0.21,55.5556,611
+217,main,Fe,Werner-DFT,main\Fe\Werner-DFT.yml,1,1,0.017586,2.479684,150
+218,main,BiFeO3,Kumar,main\BiFeO3\Kumar.yml,1,1,0.19706,1.6693,702
+219,main,Ge,Aspnes,main\Ge\Aspnes.yml,1,1,0.2066,0.8266,46
+220,main,Ge,Jellison,main\Ge\Jellison.yml,1,1,0.234,0.84,187
+221,main,Ge,Li-100K,main\Ge\Li-100K.yml,1,0,1.9,18.0,43
+222,main,Ge,Li-150K,main\Ge\Li-150K.yml,1,0,1.9,18.0,43
+223,main,Ge,Li-200K,main\Ge\Li-200K.yml,1,0,1.9,18.0,43
+224,main,Ge,Li-250K,main\Ge\Li-250K.yml,1,0,1.9,18.0,43
+225,main,Ge,Li-293K,main\Ge\Li-293K.yml,1,0,1.9,18.0,43
+226,main,Ge,Li-350K,main\Ge\Li-350K.yml,1,0,1.9,18.0,43
+227,main,Ge,Li-400K,main\Ge\Li-400K.yml,1,0,1.9,18.0,43
+228,main,Ge,Li-450K,main\Ge\Li-450K.yml,1,0,1.9,18.0,43
+229,main,Ge,Li-500K,main\Ge\Li-500K.yml,1,0,1.9,18.0,43
+230,main,Ge,Li-550K,main\Ge\Li-550K.yml,1,0,1.9,18.0,43
+231,main,Ge,Icenogle,main\Ge\Icenogle.yml,1,0,2.5,12.0,200
+234,main,Bi4Ge3O12,Williams,main\Bi4Ge3O12\Williams.yml,1,0,0.305,1.0,200
+235,main,Bi12GeO20,Simon,main\Bi12GeO20\Simon.yml,1,0,0.45,0.7,200
+236,main,Pb5Ge3O11,Simon-o,main\Pb5Ge3O11\Simon-o.yml,1,0,0.45,0.7,200
+237,main,Pb5Ge3O11,Simon-e,main\Pb5Ge3O11\Simon-e.yml,1,0,0.45,0.7,200
+239,main,H2,Peck,main\H2\Peck.yml,1,0,0.168,1.6945,200
+240,main,H2,Koch,main\H2\Koch.yml,1,0,0.2302,0.5462,20
+241,main,D2,Weber,main\D2\Weber.yml,1,0,0.230209,0.579065,18
+242,main,He,Cuthbertson,main\He\Cuthbertson.yml,1,0,0.2753,0.5462,200
+244,main,He,Mansfield,main\He\Mansfield.yml,1,0,0.4801,2.0586,200
+245,main,Hf,Windt,main\Hf\Windt.yml,1,1,0.00236,0.12157,36
+246,main,Hg,Inagaki,main\Hg\Inagaki.yml,1,1,0.06358,6.19921,76
+247,main,Ho,Fernandez-Perea,main\Ho\Fernandez-Perea.yml,1,1,0.000922369,0.413280625,1053
+248,main,CsI,Li,main\CsI\Li.yml,1,0,0.25,67.0,200
+249,main,CsI,Querry,main\CsI\Querry.yml,1,1,0.22,166.6667,312
+250,main,CsI,Rodney,main\CsI\Rodney.yml,1,0,0.2967,50.0,200
+251,main,KI,Li,main\KI\Li.yml,1,0,0.25,50.0,200
+252,main,LiI,Li,main\LiI\Li.yml,1,0,0.25,25.0,200
+253,main,NaI,Jellison,main\NaI\Jellison.yml,1,0,0.436,0.633,200
+254,main,NaI,Li,main\NaI\Li.yml,1,0,0.25,40.0,200
+255,main,RbI,Li,main\RbI\Li.yml,1,0,0.24,64.0,200
+256,main,LiIO3,Herbst-o,main\LiIO3\Herbst-o.yml,1,0,0.5461,5.0,200
+257,main,LiIO3,Herbst-e,main\LiIO3\Herbst-e.yml,1,0,0.5461,5.0,200
+262,main,Ir,Windt,main\Ir\Windt.yml,1,1,0.00236,0.12157,36
+271,main,Kr,Bideau-Mehu,main\Kr\Bideau-Mehu.yml,1,0,0.1404,0.6234,200
+273,main,Kr,Koch,main\Kr\Koch.yml,1,0,0.230209,0.623437,20
+274,main,Kr,Cuthbertson,main\Kr\Cuthbertson.yml,1,0,0.48,0.6708,200
+275,main,Kr,Sinnock-liquid-126K,main\Kr\Sinnock-liquid-126K.yml,1,0,0.3631,0.6439,8
+276,main,Kr,Sinnock-liquid-122K,main\Kr\Sinnock-liquid-122K.yml,1,0,0.3631,0.6439,8
+277,main,Kr,Sinnock-liquid-118K,main\Kr\Sinnock-liquid-118K.yml,1,0,0.3631,0.6439,8
+278,main,Kr,Sinnock-liquid-115.95K,main\Kr\Sinnock-liquid-115.95K.yml,1,0,0.3631,0.6439,8
+279,main,Kr,Sinnock-solid-115.95K,main\Kr\Sinnock-solid-115.95K.yml,1,0,0.3631,0.6439,8
+280,main,Kr,Sinnock-solid-105K,main\Kr\Sinnock-solid-105K.yml,1,0,0.3631,0.6439,8
+281,main,Kr,Sinnock-solid-95K,main\Kr\Sinnock-solid-95K.yml,1,0,0.3631,0.6439,8
+282,main,Kr,Sinnock-solid-85K,main\Kr\Sinnock-solid-85K.yml,1,0,0.3631,0.6439,8
+283,main,Kr,Sinnock-solid-75K,main\Kr\Sinnock-solid-75K.yml,1,0,0.3631,0.6439,8
+284,main,Kr,Sinnock-solid-67K,main\Kr\Sinnock-solid-67K.yml,1,0,0.3631,0.6439,8
+287,main,Li,Rasigni,main\Li\Rasigni.yml,1,1,0.1164,8.266,36
+288,main,Li,Inagaki,main\Li\Inagaki.yml,1,1,0.326,2.066,33
+290,main,Lu,Garcia-Cortes,main\Lu\Garcia-Cortes.yml,1,1,8.26561e-08,700475.6352,2212
+291,main,Mg,Hagemann,main\Mg\Hagemann.yml,1,1,2.48e-05,24.8,140
+292,main,Mg,Vidal-Dasilva,main\Mg\Vidal-Dasilva.yml,1,1,0.000953725,0.049593675,1706
+293,main,Mn,Johnson,main\Mn\Johnson.yml,1,1,0.188,1.937,49
+294,main,Mn,Querry,main\Mn\Querry.yml,1,1,0.22,55.5556,306
+295,main,Mo,Ordal,main\Mo\Ordal.yml,1,1,0.667,154.0,50
+296,main,Mo,Werner,main\Mo\Werner.yml,1,1,0.017586,2.479684,150
+297,main,Mo,Windt,main\Mo\Windt.yml,1,1,0.00236,0.12157,36
+298,main,Mo,Querry,main\Mo\Querry.yml,1,1,0.2063,166.6667,314
+300,main,Mo,Werner-DFT,main\Mo\Werner-DFT.yml,1,1,0.017586,2.479684,150
+301,main,CaMoO4,Bond-o,main\CaMoO4\Bond-o.yml,1,0,0.45,3.8,200
+302,main,CaMoO4,Bond-e,main\CaMoO4\Bond-e.yml,1,0,0.45,3.8,200
+303,main,PbMoO4,Malitson-o,main\PbMoO4\Malitson-o.yml,1,0,0.44,1.08,200
+304,main,PbMoO4,Malitson-e,main\PbMoO4\Malitson-e.yml,1,0,0.44,1.08,200
+305,main,SrMoO4,Bond-o,main\SrMoO4\Bond-o.yml,1,0,0.45,2.4,200
+306,main,SrMoO4,Bond-e,main\SrMoO4\Bond-e.yml,1,0,0.45,2.4,200
+307,main,N2,Peck-0C,main\N2\Peck-0C.yml,1,0,0.4679,2.0587,200
+308,main,N2,Peck-15C,main\N2\Peck-15C.yml,1,0,0.4679,2.0587,200
+309,main,N2,Griesmann,main\N2\Griesmann.yml,1,0,0.145,0.27,200
+310,main,AlN,Kischkat,main\AlN\Kischkat.yml,1,1,1.53846,14.28571,1451
+311,main,AlN,Pastrnak-o,main\AlN\Pastrnak-o.yml,1,0,0.22,5.0,200
+312,main,AlN,Pastrnak-e,main\AlN\Pastrnak-e.yml,1,0,0.22,5.0,200
+313,main,GaN,Barker-o,main\GaN\Barker-o.yml,1,0,0.35,10.0,200
+314,main,GaN,Barker-e,main\GaN\Barker-e.yml,1,0,0.35,10.0,200
+315,main,GaN,Lin-wurtzite,main\GaN\Lin-wurtzite.yml,1,0,0.368124,0.991745,53
+316,main,GaN,Lin-zincblende,main\GaN\Lin-zincblende.yml,1,0,0.385447,0.960283,32
+317,main,GaN,Kawashima,main\GaN\Kawashima.yml,1,1,0.13051,0.99187,500
+318,main,NH3,Cuthbertson,main\NH3\Cuthbertson.yml,1,0,0.47999,0.670785,200
+319,main,Si3N4,Luke,main\Si3N4\Luke.yml,1,0,0.31,5.504,200
+320,main,Si3N4,Kischkat,main\Si3N4\Kischkat.yml,1,1,1.53846,14.28571,1451
+321,main,Si3N4,Philipp,main\Si3N4\Philipp.yml,1,0,0.207,1.24,200
+322,main,TiN,Pfluger,main\TiN\Pfluger.yml,1,1,0.03107,2.4797,50
+323,main,VN,Pfluger,main\VN\Pfluger.yml,1,1,0.03107,2.4797,52
+325,main,Na,Inagaki,main\Na\Inagaki.yml,1,1,0.326,2.066,33
+331,main,Nb,Windt,main\Nb\Windt.yml,1,1,0.00236,0.12157,36
+335,main,KNbO3,Umemura-Î±,main\KNbO3\Umemura-alpha.yml,1,0,0.4,5.3,200
+336,main,KNbO3,Umemura-Î²,main\KNbO3\Umemura-beta.yml,1,0,0.4,5.3,200
+337,main,KNbO3,Umemura-Î³,main\KNbO3\Umemura-gamma.yml,1,0,0.4,5.3,200
+338,main,LiNbO3,Zelmon-o,main\LiNbO3\Zelmon-o.yml,1,0,0.4,5.0,200
+339,main,LiNbO3,Zelmon-e,main\LiNbO3\Zelmon-e.yml,1,0,0.4,5.0,200
+340,main,Ne,Bideau-Mehu,main\Ne\Bideau-Mehu.yml,1,0,0.1404,0.5462,200
+341,main,Ne,Cuthbertson,main\Ne\Cuthbertson.yml,1,0,0.2894,0.5462,200
+342,main,Ni,Johnson,main\Ni\Johnson.yml,1,1,0.188,1.937,49
+343,main,Ni,Werner,main\Ni\Werner.yml,1,1,0.017586,2.479684,150
+344,main,Ni,Ordal,main\Ni\Ordal.yml,1,1,0.667,286.0,52
+345,main,Ni,Rakic-BB,main\Ni\Rakic-BB.yml,1,1,0.24797,6.1992,200
+346,main,Ni,Rakic-LD,main\Ni\Rakic-LD.yml,1,1,0.24797,6.1992,1000
+347,main,Ni,Werner-DFT,main\Ni\Werner-DFT.yml,1,1,0.017586,2.479684,150
+349,main,O2,Zhang,main\O2\Zhang.yml,1,0,0.4,1.8,200
+350,main,Al2O3,Malitson-o,main\Al2O3\Malitson-o.yml,1,0,0.2,5.0,200
+351,main,Al2O3,Malitson-e,main\Al2O3\Malitson-e.yml,1,0,0.2,5.0,200
+352,main,Al2O3,Querry-o,main\Al2O3\Querry-o.yml,1,1,0.21,55.5556,612
+353,main,Al2O3,Querry-e,main\Al2O3\Querry-e.yml,1,1,0.21,55.5556,612
+354,main,Al2O3,Malitson,main\Al2O3\Malitson.yml,1,0,0.2652,5.577,200
+355,main,Al2O3,Hagemann,main\Al2O3\Hagemann.yml,1,1,0.0007749,0.2066,100
+357,main,Al2O3,Kischkat,main\Al2O3\Kischkat.yml,1,1,1.53941,14.28571,1450
+358,main,Al2O3,Querry,main\Al2O3\Querry.yml,1,1,0.21,12.5,550
+359,main,BeO,Edwards-o,main\BeO\Edwards-o.yml,1,0,0.44,7.0,200
+360,main,BeO,Edwards-e,main\BeO\Edwards-e.yml,1,0,0.44,7.0,200
+362,main,CO2,Bideau-Mehu,main\CO2\Bideau-Mehu.yml,1,0,0.1807,1.6945,200
+363,main,CO2,Old,main\CO2\Old.yml,1,0,0.480126,1.817228,200
+364,main,CuO,Brimhall,main\CuO\Brimhall.yml,1,1,0.0101,0.0348,32
+365,main,Cu2O,Querry,main\Cu2O\Querry.yml,1,1,2.5,55.5556,383
+366,main,Dy2O3,Medenbach,main\Dy2O3\Medenbach.yml,1,0,0.435,0.644,200
+367,main,Fe2O3,Querry-o,main\Fe2O3\Querry-o.yml,1,1,0.21,90.9091,619
+368,main,Fe2O3,Querry-e,main\Fe2O3\Querry-e.yml,1,1,0.21,55.5556,613
+369,main,Fe3O4,Querry,main\Fe3O4\Querry.yml,1,1,0.21,55.5556,612
+370,main,GeO2,Fleming,main\GeO2\Fleming.yml,1,0,0.36,4.3,200
+371,main,H2O,Hale,main\H2O\Hale.yml,1,1,0.2,200.0,169
+372,main,H2O,Wang,main\H2O\Wang.yml,0,1,1.2,1.9,351
+373,main,H2O,Kedenburg,main\H2O\Kedenburg.yml,1,1,0.5,1.6,1132
+374,main,H2O,Daimon-19.0C,main\H2O\Daimon-19.0C.yml,1,0,0.182,1.129,200
+375,main,H2O,Daimon-20.0C,main\H2O\Daimon-20.0C.yml,1,0,0.182,1.129,200
+376,main,H2O,Daimon-21.5C,main\H2O\Daimon-21.5C.yml,1,0,0.182,1.129,200
+377,main,H2O,Daimon-24.0C,main\H2O\Daimon-24.0C.yml,1,0,0.182,1.129,200
+379,main,H2O,Asfar-H2O,main\H2O\Asfar.yml,1,1,22.22,1733.0,34
+380,main,H2O,Warren,main\H2O\Warren.yml,1,1,0.0443,167.0,468
+381,main,H2O,Kedenburg-D2O,main\D2O\Kedenburg.yml,1,1,0.5,1.6,1001
+382,main,H2O,Wang-D2O,main\D2O\Wang.yml,0,1,1.2,2.6,701
+383,main,H2O,Asfar-D2O,main\D2O\Asfar.yml,1,1,250.0,2000.0,8
+384,main,HfO2,Wood,mixed crystals\HfO2-Y2O3\Wood.yml,1,0,0.365,5.0,200
+385,main,Lu2O3,Medenbach,main\Lu2O3\Medenbach.yml,1,0,0.435,0.644,200
+386,main,MgO,Stephens,main\MgO\Stephens.yml,1,0,0.36,5.4,200
+387,main,MgO,Stephens-vis,main\MgO\Stephens-vis.yml,1,0,0.4047,0.7679,200
+388,main,MoO3,Lajaunie-Î±,main\MoO3\Lajaunie-alpha.yml,1,1,0.0190745,24.7968,1300
+389,main,MoO3,Lajaunie-Î²,main\MoO3\Lajaunie-beta.yml,1,1,0.0190745,24.7968,1300
+390,main,MoO3,Lajaunie-Î³,main\MoO3\Lajaunie-gamma.yml,1,1,0.0190745,24.7968,1300
+391,main,MoO3,Vos,main\MoO3\Vos.yml,1,1,0.190654,0.99928,511
+392,main,MoO3,Stelling,main\MoO3\Stelling.yml,1,1,0.30082,0.89945,735
+393,main,Nb2O5,Lemarchand,main\Nb2O5\Lemarchand.yml,1,1,0.25,2.5,451
+394,main,Sc2O3,Medenbach,main\Sc2O3\Medenbach.yml,1,0,0.435,0.644,200
+395,main,Sc2O3,Arndt,main\Sc2O3\Arndt.yml,1,0,0.4,0.75,8
+396,main,SiO,Fernandez-Perea,main\SiO\Fernandez-Perea.yml,1,1,0.001548,0.177120268,1277
+397,main,SiO,Hass,main\SiO\Hass.yml,1,1,0.24,14.0,55
+398,main,SiO2,Malitson,main\SiO2\Malitson.yml,1,0,0.21,6.7,200
+399,main,SiO2,Popova,main\SiO2\Popova.yml,1,1,7.0,50.0,200
+400,main,SiO2,Ghosh-o,main\SiO2\Ghosh-o.yml,1,0,0.198,2.0531,200
+401,main,SiO2,Ghosh-e,main\SiO2\Ghosh-e.yml,1,0,0.198,2.0531,200
+402,main,SiO2,Radhakrishnan-o,main\SiO2\Radhakrishnan-o.yml,1,0,0.18,3.0,200
+403,main,SiO2,Radhakrishnan-e,main\SiO2\Radhakrishnan-e.yml,1,0,0.18,3.0,200
+404,main,SiO2,Kischkat,main\SiO2\Kischkat.yml,1,1,1.53846,14.28571,1451
+406,main,SiO2,Gao,main\SiO2\Gao.yml,1,1,0.252,1.25,500
+407,main,SiO2,Lemarchand,main\SiO2\Lemarchand.yml,1,1,0.25,2.5,451
+408,main,Ta2O5,Bright-amorphous,main\Ta2O5\Bright-amorphous.yml,1,1,0.5,1000.0,500
+409,main,Ta2O5,Bright-nanocrystalline,main\Ta2O5\Bright-nanocrystalline.yml,1,1,0.5,1000.0,500
+411,main,Ta2O5,Gao,main\Ta2O5\Gao.yml,1,1,0.35,1.8,726
+412,main,TeO2,Uchida-o,main\TeO2\Uchida-o.yml,1,0,0.4,1.0,200
+413,main,TeO2,Uchida-e,main\TeO2\Uchida-e.yml,1,0,0.4,1.0,200
+414,main,TiO2,Devore-o,main\TiO2\Devore-o.yml,1,0,0.43,1.53,200
+415,main,TiO2,Devore-e,main\TiO2\Devore-e.yml,1,0,0.43,1.53,200
+416,main,TiO2,Kischkat,main\TiO2\Kischkat.yml,1,1,1.53846,14.28571,1451
+417,main,TiO2,Siefke,main\TiO2\Siefke.yml,1,1,0.120181141,125.1227623,1208
+418,main,TiO2,Bodurov,main\TiO2\Bodurov.yml,1,0,0.405,0.635,200
+419,main,Y2O3,Nigara,main\Y2O3\Nigara.yml,1,0,0.25,9.6,200
+420,main,Yb2O3,Medenbach,main\Yb2O3\Medenbach.yml,1,0,0.435,0.644,200
+421,main,ZnO,Bond-o,main\ZnO\Bond-o.yml,1,0,0.45,4.0,200
+422,main,ZnO,Bond-e,main\ZnO\Bond-e.yml,1,0,0.45,4.0,200
+423,main,ZnO,Stelling,main\ZnO\Stelling.yml,1,1,0.30158,1.68492,640
+424,main,ZnO,Querry,main\ZnO\Querry.yml,1,1,0.21,55.5556,612
+425,main,ZnO,Bodurov,main\ZnO\Bodurov.yml,1,0,0.405,0.635,200
+426,main,ZrO2,Wood,mixed crystals\ZrO2-Y2O3\Wood.yml,1,0,0.361,5.135,200
+427,main,ZrO2,Bodurov,main\ZrO2\Bodurov.yml,1,0,0.405,0.635,200
+428,main,Os,Windt,main\Os\Windt.yml,1,1,0.00236,0.12157,36
+431,main,BP,Wettling,main\BP\Wettling.yml,1,0,0.4545,0.6328,6
+432,main,CdGeP2,Boyd-20-o,main\CdGeP2\Boyd-20-o.yml,1,0,0.8,12.5,200
+433,main,CdGeP2,Boyd-20-e,main\CdGeP2\Boyd-20-e.yml,1,0,0.8,12.5,200
+434,main,CdGeP2,Boyd-118-o,main\CdGeP2\Boyd-118-o.yml,1,0,0.8,12.5,200
+435,main,CdGeP2,Boyd-118-e,main\CdGeP2\Boyd-118-e.yml,1,0,0.8,12.5,200
+436,main,GaP,Aspnes,main\GaP\Aspnes.yml,1,1,0.2066,0.8266,46
+437,main,GaP,Jellison,main\GaP\Jellison.yml,1,1,0.234,0.84,187
+438,main,GaP,Parsons,main\GaP\Parsons.yml,1,0,54.369,366.03,17
+439,main,GaP,Bond,main\GaP\Bond.yml,1,0,0.5,4.0,22
+440,main,GaP,Adachi,main\GaP\Adachi.yml,1,1,0.20664,12.398,200
+441,main,InP,Aspnes,main\InP\Aspnes.yml,1,1,0.2066,0.8266,46
+442,main,InP,Pettit,main\InP\Pettit.yml,1,0,0.95,10.0,200
+443,main,InP,Adachi,main\InP\Adachi.yml,1,1,0.20664,12.398,200
+444,main,ZnGeP2,Das-o,main\ZnGeP2\Das-o.yml,1,0,1.32,11.0,200
+445,main,ZnGeP2,Das-e,main\ZnGeP2\Das-e.yml,1,0,1.32,11.0,200
+446,main,ZnGeP2,Zelmon-o,main\ZnGeP2\Zelmon-o.yml,1,0,2.0,9.0,200
+447,main,ZnGeP2,Zelmon-e,main\ZnGeP2\Zelmon-e.yml,1,0,2.0,9.0,200
+448,main,ZnGeP2,Boyd-20-o,main\ZnGeP2\Boyd-20-o.yml,1,0,0.64,12.0,200
+449,main,ZnGeP2,Boyd-20-e,main\ZnGeP2\Boyd-20-e.yml,1,0,0.64,12.0,200
+450,main,ZnGeP2,Boyd-70-o,main\ZnGeP2\Boyd-70-o.yml,1,0,0.64,12.0,200
+451,main,ZnGeP2,Boyd-70-e,main\ZnGeP2\Boyd-70-e.yml,1,0,0.64,12.0,200
+452,main,KH2PO4,Zernike-o,main\KH2PO4\Zernike-o.yml,1,0,0.2138,1.529,200
+453,main,KH2PO4,Zernike-e,main\KH2PO4\Zernike-e.yml,1,0,0.2138,1.529,200
+454,main,KTiOPO4,Kato-Î±,main\KTiOPO4\Kato-alpha.yml,1,0,0.43,3.54,200
+455,main,KTiOPO4,Kato-Î²,main\KTiOPO4\Kato-beta.yml,1,0,0.43,3.54,200
+456,main,KTiOPO4,Kato-Î³,main\KTiOPO4\Kato-gamma.yml,1,0,0.43,3.54,200
+457,main,NH4H2PO4,Zernike-o,main\NH4H2PO4\Zernike-o.yml,1,0,0.2138,1.529,200
+458,main,NH4H2PO4,Zernike-e,main\NH4H2PO4\Zernike-e.yml,1,0,0.2138,1.529,200
+459,main,RbTiOPO4,Carvajal-Î±,main\RbTiOPO4\Carvajal-alpha.yml,1,0,0.4,1.5,200
+460,main,RbTiOPO4,Carvajal-Î²,main\RbTiOPO4\Carvajal-beta.yml,1,0,0.4,1.5,200
+461,main,RbTiOPO4,Carvajal-Î³,main\RbTiOPO4\Carvajal-gamma.yml,1,0,0.4,1.5,200
+462,main,Pb,Ordal,main\Pb\Ordal.yml,1,1,0.667,667.0,52
+463,main,Pb,Werner,main\Pb\Werner.yml,1,1,0.017586,2.479684,150
+469,main,Pb,Werner-DFT,main\Pb\Werner-DFT.yml,1,1,0.017586,2.479684,150
+470,main,Pd,Johnson,main\Pd\Johnson.yml,1,1,0.188,1.937,49
+471,main,Pd,Werner,main\Pd\Werner.yml,1,1,0.017586,2.479684,150
+472,main,Pd,Windt,main\Pd\Windt.yml,1,1,0.00236,0.12157,36
+473,main,Pd,Rakic-BB,main\Pd\Rakic-BB.yml,1,1,0.24797,12.398,200
+474,main,Pd,Rakic-LD,main\Pd\Rakic-LD.yml,1,1,0.24797,12.398,1000
+475,main,Pd,Werner-DFT,main\Pd\Werner-DFT.yml,1,1,0.017586,2.479684,150
+476,main,Pr,Fernandez-Perea,main\Pr\Fernandez-Perea.yml,1,1,0.000774901,0.323113894,1594
+477,main,Pt,Windt,main\Pt\Windt.yml,1,1,0.00236,0.12157,36
+478,main,Pt,Werner,main\Pt\Werner.yml,1,1,0.017586,2.479684,150
+479,main,Pt,Rakic-BB,main\Pt\Rakic-BB.yml,1,1,0.24797,12.398,200
+480,main,Pt,Rakic-LD,main\Pt\Rakic-LD.yml,1,1,0.24797,12.398,1000
+481,main,Pt,Werner-DFT,main\Pt\Werner-DFT.yml,1,1,0.017586,2.479684,150
+487,main,Re,Windt,main\Re\Windt.yml,1,1,0.00236,0.12157,35
+488,main,Rh,Windt,main\Rh\Windt.yml,1,1,0.00236,0.12157,36
+489,main,Rh,Arndt,main\Rh\Arndt.yml,1,1,0.4,0.75,8
+490,main,Rh,Weaver,main\Rh\Weaver.yml,1,1,0.2,12.4,67
+491,main,Rh,Coulter-40,main\Rh\Coulter-40.yml,1,1,0.4047,0.612,6
+492,main,Rh,Coulter-300,main\Rh\Coulter-300.yml,1,1,0.4047,0.612,6
+493,main,Ru,Windt,main\Ru\Windt.yml,1,1,0.00236,0.12157,36
+494,main,Ag3AsS3,Hulme-o,main\Ag3AsS3\Hulme-o.yml,1,0,0.63,4.6,200
+495,main,Ag3AsS3,Hulme-e,main\Ag3AsS3\Hulme-e.yml,1,0,0.59,4.6,200
+496,main,AgGaS2,Takaoka-o,main\AgGaS2\Takaoka-o.yml,1,0,0.58,10.59,200
+497,main,AgGaS2,Takaoka-e,main\AgGaS2\Takaoka-e.yml,1,0,0.58,10.59,200
+498,main,AgGaS2,Kato-o,main\AgGaS2\Kato-o.yml,1,0,0.54,12.9,200
+499,main,AgGaS2,Kato-e,main\AgGaS2\Kato-e.yml,1,0,0.54,12.9,200
+500,main,AgGaS2,Boyd-o,main\AgGaS2\Boyd-o.yml,1,0,0.49,12.0,200
+501,main,AgGaS2,Boyd-e,main\AgGaS2\Boyd-e.yml,1,0,0.49,12.0,200
+502,main,As2S3,Rodney,main\As2S3\Rodney.yml,1,0,0.57,11.8,200
+503,main,CS2,Kedenburg,main\CS2\Kedenburg.yml,1,0,0.5,1.6,200
+504,main,CS2,Ghosal,main\CS2\Ghosal.yml,1,0,7.3,11.0,36
+505,main,CdS,Bieniewski-o,main\CdS\Bieniewski-o.yml,1,0,0.51,1.4,200
+506,main,CdS,Bieniewski-e,main\CdS\Bieniewski-e.yml,1,0,0.51,1.4,200
+507,main,CdS,Treharne,main\CdS\Treharne.yml,1,1,0.30141754,1.4979382,583
+508,main,CdS,Ninomiya-o,main\CdS\Ninomiya-o.yml,1,1,0.21752,1.0332,500
+509,main,CdS,Ninomiya-e,main\CdS\Ninomiya-e.yml,1,1,0.21752,1.0332,500
+510,main,CuGaS2,Boyd-20-o,main\CuGaS2\Boyd-20-o.yml,1,0,0.55,11.5,200
+511,main,CuGaS2,Boyd-20-e,main\CuGaS2\Boyd-20-e.yml,1,0,0.55,11.5,200
+512,main,CuGaS2,Boyd-120-o,main\CuGaS2\Boyd-120-o.yml,1,0,0.55,11.5,200
+513,main,CuGaS2,Boyd-120-e,main\CuGaS2\Boyd-120-e.yml,1,0,0.55,11.5,200
+514,main,GaS,Kato-o,main\GaS\Kato-o.yml,1,0,0.633,10.591,200
+515,main,GaS,Kato-e,main\GaS\Kato-e.yml,1,0,0.633,10.591,200
+516,main,HgS,Bond-o,main\HgS\Bond-o.yml,1,0,0.62,11.0,200
+517,main,HgS,Bond-e,main\HgS\Bond-e.yml,1,0,0.62,11.0,200
+518,main,MoS2,Beal,main\MoS2\Beal.yml,1,1,0.0811,1.236,100
+519,main,MoS2,Zhang,main\MoS2\Zhang.yml,1,1,0.401666,0.747766,28
+520,main,MoS2,Yim-1.99um,main\MoS2\Yim-1.99um.yml,1,1,0.382448,0.886647,22
+521,main,MoS2,Yim-3.01um,main\MoS2\Yim-3.01um.yml,1,1,0.382417,0.888102,18
+522,main,MoS2,Yim-19.88um,main\MoS2\Yim-19.88um.yml,1,1,0.381514,0.884671,17
+523,main,PbS,Zemel,main\PbS\Zemel.yml,1,0,3.5,10.0,200
+524,main,ZnS,Debenham,main\ZnS\Debenham.yml,1,0,0.405,13.0,200
+525,main,ZnS,Querry,main\ZnS\Querry.yml,1,1,0.22,166.6667,312
+526,main,ZnS,Ozaki,main\ZnS\Ozaki.yml,1,1,0.2214,1.0332,500
+527,main,CaSO4,Querry-Î±,main\CaSO4\Querry-alpha.yml,1,1,2.5,55.5556,383
+528,main,CaSO4,Querry-Î²,main\CaSO4\Querry-beta.yml,1,1,2.5,55.5556,383
+529,main,CaSO4,Querry-Î³,main\CaSO4\Querry-gamma.yml,1,1,2.5,55.5556,383
+530,main,AlSb,Zollner,main\AlSb\Zollner.yml,1,1,0.2138,0.8856,45
+531,main,AlSb,Adachi,main\AlSb\Adachi.yml,1,1,0.20664,12.398,500
+532,main,AlSb,Djurisic,main\AlSb\Djurisic.yml,1,1,0.20664,12.398,500
+533,main,GaSb,Aspnes,main\GaSb\Aspnes.yml,1,1,0.2066,0.8266,46
+534,main,GaSb,Ferrini,semiconductor alloys\AlSb-GaSb\Ferrini-0.yml,1,1,0.207,2.48,56
+535,main,GaSb,Adachi,main\GaSb\Adachi.yml,1,1,0.20664,12.398,200
+536,main,GaSb,Djurisic,main\GaSb\Djurisic.yml,1,1,0.20664,2.4797,500
+537,main,InSb,Aspnes,main\InSb\Aspnes.yml,1,1,0.2066,0.8266,46
+538,main,InSb,Adachi,main\InSb\Adachi.yml,1,1,0.20664,12.398,200
+539,main,InSb,Djurisic,main\InSb\Djurisic.yml,1,1,0.20664,1.2398,500
+540,main,Sc,Larruquert,main\Sc\Larruquert.yml,1,1,0.001239842,0.189781921,373
+541,main,Se,Campel-o,main\Se\Campel-o.yml,1,0,1.06,10.6,4
+542,main,Se,Campel-e,main\Se\Campel-e.yml,1,0,1.06,10.6,4
+544,main,CdSe,Lisitsa-o,main\CdSe\Lisitsa-o.yml,1,0,1.01,22.0,200
+545,main,CdSe,Lisitsa-e,main\CdSe\Lisitsa-e.yml,1,0,1.01,22.0,200
+546,main,CdSe,Ninomiya-o,main\CdSe\Ninomiya-o.yml,1,1,0.23393,1.0332,500
+547,main,CdSe,Ninomiya-e,main\CdSe\Ninomiya-e.yml,1,1,0.23393,1.0332,500
+548,main,CdSe,Ninomiya-cubic,main\CdSe\Ninomiya-cubic.yml,1,1,0.20664,0.82656,500
+549,main,GaSe,Kato-o,main\GaSe\Kato-o.yml,1,0,0.8,1620.0,200
+550,main,GaSe,Kato-e,main\GaSe\Kato-e.yml,1,0,0.8,1620.0,200
+551,main,MoSe2,Beal,main\MoSe2\Beal.yml,1,1,0.04387,1.161,100
+552,main,PbSe,Zemel,main\PbSe\Zemel.yml,1,0,5.0,10.0,200
+553,main,PbSe,Suzuki,main\PbSe\Suzuki.yml,1,1,0.2296,1.0781,500
+554,main,ZnSe,Marple,main\ZnSe\Marple.yml,1,0,0.48,2.5,200
+555,main,ZnSe,Querry,main\ZnSe\Querry.yml,1,1,0.5,21.7391,278
+556,main,ZnSe,Connolly,main\ZnSe\Connolly.yml,1,0,0.54,18.2,200
+557,main,ZnSe,Adachi,main\ZnSe\Adachi.yml,1,1,0.23393,0.82656,500
+558,main,AgGaSe2,Harasaki-o,main\AgGaSe2\Harasaki-o.yml,1,0,0.81,16.0,200
+559,main,AgGaSe2,Harasaki-e,main\AgGaSe2\Harasaki-e.yml,1,0,0.81,16.0,200
+560,main,AgGaSe2,Boyd-o,main\AgGaSe2\Boyd-o.yml,1,0,0.725,13.5,200
+561,main,AgGaSe2,Boyd-e,main\AgGaSe2\Boyd-e.yml,1,0,0.725,13.5,200
+562,main,Tl3AsSe3,Ewbank-o,main\Tl3AsSe3\Ewbank-o.yml,1,0,2.0,12.0,200
+563,main,Tl3AsSe3,Ewbank-e,main\Tl3AsSe3\Ewbank-e.yml,1,0,2.0,12.0,200
+564,main,Si,Aspnes,main\Si\Aspnes.yml,1,1,0.2066,0.8266,46
+565,main,Si,Schinke,main\Si\Schinke.yml,0,1,0.25,1.45,121
+566,main,Si,Green-2008,main\Si\Green-2008.yml,1,1,0.25,1.45,121
+567,main,Si,Chandler-Horowitz,main\Si\Chandler-Horowitz.yml,1,1,2.5,22.222,586
+573,main,Si,Green-1995,main\Si\Green-1995.yml,1,1,0.25,1.45,76
+574,main,Si,Daub,main\Si\Daub.yml,0,1,0.941,1.421,71
+575,main,Si,Vuye-20C,main\Si\Vuye-20C.yml,1,1,0.2638,0.8266,129
+576,main,Si,Vuye-100C,main\Si\Vuye-100C.yml,1,1,0.2638,0.8266,129
+577,main,Si,Vuye-150C,main\Si\Vuye-150C.yml,1,1,0.2638,0.8266,129
+578,main,Si,Vuye-200C,main\Si\Vuye-200C.yml,1,1,0.2638,0.8266,129
+579,main,Si,Vuye-250C,main\Si\Vuye-250C.yml,1,1,0.2638,0.8266,129
+580,main,Si,Vuye-300C,main\Si\Vuye-300C.yml,1,1,0.2638,0.8266,129
+581,main,Si,Vuye-350C,main\Si\Vuye-350C.yml,1,1,0.2638,0.8266,129
+582,main,Si,Vuye-400C,main\Si\Vuye-400C.yml,1,1,0.2638,0.8266,129
+583,main,Si,Vuye-450C,main\Si\Vuye-450C.yml,1,1,0.2638,0.8266,129
+584,main,Si,Jellison,main\Si\Jellison.yml,1,1,0.234,0.84,186
+585,main,Si,Edwards,main\Si\Edwards.yml,1,0,2.4373,25.0,200
+586,main,Si,Li-100K,main\Si\Li-100K.yml,1,0,1.2,14.0,35
+587,main,Si,Li-150K,main\Si\Li-150K.yml,1,0,1.2,14.0,35
+588,main,Si,Li-200K,main\Si\Li-200K.yml,1,0,1.2,14.0,35
+589,main,Si,Li-250K,main\Si\Li-250K.yml,1,0,1.2,14.0,35
+590,main,Si,Li-293K,main\Si\Li-293K.yml,1,0,1.2,14.0,35
+591,main,Si,Li-350K,main\Si\Li-350K.yml,1,0,1.2,14.0,35
+592,main,Si,Li-400K,main\Si\Li-400K.yml,1,0,1.2,14.0,35
+593,main,Si,Li-450K,main\Si\Li-450K.yml,1,0,1.2,14.0,35
+594,main,Si,Li-500K,main\Si\Li-500K.yml,1,0,1.2,14.0,35
+595,main,Si,Li-550K,main\Si\Li-550K.yml,1,0,1.2,14.0,35
+596,main,Si,Li-600K,main\Si\Li-600K.yml,1,0,1.2,14.0,35
+597,main,Si,Li-650K,main\Si\Li-650K.yml,1,0,1.2,14.0,35
+598,main,Si,Li-700K,main\Si\Li-700K.yml,1,0,1.2,14.0,35
+599,main,Si,Li-750K,main\Si\Li-750K.yml,1,0,1.2,14.0,35
+600,main,Si,Salzberg,main\Si\Salzberg.yml,1,0,1.357,11.04,200
+601,main,Si,Pierce,main\Si\Pierce.yml,1,1,0.1033,2.066,46
+602,main,Bi12SiO20,Gospodinov,main\Bi12SiO20\Gospodinov.yml,1,0,0.48,0.7,200
+606,main,Sr,Rodriguez-de_Marcos,main\Sr\Rodriguez-de Marcos.yml,1,1,0.001011751,0.212037407,1124
+607,main,Ta,Ordal,main\Ta\Ordal.yml,1,1,0.667,125.0,49
+608,main,Ta,Werner,main\Ta\Werner.yml,1,1,0.017586,2.479684,150
+609,main,Ta,Windt,main\Ta\Windt.yml,1,1,0.00236,0.12157,36
+610,main,Ta,Werner-DFT,main\Ta\Werner-DFT.yml,1,1,0.017586,2.479684,150
+611,main,KTaO3,Fujii,main\KTaO3\Fujii.yml,1,0,0.4,1.06,200
+612,main,Te,Sherman-o,main\Te\Sherman-o.yml,1,0,8.5,30.3,200
+613,main,Te,Sherman-e,main\Te\Sherman-e.yml,1,0,8.5,30.3,200
+614,main,Te,Caldwell-o,main\Te\Caldwell-o.yml,1,0,4.0,14.0,200
+615,main,Te,Caldwell-e,main\Te\Caldwell-e.yml,1,0,4.0,14.0,200
+617,main,CdTe,Marple,main\CdTe\Marple.yml,1,0,0.86,2.5,200
+618,main,CdTe,Treharne,main\CdTe\Treharne.yml,1,1,0.30141754,1.4979382,583
+619,main,CdTe,DeBell-300K,main\CdTe\DeBell-300K.yml,1,0,6.0,22.0,200
+620,main,CdTe,DeBell-80K,main\CdTe\DeBell-80K.yml,1,0,6.0,22.0,200
+621,main,CdTe,DeBell-20K,main\CdTe\DeBell-20K.yml,1,0,6.0,22.0,200
+622,main,CdTe,Adachi,main\CdTe\Adachi.yml,1,1,0.2214,1.1271,500
+623,main,MoTe2,Beal,main\MoTe2\Beal.yml,1,1,0.06911,1.216,100
+624,main,PbTe,Weiting-300K,main\PbTe\Weiting-300K.yml,1,0,4.099,12.51,200
+625,main,PbTe,Weiting-130K,main\PbTe\Weiting-130K.yml,1,0,5.189,12.51,200
+626,main,PbTe,Weiting-80K,main\PbTe\Weiting-80K.yml,1,0,5.189,12.51,200
+627,main,ZnTe,Marple,main\ZnTe\Marple.yml,1,0,0.58,2.5,200
+628,main,ZnTe,Li,main\ZnTe\Li.yml,1,0,0.55,30.0,200
+629,main,ZnTe,Sato,main\ZnTe\Sato.yml,1,1,0.2214,0.82656,500
+630,main,Ti,Johnson,main\Ti\Johnson.yml,1,1,0.188,1.937,49
+631,main,Ti,Werner,main\Ti\Werner.yml,1,1,0.017586,2.479684,150
+632,main,Ti,Ordal,main\Ti\Ordal.yml,1,1,0.667,200.0,51
+633,main,Ti,Windt,main\Ti\Windt.yml,1,1,0.00236,0.12157,36
+634,main,Ti,Mash,main\Ti\Mash.yml,1,1,0.4,10.0,46
+635,main,Ti,Rakic-BB,main\Ti\Rakic-BB.yml,1,1,0.24797,30.996,200
+636,main,Ti,Rakic-LD,main\Ti\Rakic-LD.yml,1,1,0.24797,30.996,1000
+637,main,Ti,Werner-DFT,main\Ti\Werner-DFT.yml,1,1,0.017586,2.479684,150
+638,main,BaTiO3,Wemple-o,main\BaTiO3\Wemple-o.yml,1,0,0.4,0.7,200
+639,main,BaTiO3,Wemple-e,main\BaTiO3\Wemple-e.yml,1,0,0.4,0.7,200
+640,main,Bi4Ti3O12,Simon-a,main\Bi4Ti3O12\Simon-a.yml,1,0,0.45,0.7,200
+641,main,Bi4Ti3O12,Simon-b,main\Bi4Ti3O12\Simon-b.yml,1,0,0.45,0.7,200
+642,main,PbTiO3,Singh-o,main\PbTiO3\Singh-o.yml,1,0,0.45,1.15,200
+643,main,PbTiO3,Singh-e,main\PbTiO3\Singh-e.yml,1,0,0.45,1.15,200
+644,main,SrTiO3,Dodge,main\SrTiO3\Dodge.yml,1,0,0.43,3.8,200
+645,main,Tm,Vidal-Dasilva,main\Tm\Vidal-Dasilva.yml,1,1,0.00077478,0.480311785,1611
+646,main,V,Johnson,main\V\Johnson.yml,1,1,0.188,1.937,49
+647,main,V,Werner,main\V\Werner.yml,1,1,0.017586,2.479684,150
+648,main,V,Werner-DFT,main\V\Werner-DFT.yml,1,1,0.017586,2.479684,150
+659,main,W,Ordal,main\W\Ordal.yml,1,1,0.667,200.0,51
+660,main,W,Werner,main\W\Werner.yml,1,1,0.017586,2.479684,150
+661,main,W,Windt,main\W\Windt.yml,1,1,0.00236,0.12157,36
+662,main,W,Rakic-BB,main\W\Rakic-BB.yml,1,1,0.24797,12.398,200
+663,main,W,Rakic-LD,main\W\Rakic-LD.yml,1,1,0.24797,12.398,1000
+664,main,W,Werner-DFT,main\W\Werner-DFT.yml,1,1,0.017586,2.479684,150
+665,main,CaWO4,Bond-o,main\CaWO4\Bond-o.yml,1,0,0.45,4.0,200
+666,main,CaWO4,Bond-e,main\CaWO4\Bond-e.yml,1,0,0.45,4.0,200
+667,main,Xe,Bideau-Mehu,main\Xe\Bideau-Mehu.yml,1,0,0.1404,0.6234,200
+668,main,Xe,Koch,main\Xe\Koch.yml,1,0,0.230209,0.623437,20
+669,main,Xe,Cuthbertson,main\Xe\Cuthbertson.yml,1,0,0.48,0.6708,200
+670,main,Xe,Sinnock-liquid-178K,main\Xe\Sinnock-liquid-178K.yml,1,0,0.3612,0.6439,10
+671,main,Xe,Sinnock-liquid-174K,main\Xe\Sinnock-liquid-174K.yml,1,0,0.3612,0.6439,10
+672,main,Xe,Sinnock-liquid-170K,main\Xe\Sinnock-liquid-170K.yml,1,0,0.3612,0.6439,10
+673,main,Xe,Sinnock-liquid-166K,main\Xe\Sinnock-liquid-166K.yml,1,0,0.3612,0.6439,10
+674,main,Xe,Sinnock-liquid-161.35K,main\Xe\Sinnock-liquid-161.35K.yml,1,0,0.3612,0.6439,10
+675,main,Xe,Sinnock-solid-161.35K,main\Xe\Sinnock-solid-161.35K.yml,1,0,0.3612,0.6439,10
+676,main,Xe,Sinnock-solid-150K,main\Xe\Sinnock-solid-150K.yml,1,0,0.3612,0.6439,10
+677,main,Xe,Sinnock-solid-140K,main\Xe\Sinnock-solid-140K.yml,1,0,0.3612,0.6439,10
+678,main,Xe,Sinnock-solid-130K,main\Xe\Sinnock-solid-130K.yml,1,0,0.3612,0.6439,10
+679,main,Xe,Sinnock-solid-120K,main\Xe\Sinnock-solid-120K.yml,1,0,0.3612,0.6439,10
+680,main,Xe,Sinnock-solid-110K,main\Xe\Sinnock-solid-110K.yml,1,0,0.3612,0.6439,10
+681,main,Xe,Sinnock-solid-100K,main\Xe\Sinnock-solid-100K.yml,1,0,0.3612,0.6439,10
+682,main,Xe,Sinnock-solid-90K,main\Xe\Sinnock-solid-90K.yml,1,0,0.3612,0.6439,10
+683,main,Xe,Sinnock-solid-80K,main\Xe\Sinnock-solid-80K.yml,1,0,0.3612,0.6439,10
+684,main,Yb,Larruquert,main\Yb\Larruquert.yml,1,1,0.000730178,0.206606976,477
+685,main,Zn,Werner,main\Zn\Werner.yml,1,1,0.017586,2.479684,150
+686,main,Zn,Querry,main\Zn\Querry.yml,1,1,0.36,55.5556,150
+687,main,Zn,Motulevich,main\Zn\Motulevich.yml,1,1,1.23,10.0,11
+688,main,Zn,Werner-DFT,main\Zn\Werner-DFT.yml,1,1,0.017586,2.479684,150
+689,main,Zr,Windt,main\Zr\Windt.yml,1,1,0.00236,0.12157,36
+690,main,Zr,Querry,main\Zr\Querry.yml,1,1,0.22,55.5556,306
+691,organic,methane,Rollefson,organic\CH4 - methane\Rollefson.yml,1,0,1.68,14.8,49
+692,organic,methane,Loria,organic\CH4 - methane\Loria.yml,1,0,0.529,0.6585,200
+693,organic,methane,Martonchik-liquid-111K,organic\CH4 - methane\Martonchik-liquid-111K.yml,1,1,0.002,71.43,43
+694,organic,methane,Martonchik-liquid-90K,organic\CH4 - methane\Martonchik-liquid-90K.yml,1,1,0.002,71.43,43
+695,organic,methane,Martonchik-solid-90K,organic\CH4 - methane\Martonchik-solid-90K.yml,1,1,0.002,100.0,41
+696,organic,methane,Martonchik-solid-30K,organic\CH4 - methane\Martonchik-solid-30K.yml,1,1,0.002,100.0,41
+697,organic,ethane,Loria,organic\C2H6 - ethane\Loria.yml,1,0,0.523,0.6677,200
+698,organic,pentane,Kerl-293K,organic\C5H12 - pentane\Kerl-293K.yml,1,0,0.326,0.644,200
+699,organic,pentane,Kerl-313K,organic\C5H12 - pentane\Kerl-313K.yml,1,0,0.326,0.644,200
+700,organic,pentane,Kerl-333K,organic\C5H12 - pentane\Kerl-333K.yml,1,0,0.326,0.644,200
+701,organic,pentane,Anderson,organic\C5H12 - pentane\Anderson.yml,1,1,2.0,14.925,830
+702,organic,hexane,Kozma,organic\C6H14 - hexane\Kozma.yml,1,0,0.23,0.6407,200
+703,organic,hexane,Kerl-293K,organic\C6H14 - hexane\Kerl-293K.yml,1,0,0.326,0.644,200
+704,organic,hexane,Kerl-313K,organic\C6H14 - hexane\Kerl-313K.yml,1,0,0.326,0.644,200
+705,organic,hexane,Kerl-333K,organic\C6H14 - hexane\Kerl-333K.yml,1,0,0.326,0.644,200
+706,organic,heptane,Kerl-293K,organic\C7H16 - heptane\Kerl-293K.yml,1,0,0.326,0.644,200
+707,organic,heptane,Kerl-313K,organic\C7H16 - heptane\Kerl-313K.yml,1,0,0.326,0.644,200
+708,organic,heptane,Kerl-333K,organic\C7H16 - heptane\Kerl-333K.yml,1,0,0.326,0.644,200
+709,organic,octane,Kerl-293K,organic\C8H18 - octane\Kerl-293K.yml,1,0,0.326,0.644,200
+710,organic,octane,Kerl-313K,organic\C8H18 - octane\Kerl-313K.yml,1,0,0.326,0.644,200
+711,organic,octane,Kerl-333K,organic\C8H18 - octane\Kerl-333K.yml,1,0,0.326,0.644,200
+712,organic,octane,Anderson,organic\C8H18 - octane\Anderson.yml,1,1,2.006,23.0,962
+713,organic,acetylene,Loria,organic\C2H2 - acetylene\Loria.yml,1,0,0.5461,0.6708,200
+714,organic,ethylene,Loria,organic\C2H4 - ethylene\Loria.yml,1,0,0.523,0.6677,200
+715,organic,methanol,El-Kashef,organic\CH4O - methanol\El-Kashef.yml,1,0,0.4,0.8,200
+716,organic,methanol,Moutzouris,organic\CH4O - methanol\Moutzouris.yml,1,0,0.45,1.551,200
+717,organic,methanol,Kozma,organic\CH4O - methanol\Kozma.yml,1,0,0.23,0.6407,200
+718,organic,ethanol,Rheims,organic\C2H6O - ethanol\Rheims.yml,1,0,0.4765,0.83,200
+719,organic,ethanol,Sani,organic\C2H6O - ethanol\Sani.yml,1,1,0.185185,60.9359,1241
+720,organic,ethanol,Sani-formula,organic\C2H6O - ethanol\Sani-formula.yml,1,1,0.185,2.8,615
+721,organic,ethanol,Kedenburg,organic\C2H6O - ethanol\Kedenburg.yml,1,1,0.5,1.6,1173
+722,organic,ethanol,Kozma,organic\C2H6O - ethanol\Kozma.yml,1,0,0.23,0.6407,200
+723,organic,propanol,Kozma,organic\C3H8O - propanol\Kozma.yml,1,0,0.23,0.6407,200
+724,organic,propanol,Sani,organic\C3H8O - propanol\Sani.yml,1,1,0.185185,60.9359,1241
+725,organic,propanol,Sani-formula,organic\C3H8O - propanol\Sani-formula.yml,1,1,0.185,2.8,615
+726,organic,propanol,Moutzouris,organic\C3H8O - propanol\Moutzouris.yml,1,0,0.45,1.551,200
+727,organic,butanol,El-Kashef,organic\C4H10O - butanol\El-Kashef.yml,1,0,0.4,0.8,200
+728,organic,butanol,Moutzouris-n,organic\C4H10O - butanol\Moutzouris-n.yml,1,0,0.45,1.551,200
+729,organic,butanol,Moutzouris-iso,organic\C4H10O - butanol\Moutzouris-iso.yml,1,0,0.45,1.551,200
+730,organic,pentanol,Moutzouris-normal,organic\C5H12O - pentanol\Moutzouris-normal.yml,1,0,0.45,1.551,200
+731,organic,pentanol,Moutzouris-iso,organic\C5H12O - pentanol\Moutzouris-iso.yml,1,0,0.45,1.551,200
+732,organic,ethylene_glycol,Otanicar,organic\C2H6O2 - ethylene glycol\Otanicar.yml,0,1,0.2,1.5,66
+733,organic,ethylene_glycol,Sani,organic\C2H6O2 - ethylene glycol\Sani.yml,1,1,0.1852,55.0,994
+734,organic,ethylene_glycol,Sani-formula,organic\C2H6O2 - ethylene glycol\Sani-formula.yml,1,1,0.185,2.8,616
+735,organic,ethylene_glycol,Kozma,organic\C2H6O2 - ethylene glycol\Kozma.yml,1,0,0.23,0.6407,200
+736,organic,ethylene_glycol,El-Kashef,organic\C2H6O2 - ethylene glycol\El-Kashef.yml,1,0,0.4,0.8,200
+737,organic,propylene_glycol,Otanicar,organic\C3H8O2 - propylene glycol\Otanicar.yml,1,1,0.434,0.656,66
+738,organic,glycerol,Rheims,organic\C3H8O3 - glycerol\Rheims.yml,1,0,0.5893,1.05,200
+739,organic,glycerol,Wang,organic\C3H8O3 - glycerol\Wang.yml,0,1,1.2,1.9,351
+740,organic,glycerol,Birkhoff,organic\C3H8O3 - glycerol\Birkhoff.yml,1,1,0.05123,0.61992,24
+741,organic,ethyl_acetate,Kozma,organic\C4H8O2 - ethyl acetate\Kozma.yml,1,0,0.2484,0.6407,200
+742,organic,methyl_salicylate,Rheims,organic\C8H8O3 - methyl salicylate\Rheims.yml,1,0,0.5893,1.05,200
+743,organic,ethyl_salicylate,Rheims,organic\C9H10O3 - ethyl salicylate\Rheims.yml,1,0,0.5893,1.05,200
+744,organic,ethyl_cinnamate,Krauter,organic\C11H12O2 - ethyl cinnamate\Krauter.yml,1,0,0.45,0.7,200
+745,organic,diethyl_phthalate,Querry-NIR,organic\C12H14O4 - diethyl phthalate\Querry-NIR.yml,1,1,0.8095,2.4995,170
+746,organic,diethyl_phthalate,Querry-IR,organic\C12H14O4 - diethyl phthalate\Querry-IR.yml,1,1,2.5,55.5556,382
+747,organic,cyclohexane,Rheims,organic\C6H12 - cyclohexane\Rheims.yml,1,0,0.4765,0.83,200
+748,organic,cyclohexane,Kozma,organic\C6H12 - cyclohexane\Kozma.yml,1,0,0.23,0.6407,200
+749,organic,cyclohexane,Kerl-293K,organic\C6H12 - cyclohexane\Kerl-293K.yml,1,0,0.326,0.644,200
+750,organic,cyclohexane,Kerl-313K,organic\C6H12 - cyclohexane\Kerl-313K.yml,1,0,0.326,0.644,200
+751,organic,cyclohexane,Kerl-333K,organic\C6H12 - cyclohexane\Kerl-333K.yml,1,0,0.326,0.644,200
+752,organic,benzene,Moutzouris,organic\C6H6 - benzene\Moutzouris.yml,1,0,0.45,1.551,200
+753,organic,styrene,Sultanova,organic\C8H8 - styrene\Sultanova.yml,1,0,0.4368,1.052,200
+754,organic,toluene,Kedenburg,organic\C7H8 - toluene\Kedenburg.yml,1,1,0.5,1.6,1195
+755,organic,toluene,Moutzouris,organic\C7H8 - toluene\Moutzouris.yml,1,0,0.45,1.551,200
+756,organic,toluene,Kozma,organic\C7H8 - toluene\Kozma.yml,1,0,0.3001,0.6407,200
+757,organic,nitrobenzene,Kedenburg,organic\C6H5NO2 - nitrobenzene\Kedenburg.yml,1,0,0.5,1.6,200
+758,organic,dioxane,Moutzouris,organic\C4H8O2 - dioxane\Moutzouris.yml,1,0,0.45,1.551,200
+759,organic,acetic_acid,El-Kashef,organic\C2H4O2 - acetic acid\El-Kashef.yml,1,0,0.4,0.8,200
+760,organic,pentanediol,Moutzouris,organic\C5H12O2 - pentanediol\Moutzouris.yml,1,0,0.45,1.551,200
+761,organic,acetone,Rheims,organic\C3H6O - acetone\Rheims.yml,1,0,0.4765,0.83,200
+762,organic,bromoform,Ghosal,organic\CHBr3 - bromoform\Ghosal.yml,1,0,1.0,13.0,136
+764,organic,chloroform,Kedenburg,organic\CHCl3 - chloroform\Kedenburg.yml,1,1,0.5,1.6,1177
+765,organic,carbon_tetrachloride,Kedenburg,organic\CCl4 - carbon tetrachloride\Kedenburg.yml,1,1,0.5,1.6,1001
+766,organic,carbon_tetrachloride,Moutzouris,organic\CCl4 - carbon tetrachloride\Moutzouris.yml,1,0,0.45,1.551,200
+767,organic,carbon_tetrachloride,Ghosal,organic\CCl4 - carbon tetrachloride\Ghosal.yml,1,0,1.0,9.0,78
+768,organic,acetonitrile,Kozma,organic\C2H3N - acetonitrile\Kozma.yml,1,0,0.23,0.6407,200
+769,organic,acetonitrile,Moutzouris,organic\C2H3N - acetonitrile\Moutzouris.yml,1,0,0.45,1.551,200
+770,organic,urea,Rosker-o,organic\CH4N2O - urea\Rosker-o.yml,1,0,0.3,1.06,200
+771,organic,urea,Rosker-e,organic\CH4N2O - urea\Rosker-e.yml,1,0,0.3,1.06,200
+772,organic,dimethyl_sulfoxide,Kozma,organic\C2H6OS - dimethyl sulfoxide\Kozma.yml,1,0,0.23687,0.6407,200
+773,organic,dimethyl_methylphosphonate,Querry-NIR,organic\C3H9O3P - dimethyl methylphosphonate\Querry-NIR.yml,1,1,0.8045,2.4995,168
+774,organic,dimethyl_methylphosphonate,Querry-IR,organic\C3H9O3P - dimethyl methylphosphonate\Querry-IR.yml,1,1,2.5,55.5556,383
+775,organic,diethyl_sulfite,Querry,organic\C4H10O3S - diethyl sulfite\Querry.yml,1,1,0.3,19.6078,570
+776,organic,diisopropyl_methylphosphonate,Querry-NIR,organic\C7H17O3P - diisopropyl methylphosphonate\Querry-NIR.yml,1,1,0.814,2.499,85
+777,organic,diisopropyl_methylphosphonate,Querry-IR,organic\C7H17O3P - diisopropyl methylphosphonate\Querry-IR.yml,1,1,2.5,55.5556,383
+778,organic,potassium_hydrogen_phthalate,Moutzouris-Î±,organic\C8H5KO4 - potassium hydrogen phthalate\Moutzouris-alpha.yml,1,0,0.45,1.551,200
+779,organic,potassium_hydrogen_phthalate,Moutzouris-Î²,organic\C8H5KO4 - potassium hydrogen phthalate\Moutzouris-beta.yml,1,0,0.45,1.551,200
+780,organic,potassium_hydrogen_phthalate,Moutzouris-Î³,organic\C8H5KO4 - potassium hydrogen phthalate\Moutzouris-gamma.yml,1,0,0.45,1.551,200
+781,organic,cinnamaldehyde,Rheims,organic\C9H8O - cinnamaldehyde\Rheims.yml,1,0,0.5893,1.05,200
+782,organic,polyvinyl_alcohol,Schnepf,organic\(C2H4O)n - polyvinyl alcohol\Schnepf.yml,1,0,0.3,1.5,200
+783,organic,polyvinyl_alcohol,Bodurov,organic\(C2H4O)n - polyvinyl alcohol\Bodurov.yml,1,0,0.405,0.635,200
+784,organic,polydimethylsiloxane,Querry-NIR,organic\(C2H6OSi)n - polydimethylsiloxane\Querry-NIR.yml,1,1,0.819,2.499,85
+785,organic,polydimethylsiloxane,Querry-IR,organic\(C2H6OSi)n - polydimethylsiloxane\Querry-IR.yml,1,1,2.5,55.5556,765
+786,organic,polylactic_acid,Bodurov,organic\(C3H4O2)n - polylactic acid\Bodurov.yml,1,0,0.405,0.635,200
+787,organic,poly(methyl_methacrylate),Sultanova,organic\(C5H8O2)n - poly(methyl methacrylate)\Sultanova.yml,1,0,0.4368,1.052,200
+788,organic,poly(methyl_methacrylate),Bodurov,organic\(C5H8O2)n - poly(methyl methacrylate)\Bodurov.yml,1,0,0.405,0.635,200
+789,organic,poly(methyl_methacrylate),Beadie,organic\(C5H8O2)n - poly(methyl methacrylate)\Beadie.yml,1,0,0.42,1.62,200
+790,organic,poly(methyl_methacrylate),Szczurowski,organic\(C5H8O2)n - poly(methyl methacrylate)\Szczurowski.yml,1,0,0.4047,1.083,200
+791,organic,polyvinylpyrrolidone,Konig,organic\(C6H9NO)n - polyvinylpyrrolidone\Konig.yml,1,1,0.375,1.0,26
+792,organic,cellulose,Sultanova,organic\(C6H10O5)n - cellulose\Sultanova.yml,1,0,0.4368,1.052,200
+794,organic,polystyren,Sultanova,organic\(C8H8)n - polystyren\Sultanova.yml,1,0,0.4368,1.052,200
+795,organic,polycarbonate,Sultanova,organic\(C16H14O3)n - polycarbonate\Sultanova.yml,1,0,0.4368,1.052,200
+796,glass,BK7,SCHOTT,glass\schott\N-BK7.yml,1,1,0.3,2.5,25
+797,glass,BK7,OHARA,glass\ohara\S-BSL7.yml,1,1,0.29,2.4,31
+798,glass,BK7,HIKARI,glass\hikari\J-BK7A.yml,1,1,0.365015,2.05809,33
+799,glass,BK7,CDGM,glass\cdgm\H-K9L.yml,1,0,0.365,0.7065,200
+800,glass,BK7,HOYA,glass\hoya\BSC7.yml,1,0,0.28,1.55,200
+801,glass,BK7,SUMITA,glass\sumita\K-BK7.yml,1,0,0.365,1.548,200
+802,glass,BK7,LZOS,glass\lzos\K8.yml,1,0,0.365,2.3254,31
+803,glass,BAF10,SCHOTT,glass\schott\N-BAF10.yml,1,1,0.35,2.5,21
+804,glass,BAF10,OHARA,glass\ohara\S-BAH10.yml,1,1,0.34,2.4,26
+805,glass,BAF10,HIKARI,glass\hikari\J-BAF10.yml,1,1,0.365015,2.05809,27
+806,glass,BAF10,CDGM,glass\cdgm\H-ZBAF52.yml,1,0,0.365,0.7065,200
+807,glass,BAF10,HOYA,glass\hoya\BAF10.yml,1,0,0.34,0.7,200
+808,glass,BAK1,SCHOTT,glass\schott\N-BAK1.yml,1,1,0.3,2.5,25
+809,glass,BAK1,OHARA,glass\ohara\S-BAL11.yml,1,1,0.32,2.4,28
+810,glass,BAK1,HIKARI,glass\hikari\J-BAK1.yml,1,1,0.365015,2.05809,32
+811,glass,BAK1,CDGM,glass\cdgm\H-BAK8.yml,1,0,0.365,0.7065,200
+812,glass,FK51A,SCHOTT,glass\schott\N-FK51A.yml,1,1,0.29,2.5,26
+813,glass,LASF9,SCHOTT,glass\schott\N-LASF9.yml,1,1,0.37,2.5,19
+814,glass,SF5,SCHOTT,glass\schott\N-SF5.yml,1,1,0.37,2.5,19
+815,glass,SF5,HIKARI,glass\hikari\J-SF5.yml,1,1,0.388865,2.05809,25
+816,glass,SF5,CDGM,glass\cdgm\ZF2.yml,1,0,0.365,0.7065,200
+817,glass,SF5,HOYA,glass\hoya\E-FD5.yml,1,0,0.35,1.55,200
+818,glass,SF10,SCHOTT,glass\schott\N-SF10.yml,1,1,0.38,2.5,18
+819,glass,SF10,HIKARI,glass\hikari\J-SF10.yml,1,1,0.388865,2.05809,24
+820,glass,SF10,CDGM,glass\cdgm\ZF4.yml,1,0,0.365,0.7065,200
+821,glass,SF10,HOYA,glass\hoya\E-FD10.yml,1,0,0.36,1.55,200
+822,glass,SF11,SCHOTT,glass\schott\N-SF11.yml,1,1,0.37,2.5,19
+823,glass,SF11,HIKARI,glass\hikari\J-SF11.yml,1,1,0.388865,2.05809,24
+824,glass,SF11,CDGM,glass\cdgm\ZF13.yml,1,0,0.365,0.7065,200
+825,glass,SF11,SUMITA,glass\sumita\K-SFLD11.yml,1,0,0.365,1.548,200
+826,glass,fused_silica,Malitson,main\SiO2\Malitson.yml,1,0,0.21,6.7,200
+827,glass,soda-lime,Rubin-clear,misc\soda-lime\Rubin-clear.yml,1,1,0.31,4.6,106
+828,glass,soda-lime,Rubin-bronze,misc\soda-lime\Rubin-bronze.yml,1,1,0.32,4.6,105
+829,glass,soda-lime,Rubin-grey,misc\soda-lime\Rubin-grey.yml,1,1,0.32,4.6,105
+830,glass,soda-lime,Rubin-green,misc\soda-lime\Rubin-green.yml,1,1,0.32,4.6,105
+831,glass,soda-lime,Rubin-lowiron,misc\soda-lime\Rubin-lowiron.yml,1,1,0.31,4.6,106
+832,glass,soda-lime,Rubin-IR,misc\soda-lime\Rubin-IR.yml,1,1,5.0,300.0,54
+836,glass,SCHOTT-multipurpose,ZERODUR,schott\misc\ZERODUR.yml,1,0,0.365,2.325,200
+837,glass,SCHOTT-multipurpose,B270,schott\misc\B270.yml,1,0,0.43583,0.65627,8
+838,glass,SCHOTT-multipurpose,AF32ECO,schott\misc\AF32ECO.yml,1,1,0.31,2.325,21
+839,glass,SCHOTT-multipurpose,D263TECO,schott\misc\D263TECO.yml,1,1,0.334,2.325,19
+840,glass,SCHOTT-multipurpose,BOROFLOAT33,schott\misc\BOROFLOAT33.yml,1,0,0.36501,1.55,14
+855,glass,NSG-multipurpose,Pilkington-Optiwhite,glass\nsg\Pilkington-Optiwhite.yml,1,1,0.30141754,1.4979382,583
+856,glass,CORNING-display,EagleXG,glass\corning\EagleXG.yml,1,0,0.4358,0.6438,7
+857,glass,BARBERINI-crown,D0290,glass\barberini\D0290.yml,1,0,0.43583,0.65627,8
+858,glass,BARBERINI-crown,D0391,glass\barberini\D0391.yml,1,0,0.43583,0.65627,8
+859,glass,BARBERINI-crown,D0891,glass\barberini\D0891.yml,1,0,0.43583,0.65627,8
+860,glass,BARBERINI-high-index,D0082,glass\barberini\D0082.yml,1,0,0.43583,0.65627,8
+861,glass,BARBERINI-high-index,D0785,glass\barberini\D0785.yml,1,0,0.43583,0.65627,8
+862,glass,BARBERINI-high-index,D0888,glass\barberini\D0888.yml,1,0,0.43583,0.65627,8
+863,glass,BARBERINI-photochromic,D0587,glass\barberini\D0587.yml,1,0,0.43583,0.65627,8
+864,glass,BARBERINI-photochromic,D0687,glass\barberini\D0687.yml,1,0,0.43583,0.65627,8
+865,glass,BARBERINI-photochromic,D1125,glass\barberini\D1125.yml,1,0,0.43583,0.65627,8
+866,glass,BARBERINI-photochromic,D1426-D1526,glass\barberini\D1426-D1526.yml,1,0,0.43583,0.65627,8
+867,glass,BARBERINI-photochromic,D6625,glass\barberini\D6625.yml,1,0,0.43583,0.65627,8
+868,glass,BARBERINI-photochromic,D6526-D6626,glass\barberini\D6526-D6626.yml,1,0,0.43583,0.65627,8
+869,glass,BARBERINI-photochromic,D6726-D6826,glass\barberini\D6726-D6826.yml,1,0,0.43583,0.65627,8
+870,glass,BARBERINI-moulds,D0991,glass\barberini\D0991.yml,1,0,0.43583,0.65627,8
+871,glass,BARBERINI-moulds,D0191,glass\barberini\D0191.yml,1,0,0.43583,0.65627,8
+872,glass,BARBERINI-sun-protection,D1214,glass\barberini\D1214.yml,1,0,0.43583,0.65627,8
+873,glass,BARBERINI-sun-protection,D1219,glass\barberini\D1219.yml,1,0,0.43583,0.65627,8
+874,glass,BARBERINI-sun-protection,D1230,glass\barberini\D1230.yml,1,0,0.43583,0.65627,8
+875,glass,BARBERINI-sun-protection,D1420_1,glass\barberini\D1420_1.yml,1,0,0.43583,0.65627,8
+876,glass,BARBERINI-sun-protection,D1511,glass\barberini\D1511.yml,1,0,0.43583,0.65627,8
+877,glass,BARBERINI-sun-protection,D1520,glass\barberini\D1520.yml,1,0,0.43583,0.65627,8
+878,glass,BARBERINI-sun-protection,D1616,glass\barberini\D1616.yml,1,0,0.43583,0.65627,8
+879,glass,BARBERINI-sun-protection,D4150,glass\barberini\D4150.yml,1,0,0.43583,0.64385,5
+880,glass,BARBERINI-sun-protection,D5336_1,glass\barberini\D5336_1.yml,1,0,0.43583,0.65627,8
+881,glass,BARBERINI-sun-protection,D6117,glass\barberini\D6117.yml,1,0,0.43583,0.65627,8
+882,glass,BARBERINI-sun-protection,D6420,glass\barberini\D6420.yml,1,0,0.43583,0.65627,8
+883,glass,BARBERINI-sun-protection,D9148,glass\barberini\D9148.yml,1,0,0.43583,0.65627,8
+884,glass,AMTIR,AMTIR-1,glass\ami\AMTIR-1.yml,1,1,1.0,14.0,17
+885,glass,AMTIR,AMTIR-2,glass\ami\AMTIR-2.yml,1,1,1.0,13.0,17
+886,glass,AMTIR,AMTIR-3,glass\ami\AMTIR-3.yml,1,0,3.0,14.0,200
+887,glass,AMTIR,AMTIR-6,glass\ami\AMTIR-6.yml,1,1,0.6439,8.0,11
+888,glass,VITRON-IG,IG2,glass\vitron\IG2.yml,1,1,1.0,12.0,15
+889,glass,VITRON-IG,IG3,glass\vitron\IG3.yml,1,1,1.0,12.0,15
+890,glass,VITRON-IG,IG4,glass\vitron\IG4.yml,1,1,1.0,12.0,15
+891,glass,VITRON-IG,IG5,glass\vitron\IG5.yml,1,1,1.0,12.0,15
+892,glass,VITRON-IG,IG6,glass\vitron\IG6.yml,1,1,1.0,12.0,15
+893,glass,SCHOTT-IRG,IRG22,schott\infrared\IRG22.yml,1,0,1.0,12.0,200
+894,glass,SCHOTT-IRG,IRG23,schott\infrared\IRG23.yml,1,0,1.0,12.0,200
+895,glass,SCHOTT-IRG,IRG24,schott\infrared\IRG24.yml,1,0,1.0,12.0,200
+896,glass,SCHOTT-IRG,IRG25,schott\infrared\IRG25.yml,1,0,0.85,12.0,200
+897,glass,SCHOTT-IRG,IRG26,schott\infrared\IRG26.yml,1,0,0.85,12.0,200
+899,glass,LightPath-BD,BD-2,glass\lightpath\BD-2.yml,1,1,3.0,14.0,12
+901,glass,SCHOTT-K,K7,glass\schott\K7.yml,1,1,0.31,2.5,24
+902,glass,SCHOTT-K,K10,glass\schott\K10.yml,1,1,0.3,2.5,25
+903,glass,SCHOTT-K,N-K5,glass\schott\N-K5.yml,1,1,0.31,2.5,24
+905,glass,SCHOTT-K,N-ZK7,glass\schott\N-ZK7.yml,1,1,0.3,2.5,25
+907,glass,SCHOTT-SK,N-SK2,glass\schott\N-SK2.yml,1,1,0.31,2.5,24
+908,glass,SCHOTT-SK,N-SK2HT,glass\schott\N-SK2HT.yml,1,1,0.31,2.5,24
+909,glass,SCHOTT-SK,N-SK4,glass\schott\N-SK4.yml,1,1,0.334,2.5,22
+910,glass,SCHOTT-SK,N-SK5,glass\schott\N-SK5.yml,1,1,0.3,2.5,25
+912,glass,SCHOTT-SK,N-SK11,glass\schott\N-SK11.yml,1,1,0.3,2.5,25
+913,glass,SCHOTT-SK,N-SK14,glass\schott\N-SK14.yml,1,1,0.31,2.5,24
+915,glass,SCHOTT-SK,N-SK16,glass\schott\N-SK16.yml,1,1,0.31,2.5,24
+916,glass,SCHOTT-SK,P-SK57,glass\schott\P-SK57.yml,1,1,0.32,2.5,23
+917,glass,SCHOTT-SK,P-SK57Q1,glass\schott\P-SK57Q1.yml,1,1,0.31,2.5,23
+918,glass,SCHOTT-SK,P-SK58A,glass\schott\P-SK58A.yml,1,1,0.32,2.5,23
+919,glass,SCHOTT-SK,P-SK60,glass\schott\P-SK60.yml,1,1,0.3,2.5,25
+920,glass,SCHOTT-SSK,N-SSK2,glass\schott\N-SSK2.yml,1,1,0.35,2.5,21
+921,glass,SCHOTT-SSK,N-SSK5,glass\schott\N-SSK5.yml,1,1,0.35,2.5,21
+922,glass,SCHOTT-SSK,N-SSK8,glass\schott\N-SSK8.yml,1,1,0.35,2.5,21
+924,glass,SCHOTT-BK,N-BK7,glass\schott\N-BK7.yml,1,1,0.3,2.5,25
+925,glass,SCHOTT-BK,N-BK7HT,glass\schott\N-BK7HT.yml,1,1,0.3,2.5,25
+926,glass,SCHOTT-BK,N-BK7HTi,glass\schott\N-BK7HTi.yml,1,1,0.3,2.5,25
+927,glass,SCHOTT-BK,N-BK10,glass\schott\N-BK10.yml,1,1,0.29,2.5,26
+928,glass,SCHOTT-BK,P-BK7,glass\schott\P-BK7.yml,1,1,0.31,2.5,24
+929,glass,SCHOTT-BaK,N-BAK1,glass\schott\N-BAK1.yml,1,1,0.3,2.5,25
+930,glass,SCHOTT-BaK,N-BAK2,glass\schott\N-BAK2.yml,1,1,0.3,2.5,25
+931,glass,SCHOTT-BaK,N-BAK4,glass\schott\N-BAK4.yml,1,1,0.334,2.5,22
+932,glass,SCHOTT-BaK,N-BAK4HT,glass\schott\N-BAK4HT.yml,1,1,0.334,2.5,22
+934,glass,SCHOTT-FK,FK5HTi,glass\schott\FK5HTi.yml,1,1,0.25,2.5,30
+935,glass,SCHOTT-FK,N-FK5,glass\schott\N-FK5.yml,1,1,0.26,2.5,28
+937,glass,SCHOTT-FK,N-FK51A,glass\schott\N-FK51A.yml,1,1,0.29,2.5,26
+938,glass,SCHOTT-FK,N-FK58,glass\schott\N-FK58.yml,1,1,0.26,2.5,29
+941,glass,SCHOTT-LaK,N-LAK7,glass\schott\N-LAK7.yml,1,1,0.29,2.5,25
+942,glass,SCHOTT-LaK,N-LAK8,glass\schott\N-LAK8.yml,1,1,0.31,2.5,24
+943,glass,SCHOTT-LaK,N-LAK9,glass\schott\N-LAK9.yml,1,1,0.32,2.5,23
+944,glass,SCHOTT-LaK,N-LAK10,glass\schott\N-LAK10.yml,1,1,0.35,2.5,21
+945,glass,SCHOTT-LaK,N-LAK12,glass\schott\N-LAK12.yml,1,1,0.32,2.5,23
+946,glass,SCHOTT-LaK,N-LAK14,glass\schott\N-LAK14.yml,1,1,0.31,2.5,24
+947,glass,SCHOTT-LaK,N-LAK21,glass\schott\N-LAK21.yml,1,1,0.32,2.5,23
+948,glass,SCHOTT-LaK,N-LAK22,glass\schott\N-LAK22.yml,1,1,0.31,2.5,24
+949,glass,SCHOTT-LaK,N-LAK33A,glass\schott\N-LAK33A.yml,1,1,0.32,2.5,23
+950,glass,SCHOTT-LaK,N-LAK33B,glass\schott\N-LAK33B.yml,1,1,0.3,2.5,25
+951,glass,SCHOTT-LaK,N-LAK34,glass\schott\N-LAK34.yml,1,1,0.29,2.5,26
+952,glass,SCHOTT-LaK,P-LAK35,glass\schott\P-LAK35.yml,1,1,0.3,2.5,25
+953,glass,SCHOTT-PK,N-PK51,glass\schott\N-PK51.yml,1,1,0.3,2.5,25
+954,glass,SCHOTT-PK,N-PK52A,glass\schott\N-PK52A.yml,1,1,0.29,2.5,26
+956,glass,SCHOTT-PSK,N-PSK3,glass\schott\N-PSK3.yml,1,1,0.3,2.5,25
+958,glass,SCHOTT-PSK,N-PSK53A,glass\schott\N-PSK53A.yml,1,1,0.32,2.5,23
+959,glass,SCHOTT-F,F2,glass\schott\F2.yml,1,1,0.32,2.5,22
+961,glass,SCHOTT-F,F2HT,glass\schott\F2HT.yml,1,1,0.32,2.5,22
+962,glass,SCHOTT-F,F5,glass\schott\F5.yml,1,1,0.32,2.5,22
+963,glass,SCHOTT-F,N-F2,glass\schott\N-F2.yml,1,1,0.365,2.5,20
+964,glass,SCHOTT-LF,LF5,glass\schott\LF5.yml,1,1,0.32,2.325,22
+967,glass,SCHOTT-LF,LF5HTi,glass\schott\LF5HTi.yml,1,1,0.31,2.5,23
+968,glass,SCHOTT-LLF,LLF1,glass\schott\LLF1.yml,1,1,0.31,2.5,24
+969,glass,SCHOTT-LLF,LLF1HTi,glass\schott\LLF1HTi.yml,1,1,0.3,2.5,24
+970,glass,SCHOTT-SF,SF1,glass\schott\SF1.yml,1,1,0.35,2.5,21
+971,glass,SCHOTT-SF,SF2,glass\schott\SF2.yml,1,1,0.35,2.5,21
+972,glass,SCHOTT-SF,SF4,glass\schott\SF4.yml,1,1,0.365,2.5,20
+973,glass,SCHOTT-SF,SF5,glass\schott\SF5.yml,1,1,0.35,2.5,21
+974,glass,SCHOTT-SF,SF6,glass\schott\SF6.yml,1,1,0.365,2.5,20
+977,glass,SCHOTT-SF,SF10,glass\schott\SF10.yml,1,1,0.38,2.5,18
+978,glass,SCHOTT-SF,SF11,glass\schott\SF11.yml,1,1,0.39,2.5,17
+981,glass,SCHOTT-SF,SF56A,glass\schott\SF56A.yml,1,1,0.37,2.5,19
+982,glass,SCHOTT-SF,SF57,glass\schott\SF57.yml,1,1,0.37,2.5,19
+985,glass,SCHOTT-SF,SF57HTultra,glass\schott\SF57HTultra.yml,1,1,0.37,2.5,19
+986,glass,SCHOTT-SF,N-SF1,glass\schott\N-SF1.yml,1,1,0.37,2.5,19
+987,glass,SCHOTT-SF,N-SF2,glass\schott\N-SF2.yml,1,1,0.365,2.5,20
+988,glass,SCHOTT-SF,N-SF4,glass\schott\N-SF4.yml,1,1,0.365,2.5,20
+989,glass,SCHOTT-SF,N-SF5,glass\schott\N-SF5.yml,1,1,0.37,2.5,19
+990,glass,SCHOTT-SF,N-SF6,glass\schott\N-SF6.yml,1,1,0.37,2.5,19
+991,glass,SCHOTT-SF,N-SF6HT,glass\schott\N-SF6HT.yml,1,1,0.37,2.5,19
+992,glass,SCHOTT-SF,N-SF6HTultra,glass\schott\N-SF6HTultra.yml,1,1,0.37,2.5,19
+993,glass,SCHOTT-SF,N-SF8,glass\schott\N-SF8.yml,1,1,0.37,2.5,19
+994,glass,SCHOTT-SF,N-SF10,glass\schott\N-SF10.yml,1,1,0.38,2.5,18
+995,glass,SCHOTT-SF,N-SF11,glass\schott\N-SF11.yml,1,1,0.37,2.5,19
+996,glass,SCHOTT-SF,N-SF14,glass\schott\N-SF14.yml,1,1,0.365,2.5,20
+997,glass,SCHOTT-SF,N-SF15,glass\schott\N-SF15.yml,1,1,0.37,2.5,19
+1000,glass,SCHOTT-SF,N-SF57,glass\schott\N-SF57.yml,1,1,0.37,2.5,19
+1001,glass,SCHOTT-SF,N-SF57HT,glass\schott\N-SF57HT.yml,1,1,0.37,2.5,19
+1002,glass,SCHOTT-SF,N-SF57HTultra,glass\schott\N-SF57HTultra.yml,1,1,0.37,2.5,19
+1004,glass,SCHOTT-SF,N-SF66,glass\schott\N-SF66.yml,1,1,0.39,2.5,17
+1005,glass,SCHOTT-SF,P-SF8,glass\schott\P-SF8.yml,1,1,0.365,2.5,20
+1006,glass,SCHOTT-SF,P-SF67,glass\schott\P-SF67.yml,1,1,0.39,2.5,16
+1007,glass,SCHOTT-SF,P-SF68,glass\schott\P-SF68.yml,1,1,0.42,2.5,14
+1008,glass,SCHOTT-SF,P-SF69,glass\schott\P-SF69.yml,1,1,0.365,2.5,20
+1010,glass,SCHOTT-KzFS,N-KZFS2,glass\schott\N-KZFS2.yml,1,1,0.31,2.5,24
+1011,glass,SCHOTT-KzFS,N-KZFS4,glass\schott\N-KZFS4.yml,1,1,0.334,2.5,22
+1012,glass,SCHOTT-KzFS,N-KZFS4HT,glass\schott\N-KZFS4HT.yml,1,1,0.32,2.5,23
+1014,glass,SCHOTT-KzFS,N-KZFS5,glass\schott\N-KZFS5.yml,1,1,0.334,2.5,22
+1015,glass,SCHOTT-KzFS,N-KZFS8,glass\schott\N-KZFS8.yml,1,1,0.334,2.5,22
+1016,glass,SCHOTT-KzFS,N-KZFS11,glass\schott\N-KZFS11.yml,1,1,0.31,2.5,24
+1019,glass,SCHOTT-BaF,N-BAF4,glass\schott\N-BAF4.yml,1,1,0.365,2.5,20
+1020,glass,SCHOTT-BaF,N-BAF10,glass\schott\N-BAF10.yml,1,1,0.35,2.5,21
+1021,glass,SCHOTT-BaF,N-BAF51,glass\schott\N-BAF51.yml,1,1,0.35,2.5,21
+1022,glass,SCHOTT-BaF,N-BAF52,glass\schott\N-BAF52.yml,1,1,0.365,2.5,20
+1023,glass,SCHOTT-BaLF,N-BALF4,glass\schott\N-BALF4.yml,1,1,0.35,2.5,21
+1024,glass,SCHOTT-BaLF,N-BALF5,glass\schott\N-BALF5.yml,1,1,0.35,2.5,21
+1025,glass,SCHOTT-BaSF,N-BASF2,glass\schott\N-BASF2.yml,1,1,0.37,2.5,19
+1026,glass,SCHOTT-BaSF,N-BASF64,glass\schott\N-BASF64.yml,1,1,0.365,2.5,20
+1027,glass,SCHOTT-LaF,LAFN7,glass\schott\LAFN7.yml,1,1,0.35,2.5,21
+1028,glass,SCHOTT-LaF,N-LAF2,glass\schott\N-LAF2.yml,1,1,0.35,2.5,21
+1030,glass,SCHOTT-LaF,N-LAF7,glass\schott\N-LAF7.yml,1,1,0.365,2.5,20
+1031,glass,SCHOTT-LaF,N-LAF21,glass\schott\N-LAF21.yml,1,1,0.334,2.5,22
+1033,glass,SCHOTT-LaF,N-LAF33,glass\schott\N-LAF33.yml,1,1,0.32,2.5,23
+1034,glass,SCHOTT-LaF,N-LAF34,glass\schott\N-LAF34.yml,1,1,0.31,2.5,24
+1035,glass,SCHOTT-LaF,N-LAF35,glass\schott\N-LAF35.yml,1,1,0.31,2.5,24
+1037,glass,SCHOTT-LaF,P-LAF37,glass\schott\P-LAF37.yml,1,1,0.32,2.5,23
+1038,glass,SCHOTT-LaSF,N-LASF9HT,glass\schott\N-LASF9HT.yml,1,1,0.365,2.5,20
+1040,glass,SCHOTT-LaSF,LASF35,glass\schott\LASF35.yml,1,1,0.37,2.5,18
+1041,glass,SCHOTT-LaSF,N-LASF9,glass\schott\N-LASF9.yml,1,1,0.37,2.5,19
+1043,glass,SCHOTT-LaSF,N-LASF31A,glass\schott\N-LASF31A.yml,1,1,0.334,2.5,22
+1044,glass,SCHOTT-LaSF,N-LASF40,glass\schott\N-LASF40.yml,1,1,0.365,2.5,20
+1045,glass,SCHOTT-LaSF,N-LASF41,glass\schott\N-LASF41.yml,1,1,0.334,2.5,22
+1046,glass,SCHOTT-LaSF,N-LASF43,glass\schott\N-LASF43.yml,1,1,0.35,2.5,21
+1047,glass,SCHOTT-LaSF,N-LASF44,glass\schott\N-LASF44.yml,1,1,0.334,2.5,22
+1048,glass,SCHOTT-LaSF,N-LASF45,glass\schott\N-LASF45.yml,1,1,0.365,2.5,20
+1049,glass,SCHOTT-LaSF,N-LASF45HT,glass\schott\N-LASF45HT.yml,1,1,0.365,2.5,20
+1051,glass,SCHOTT-LaSF,N-LASF46A,glass\schott\N-LASF46A.yml,1,1,0.37,2.5,19
+1052,glass,SCHOTT-LaSF,N-LASF46B,glass\schott\N-LASF46B.yml,1,1,0.365,2.5,19
+1053,glass,SCHOTT-LaSF,P-LASF47,glass\schott\P-LASF47.yml,1,1,0.334,2.5,22
+1054,glass,SCHOTT-LaSF,P-LASF50,glass\schott\P-LASF50.yml,1,1,0.334,2.5,22
+1055,glass,SCHOTT-LaSF,P-LASF51,glass\schott\P-LASF51.yml,1,1,0.334,2.5,22
+1056,glass,SCHOTT-KF,N-KF9,glass\schott\N-KF9.yml,1,1,0.35,2.5,21
+1073,glass,OHARA-BAH,S-BAH10,glass\ohara\S-BAH10.yml,1,1,0.34,2.4,26
+1074,glass,OHARA-BAH,S-BAH11,glass\ohara\S-BAH11.yml,1,1,0.34,2.4,26
+1075,glass,OHARA-BAH,S-BAH27,glass\ohara\S-BAH27.yml,1,1,0.36,2.4,24
+1076,glass,OHARA-BAH,S-BAH28,glass\ohara\S-BAH28.yml,1,1,0.36,2.4,24
+1077,glass,OHARA-BAH,S-BAH32,glass\ohara\S-BAH32.yml,1,1,0.36,2.4,24
+1094,glass,OHARA-BAL,L-BAL35,glass\ohara\L-BAL35.yml,1,1,0.3,2.4,30
+1096,glass,OHARA-BAL,L-BAL42,glass\ohara\L-BAL42.yml,1,1,0.29,0.9,23
+1098,glass,OHARA-BAL,L-BAL43,glass\ohara\L-BAL43.yml,1,1,0.3,2.4,30
+1099,glass,OHARA-BAL,S-BAL2,glass\ohara\S-BAL2.yml,1,1,0.34,2.4,26
+1100,glass,OHARA-BAL,S-BAL3,glass\ohara\S-BAL3.yml,1,1,0.33,2.4,27
+1101,glass,OHARA-BAL,S-BAL11,glass\ohara\S-BAL11.yml,1,1,0.32,2.4,28
+1102,glass,OHARA-BAL,S-BAL12,glass\ohara\S-BAL12.yml,1,1,0.3,2.4,30
+1103,glass,OHARA-BAL,S-BAL14,glass\ohara\S-BAL14.yml,1,1,0.33,2.4,27
+1105,glass,OHARA-BAL,S-BAL35,glass\ohara\S-BAL35.yml,1,1,0.3,2.4,30
+1106,glass,OHARA-BAL,S-BAL41,glass\ohara\S-BAL41.yml,1,1,0.3,2.4,30
+1107,glass,OHARA-BAL,S-BAL42,glass\ohara\S-BAL42.yml,1,1,0.29,2.4,31
+1118,glass,OHARA-BAM,S-BAM3,glass\ohara\S-BAM3.yml,1,1,0.35,2.4,25
+1119,glass,OHARA-BAM,S-BAM4,glass\ohara\S-BAM4.yml,1,1,0.35,2.4,25
+1120,glass,OHARA-BAM,S-BAM12,glass\ohara\S-BAM12.yml,1,1,0.35,2.4,25
+1121,glass,OHARA-BBH,L-BBH1,glass\ohara\L-BBH1.yml,1,1,0.3,2.4,19
+1137,glass,OHARA-BSL,L-BSL7,glass\ohara\L-BSL7.yml,1,1,0.3,2.4,30
+1138,glass,OHARA-BSL,S-BSL7,glass\ohara\S-BSL7.yml,1,1,0.29,2.4,31
+1161,glass,OHARA-BSM,S-BSM2,glass\ohara\S-BSM2.yml,1,1,0.31,2.4,29
+1162,glass,OHARA-BSM,S-BSM4,glass\ohara\S-BSM4.yml,1,1,0.31,2.4,29
+1163,glass,OHARA-BSM,S-BSM9,glass\ohara\S-BSM9.yml,1,1,0.33,2.4,27
+1164,glass,OHARA-BSM,S-BSM10,glass\ohara\S-BSM10.yml,1,1,0.31,2.4,29
+1165,glass,OHARA-BSM,S-BSM14,glass\ohara\S-BSM14.yml,1,1,0.31,2.4,29
+1166,glass,OHARA-BSM,S-BSM15,glass\ohara\S-BSM15.yml,1,1,0.33,2.4,27
+1167,glass,OHARA-BSM,S-BSM16,glass\ohara\S-BSM16.yml,1,1,0.31,2.4,29
+1168,glass,OHARA-BSM,S-BSM18,glass\ohara\S-BSM18.yml,1,1,0.31,2.4,29
+1170,glass,OHARA-BSM,S-BSM22,glass\ohara\S-BSM22.yml,1,1,0.34,2.4,26
+1171,glass,OHARA-BSM,S-BSM25,glass\ohara\S-BSM25.yml,1,1,0.33,2.4,27
+1172,glass,OHARA-BSM,S-BSM28,glass\ohara\S-BSM28.yml,1,1,0.34,2.4,26
+1174,glass,OHARA-BSM,S-BSM71,glass\ohara\S-BSM71.yml,1,1,0.34,2.4,26
+1175,glass,OHARA-BSM,S-BSM81,glass\ohara\S-BSM81.yml,1,1,0.29,2.4,31
+1180,glass,OHARA-FPL,S-FPL51,glass\ohara\S-FPL51.yml,1,1,0.28,2.4,32
+1183,glass,OHARA-FPL,S-FPL53,glass\ohara\S-FPL53.yml,1,1,0.28,2.4,32
+1184,glass,OHARA-FPL,S-FPL55,glass\ohara\S-FPL55.yml,1,1,0.365,2.325,32
+1185,glass,OHARA-FPM,S-FPM2,glass\ohara\S-FPM2.yml,1,1,0.3,2.4,29
+1186,glass,OHARA-FPM,S-FPM3,glass\ohara\S-FPM3.yml,1,1,0.3,2.4,32
+1189,glass,OHARA-FSL,S-FSL5,glass\ohara\S-FSL5.yml,1,1,0.28,2.4,32
+1196,glass,OHARA-FTM,S-FTM16,glass\ohara\S-FTM16.yml,1,1,0.35,2.4,25
+1214,glass,OHARA-LAH,L-LAH53,glass\ohara\L-LAH53.yml,1,1,0.34,0.7,16
+1217,glass,OHARA-LAH,L-LAH84,glass\ohara\L-LAH84.yml,1,1,0.34,2.4,26
+1220,glass,OHARA-LAH,L-LAH85V,glass\ohara\L-LAH85V.yml,1,1,0.365,2.325,26
+1221,glass,OHARA-LAH,L-LAH86,glass\ohara\L-LAH86.yml,1,1,0.365,2.325,24
+1223,glass,OHARA-LAH,L-LAH90,glass\ohara\L-LAH90.yml,1,1,0.28,2.4,26
+1224,glass,OHARA-LAH,L-LAH91,glass\ohara\L-LAH91.yml,1,1,0.28,2.4,32
+1225,glass,OHARA-LAH,L-LAH94,glass\ohara\L-LAH94.yml,1,1,0.365,2.325,25
+1226,glass,OHARA-LAH,S-LAH51,glass\ohara\S-LAH51.yml,1,1,0.33,2.4,27
+1227,glass,OHARA-LAH,S-LAH52,glass\ohara\S-LAH52.yml,1,1,0.33,2.4,27
+1229,glass,OHARA-LAH,S-LAH53,glass\ohara\S-LAH53.yml,1,1,0.34,2.4,26
+1233,glass,OHARA-LAH,S-LAH55V,glass\ohara\S-LAH55V.yml,1,1,0.365,2.325,27
+1235,glass,OHARA-LAH,S-LAH58,glass\ohara\S-LAH58.yml,1,1,0.32,2.4,28
+1236,glass,OHARA-LAH,S-LAH59,glass\ohara\S-LAH59.yml,1,1,0.29,2.4,31
+1237,glass,OHARA-LAH,S-LAH60,glass\ohara\S-LAH60.yml,1,1,0.34,2.4,26
+1239,glass,OHARA-LAH,S-LAH63,glass\ohara\S-LAH63.yml,1,1,0.34,2.4,26
+1241,glass,OHARA-LAH,S-LAH64,glass\ohara\S-LAH64.yml,1,1,0.32,2.4,28
+1243,glass,OHARA-LAH,S-LAH65V,glass\ohara\S-LAH65V.yml,1,1,0.365,2.325,28
+1245,glass,OHARA-LAH,S-LAH66,glass\ohara\S-LAH66.yml,1,1,0.31,2.4,29
+1247,glass,OHARA-LAH,S-LAH71,glass\ohara\S-LAH71.yml,1,1,0.36,2.4,24
+1249,glass,OHARA-LAH,S-LAH79,glass\ohara\S-LAH79.yml,1,1,0.37,2.4,23
+1250,glass,OHARA-LAH,S-LAH88,glass\ohara\S-LAH88.yml,1,1,0.37,2.4,25
+1251,glass,OHARA-LAH,S-LAH89,glass\ohara\S-LAH89.yml,1,1,0.4,2.3,26
+1252,glass,OHARA-LAH,S-LAH92,glass\ohara\S-LAH92.yml,1,1,0.365,2.325,25
+1253,glass,OHARA-LAH,S-LAH93,glass\ohara\S-LAH93.yml,1,1,0.365,2.325,24
+1273,glass,OHARA-LAL,L-LAL12,glass\ohara\L-LAL12.yml,1,1,0.3,2.4,30
+1274,glass,OHARA-LAL,L-LAL13,glass\ohara\L-LAL13.yml,1,1,0.28,2.4,32
+1276,glass,OHARA-LAL,S-LAL7,glass\ohara\S-LAL7.yml,1,1,0.28,2.4,32
+1277,glass,OHARA-LAL,S-LAL8,glass\ohara\S-LAL8.yml,1,1,0.29,2.4,31
+1278,glass,OHARA-LAL,S-LAL9,glass\ohara\S-LAL9.yml,1,1,0.29,2.4,31
+1279,glass,OHARA-LAL,S-LAL10,glass\ohara\S-LAL10.yml,1,1,0.31,2.4,29
+1281,glass,OHARA-LAL,S-LAL12,glass\ohara\S-LAL12.yml,1,1,0.28,2.4,32
+1282,glass,OHARA-LAL,S-LAL13,glass\ohara\S-LAL13.yml,1,1,0.29,2.4,31
+1283,glass,OHARA-LAL,S-LAL14,glass\ohara\S-LAL14.yml,1,1,0.28,2.4,32
+1284,glass,OHARA-LAL,S-LAL18,glass\ohara\S-LAL18.yml,1,1,0.28,2.4,32
+1285,glass,OHARA-LAL,S-LAL19,glass\ohara\S-LAL19.yml,1,1,0.365,2.32542,32
+1288,glass,OHARA-LAL,S-LAL54,glass\ohara\S-LAL54.yml,1,1,0.33,2.4,27
+1290,glass,OHARA-LAL,S-LAL56,glass\ohara\S-LAL56.yml,1,1,0.33,2.4,27
+1291,glass,OHARA-LAL,S-LAL58,glass\ohara\S-LAL58.yml,1,1,0.32,2.4,28
+1292,glass,OHARA-LAL,S-LAL59,glass\ohara\S-LAL59.yml,1,1,0.28,2.4,32
+1294,glass,OHARA-LAL,S-LAL61,glass\ohara\S-LAL61.yml,1,1,0.29,2.4,31
+1307,glass,OHARA-LAM,L-LAM60,glass\ohara\L-LAM60.yml,1,1,0.31,2.4,29
+1308,glass,OHARA-LAM,L-LAM69,glass\ohara\L-LAM69.yml,1,1,0.34,2.325,18
+1310,glass,OHARA-LAM,S-LAM2,glass\ohara\S-LAM2.yml,1,1,0.34,2.4,26
+1311,glass,OHARA-LAM,S-LAM3,glass\ohara\S-LAM3.yml,1,1,0.34,2.4,26
+1312,glass,OHARA-LAM,S-LAM7,glass\ohara\S-LAM7.yml,1,1,0.36,2.4,24
+1313,glass,OHARA-LAM,S-LAM51,glass\ohara\S-LAM51.yml,1,1,0.34,2.4,26
+1314,glass,OHARA-LAM,S-LAM52,glass\ohara\S-LAM52.yml,1,1,0.35,2.4,25
+1315,glass,OHARA-LAM,S-LAM54,glass\ohara\S-LAM54.yml,1,1,0.34,2.4,26
+1316,glass,OHARA-LAM,S-LAM55,glass\ohara\S-LAM55.yml,1,1,0.35,2.4,25
+1317,glass,OHARA-LAM,S-LAM58,glass\ohara\S-LAM58.yml,1,1,0.35,2.4,25
+1318,glass,OHARA-LAM,S-LAM59,glass\ohara\S-LAM59.yml,1,1,0.34,2.4,26
+1319,glass,OHARA-LAM,S-LAM60,glass\ohara\S-LAM60.yml,1,1,0.33,2.4,27
+1320,glass,OHARA-LAM,S-LAM61,glass\ohara\S-LAM61.yml,1,1,0.34,2.4,26
+1321,glass,OHARA-LAM,S-LAM66,glass\ohara\S-LAM66.yml,1,1,0.35,2.4,25
+1324,glass,OHARA-NBH,S-NBH5,glass\ohara\S-NBH5.yml,1,1,0.33,2.4,27
+1325,glass,OHARA-NBH,S-NBH8,glass\ohara\S-NBH8.yml,1,1,0.33,2.4,27
+1326,glass,OHARA-NBH,S-NBH51,glass\ohara\S-NBH51.yml,1,1,0.33,2.4,27
+1327,glass,OHARA-NBH,S-NBH52,glass\ohara\S-NBH52.yml,1,1,0.32,2.4,28
+1329,glass,OHARA-NBH,S-NBH53,glass\ohara\S-NBH53.yml,1,1,0.33,2.4,27
+1331,glass,OHARA-NBH,S-NBH55,glass\ohara\S-NBH55.yml,1,1,0.36,2.4,24
+1332,glass,OHARA-NBH,S-NBH56,glass\ohara\S-NBH56.yml,1,1,0.3,2.4,24
+1333,glass,OHARA-NBH,S-NBH57,glass\ohara\S-NBH57.yml,1,1,0.365,2.325,24
+1334,glass,OHARA-NBM,S-NBM51,glass\ohara\S-NBM51.yml,1,1,0.32,2.4,28
+1335,glass,OHARA-NPH,S-NPH1,glass\ohara\S-NPH1.yml,1,1,0.38,2.4,22
+1336,glass,OHARA-NPH,S-NPH1W,glass\ohara\S-NPH1W.yml,1,1,0.38,2.4,22
+1337,glass,OHARA-NPH,S-NPH2,glass\ohara\S-NPH2.yml,1,1,0.39,2.4,21
+1338,glass,OHARA-NPH,S-NPH3,glass\ohara\S-NPH3.yml,1,1,0.36,2.4,20
+1339,glass,OHARA-NPH,S-NPH4,glass\ohara\S-NPH4.yml,1,1,0.28,2.4,22
+1340,glass,OHARA-NPH,S-NPH5,glass\ohara\S-NPH5.yml,1,1,0.365,2.325,24
+1341,glass,OHARA-NPH,S-NPH53,glass\ohara\S-NPH53.yml,1,1,0.36,2.4,24
+1349,glass,OHARA-NSL,S-NSL3,glass\ohara\S-NSL3.yml,1,1,0.32,2.4,28
+1350,glass,OHARA-NSL,S-NSL5,glass\ohara\S-NSL5.yml,1,1,0.32,2.4,28
+1351,glass,OHARA-NSL,S-NSL36,glass\ohara\S-NSL36.yml,1,1,0.34,2.4,26
+1417,glass,OHARA-PHM,S-PHM52,glass\ohara\S-PHM52.yml,1,1,0.33,2.4,27
+1418,glass,OHARA-PHM,S-PHM53,glass\ohara\S-PHM53.yml,1,1,0.31,2.4,29
+1427,glass,OHARA-TIH,S-TIH1,glass\ohara\S-TIH1.yml,1,1,0.37,2.4,23
+1428,glass,OHARA-TIH,S-TIH3,glass\ohara\S-TIH3.yml,1,1,0.37,2.4,23
+1429,glass,OHARA-TIH,S-TIH4,glass\ohara\S-TIH4.yml,1,1,0.37,2.4,23
+1430,glass,OHARA-TIH,S-TIH6,glass\ohara\S-TIH6.yml,1,1,0.37,2.4,23
+1431,glass,OHARA-TIH,S-TIH10,glass\ohara\S-TIH10.yml,1,1,0.37,2.4,23
+1432,glass,OHARA-TIH,S-TIH11,glass\ohara\S-TIH11.yml,1,1,0.37,2.4,23
+1433,glass,OHARA-TIH,S-TIH13,glass\ohara\S-TIH13.yml,1,1,0.37,2.4,23
+1434,glass,OHARA-TIH,S-TIH14,glass\ohara\S-TIH14.yml,1,1,0.37,2.4,23
+1435,glass,OHARA-TIH,S-TIH18,glass\ohara\S-TIH18.yml,1,1,0.37,2.4,23
+1437,glass,OHARA-TIH,S-TIH23,glass\ohara\S-TIH23.yml,1,1,0.37,2.4,23
+1438,glass,OHARA-TIH,S-TIH53,glass\ohara\S-TIH53.yml,1,1,0.37,2.4,23
+1439,glass,OHARA-TIH,S-TIH53W,glass\ohara\S-TIH53W.yml,1,1,0.37,2.4,23
+1441,glass,OHARA-TIL,S-TIL1,glass\ohara\S-TIL1.yml,1,1,0.34,2.4,26
+1442,glass,OHARA-TIL,S-TIL2,glass\ohara\S-TIL2.yml,1,1,0.34,2.4,26
+1443,glass,OHARA-TIL,S-TIL6,glass\ohara\S-TIL6.yml,1,1,0.34,2.4,26
+1444,glass,OHARA-TIL,S-TIL25,glass\ohara\S-TIL25.yml,1,1,0.35,2.4,25
+1445,glass,OHARA-TIL,S-TIL26,glass\ohara\S-TIL26.yml,1,1,0.35,2.4,25
+1446,glass,OHARA-TIL,S-TIL27,glass\ohara\S-TIL27.yml,1,1,0.35,2.4,25
+1448,glass,OHARA-TIM,L-TIM28,glass\ohara\L-TIM28.yml,1,1,0.3,2.4,25
+1450,glass,OHARA-TIM,S-TIM1,glass\ohara\S-TIM1.yml,1,1,0.36,2.4,24
+1451,glass,OHARA-TIM,S-TIM2,glass\ohara\S-TIM2.yml,1,1,0.36,2.4,24
+1452,glass,OHARA-TIM,S-TIM3,glass\ohara\S-TIM3.yml,1,1,0.36,2.4,24
+1453,glass,OHARA-TIM,S-TIM5,glass\ohara\S-TIM5.yml,1,1,0.36,2.4,24
+1455,glass,OHARA-TIM,S-TIM8,glass\ohara\S-TIM8.yml,1,1,0.35,2.4,25
+1456,glass,OHARA-TIM,S-TIM22,glass\ohara\S-TIM22.yml,1,1,0.36,2.4,24
+1457,glass,OHARA-TIM,S-TIM25,glass\ohara\S-TIM25.yml,1,1,0.36,2.4,24
+1458,glass,OHARA-TIM,S-TIM27,glass\ohara\S-TIM27.yml,1,1,0.36,2.4,24
+1459,glass,OHARA-TIM,S-TIM28,glass\ohara\S-TIM28.yml,1,1,0.36,2.4,24
+1460,glass,OHARA-TIM,S-TIM35,glass\ohara\S-TIM35.yml,1,1,0.37,2.4,23
+1461,glass,OHARA-TIM,S-TIM39,glass\ohara\S-TIM39.yml,1,1,0.36,2.4,24
+1465,glass,OHARA-YGH,S-YGH51,glass\ohara\S-YGH51.yml,1,1,0.28,2.4,32
+1471,glass,HIKARI-K,J-K3,glass\hikari\J-K3.yml,1,1,0.365015,2.05809,30
+1472,glass,HIKARI-K,J-K5,glass\hikari\J-K5.yml,1,1,0.365015,2.05809,29
+1489,glass,HIKARI-SK,J-SK2,glass\hikari\J-SK2.yml,1,1,0.365015,2.05809,32
+1490,glass,HIKARI-SK,J-SK4,glass\hikari\J-SK4.yml,1,1,0.365015,2.05809,29
+1491,glass,HIKARI-SK,J-SK5,glass\hikari\J-SK5.yml,1,1,0.365015,2.05809,32
+1492,glass,HIKARI-SK,J-SK10,glass\hikari\J-SK10.yml,1,1,0.365015,2.05809,32
+1493,glass,HIKARI-SK,J-SK11,glass\hikari\J-SK11.yml,1,1,0.365015,2.05809,33
+1494,glass,HIKARI-SK,J-SK12,glass\hikari\J-SK12.yml,1,1,0.365015,2.05809,32
+1495,glass,HIKARI-SK,J-SK14,glass\hikari\J-SK14.yml,1,1,0.365015,2.05809,32
+1496,glass,HIKARI-SK,J-SK15,glass\hikari\J-SK15.yml,1,1,0.365015,2.05809,32
+1497,glass,HIKARI-SK,J-SK16,glass\hikari\J-SK16.yml,1,1,0.365015,2.05809,32
+1498,glass,HIKARI-SK,J-SK18,glass\hikari\J-SK18.yml,1,1,0.365015,2.05809,28
+1503,glass,HIKARI-SK,Q-SK15S,glass\hikari\Q-SK15S.yml,1,1,0.365015,2.05809,33
+1504,glass,HIKARI-SK,Q-SK52S,glass\hikari\Q-SK52S.yml,1,1,0.365015,2.05809,33
+1505,glass,HIKARI-SK,Q-SK55S,glass\hikari\Q-SK55S.yml,1,1,0.365015,2.05809,33
+1512,glass,HIKARI-SSK,J-SSK1,glass\hikari\J-SSK1.yml,1,1,0.365015,2.05809,28
+1513,glass,HIKARI-SSK,J-SSK5,glass\hikari\J-SSK5.yml,1,1,0.365015,2.05809,27
+1514,glass,HIKARI-SSK,J-SSK8,glass\hikari\J-SSK8.yml,1,1,0.365015,2.05809,27
+1517,glass,HIKARI-BK,J-BK7A,glass\hikari\J-BK7A.yml,1,1,0.365015,2.05809,33
+1523,glass,HIKARI-BaK,J-BAK1,glass\hikari\J-BAK1.yml,1,1,0.365015,2.05809,32
+1524,glass,HIKARI-BaK,J-BAK2,glass\hikari\J-BAK2.yml,1,1,0.365015,2.05809,32
+1525,glass,HIKARI-BaK,J-BAK4,glass\hikari\J-BAK4.yml,1,1,0.365015,2.05809,28
+1530,glass,HIKARI-FK,J-FK01,glass\hikari\J-FK01.yml,1,1,0.365015,2.05809,33
+1532,glass,HIKARI-FK,J-FKH1,glass\hikari\J-FKH1.yml,1,1,0.365015,2.05809,33
+1533,glass,HIKARI-FK,J-FKH2,glass\hikari\J-FKH2.yml,1,1,0.365015,2.05809,31
+1534,glass,HIKARI-FK,J-FK5,glass\hikari\J-FK5.yml,1,1,0.365015,2.05809,33
+1537,glass,HIKARI-FK,Q-FK01S,glass\hikari\Q-FK01S.yml,1,1,0.365015,2.05809,33
+1538,glass,HIKARI-FK,Q-FK2S,glass\hikari\Q-FKH2S.yml,1,1,0.365015,2.05809,31
+1560,glass,HIKARI-LaK,J-LAK01,glass\hikari\J-LAK01.yml,1,1,0.365015,2.05809,32
+1561,glass,HIKARI-LaK,J-LAK02,glass\hikari\J-LAK02.yml,1,1,0.365015,2.05809,33
+1562,glass,HIKARI-LaK,J-LAK04,glass\hikari\J-LAK04.yml,1,1,0.365015,2.05809,32
+1563,glass,HIKARI-LaK,J-LAK06,glass\hikari\J-LAK06.yml,1,1,0.365015,2.05809,28
+1564,glass,HIKARI-LaK,J-LAK7,glass\hikari\J-LAK7.yml,1,1,0.365015,2.05809,33
+1565,glass,HIKARI-LaK,J-LAK7R,glass\hikari\J-LAK7R.yml,1,1,0.365015,2.05809,33
+1566,glass,HIKARI-LaK,J-LAK8,glass\hikari\J-LAK8.yml,1,1,0.365015,2.05809,33
+1567,glass,HIKARI-LaK,J-LAK9,glass\hikari\J-LAK9.yml,1,1,0.365015,2.05809,30
+1568,glass,HIKARI-LaK,J-LAK09,glass\hikari\J-LAK09.yml,1,1,0.365015,2.05809,33
+1569,glass,HIKARI-LaK,J-LAK10,glass\hikari\J-LAK10.yml,1,1,0.365015,2.05809,31
+1570,glass,HIKARI-LaK,J-LAK011,glass\hikari\J-LAK011.yml,1,1,0.365015,2.05809,33
+1571,glass,HIKARI-LaK,J-LAK12,glass\hikari\J-LAK12.yml,1,1,0.365015,2.05809,32
+1572,glass,HIKARI-LaK,J-LAK13,glass\hikari\J-LAK13.yml,1,1,0.365015,2.05809,33
+1573,glass,HIKARI-LaK,J-LAK14,glass\hikari\J-LAK14.yml,1,1,0.365015,2.05809,32
+1574,glass,HIKARI-LaK,J-LAK18,glass\hikari\J-LAK18.yml,1,1,0.365015,2.05809,32
+1577,glass,HIKARI-LaK,Q-LAK52S,glass\hikari\Q-LAK52S.yml,1,1,0.365015,2.05809,33
+1578,glass,HIKARI-LaK,Q-LAK53S,glass\hikari\Q-LAK53S.yml,1,1,0.365015,2.05809,33
+1580,glass,HIKARI-LaSK,J-LASKH2,glass\hikari\J-LASKH2.yml,1,1,0.365015,2.05809,33
+1584,glass,HIKARI-PK,J-PKH1,glass\hikari\J-PKH1.yml,1,1,0.365015,2.05809,32
+1588,glass,HIKARI-PSK,J-PSKH1,glass\hikari\J-PSKH1.yml,1,1,0.388865,2.05809,31
+1589,glass,HIKARI-PSK,J-PSK02,glass\hikari\J-PSK02.yml,1,1,0.365015,2.05809,29
+1590,glass,HIKARI-PSK,J-PSK03,glass\hikari\J-PSK03.yml,1,1,0.365015,2.05809,30
+1591,glass,HIKARI-PSK,J-PSKH4,glass\hikari\J-PSKH4.yml,1,1,0.365015,2.05809,32
+1593,glass,HIKARI-PSK,Q-PSKH1S,glass\hikari\Q-PSKH1S.yml,1,1,0.388865,2.05809,31
+1594,glass,HIKARI-PSK,Q-PSKH2S,glass\hikari\Q-PSKH2S.yml,1,1,0.365015,2.05809,33
+1595,glass,HIKARI-PSK,Q-PSKH4S,glass\hikari\Q-PSKH4S.yml,1,1,0.365015,2.05809,32
+1607,glass,HIKARI-F,J-F1,glass\hikari\J-F1.yml,1,1,0.388865,2.05809,25
+1608,glass,HIKARI-F,J-F2,glass\hikari\J-F2.yml,1,1,0.365015,2.05809,25
+1609,glass,HIKARI-F,J-F3,glass\hikari\J-F3.yml,1,1,0.388865,2.05809,25
+1610,glass,HIKARI-F,J-F5,glass\hikari\J-F5.yml,1,1,0.365015,2.05809,25
+1611,glass,HIKARI-F,J-F8,glass\hikari\J-F8.yml,1,1,0.388865,2.05809,25
+1612,glass,HIKARI-F,J-F16,glass\hikari\J-F16.yml,1,1,0.365015,2.05809,26
+1619,glass,HIKARI-LF,J-LF5,glass\hikari\J-LF5.yml,1,1,0.365015,2.05809,26
+1620,glass,HIKARI-LF,J-LF6,glass\hikari\J-LF6.yml,1,1,0.365015,2.05809,26
+1621,glass,HIKARI-LF,J-LF7,glass\hikari\J-LF7.yml,1,1,0.365015,2.05809,26
+1628,glass,HIKARI-LLF,J-LLF1,glass\hikari\J-LLF1.yml,1,1,0.365015,2.05809,26
+1629,glass,HIKARI-LLF,J-LLF2,glass\hikari\J-LLF2.yml,1,1,0.365015,2.05809,27
+1630,glass,HIKARI-LLF,J-LLF6,glass\hikari\J-LLF6.yml,1,1,0.365015,2.05809,27
+1663,glass,HIKARI-SF,J-SF1,glass\hikari\J-SF1.yml,1,1,0.388865,2.05809,25
+1664,glass,HIKARI-SF,J-SFH1,glass\hikari\J-SFH1.yml,1,1,0.388865,2.05809,23
+1665,glass,HIKARI-SF,J-SF2,glass\hikari\J-SF2.yml,1,1,0.388865,2.05809,25
+1666,glass,HIKARI-SF,J-SFH2,glass\hikari\J-SFH2.yml,1,1,0.388865,2.05809,23
+1667,glass,HIKARI-SF,J-SF03,glass\hikari\J-SF03.yml,1,1,0.388865,2.05809,23
+1669,glass,HIKARI-SF,J-SFS3,glass\hikari\J-SFS3.yml,1,1,0.388865,2.05809,23
+1670,glass,HIKARI-SF,J-SF4,glass\hikari\J-SF4.yml,1,1,0.388865,2.05809,24
+1671,glass,HIKARI-SF,J-SF5,glass\hikari\J-SF5.yml,1,1,0.388865,2.05809,25
+1672,glass,HIKARI-SF,J-SF6,glass\hikari\J-SF6.yml,1,1,0.388865,2.05809,24
+1673,glass,HIKARI-SF,J-SF6HS,glass\hikari\J-SF6HS.yml,1,1,0.388865,2.05809,24
+1674,glass,HIKARI-SF,J-SF7,glass\hikari\J-SF7.yml,1,1,0.388865,2.05809,25
+1675,glass,HIKARI-SF,J-SF8,glass\hikari\J-SF8.yml,1,1,0.388865,2.05809,25
+1676,glass,HIKARI-SF,J-SF10,glass\hikari\J-SF10.yml,1,1,0.388865,2.05809,24
+1677,glass,HIKARI-SF,J-SF11,glass\hikari\J-SF11.yml,1,1,0.388865,2.05809,24
+1678,glass,HIKARI-SF,J-SF13,glass\hikari\J-SF13.yml,1,1,0.388865,2.05809,23
+1679,glass,HIKARI-SF,J-SF14,glass\hikari\J-SF14.yml,1,1,0.388865,2.05809,23
+1680,glass,HIKARI-SF,J-SF15,glass\hikari\J-SF15.yml,1,1,0.388865,2.05809,25
+1681,glass,HIKARI-SF,Q-SF6S,glass\hikari\Q-SF6S.yml,1,1,0.3888865,2.05809,24
+1693,glass,HIKARI-BaF,J-BAF3,glass\hikari\J-BAF3.yml,1,1,0.365015,2.05809,26
+1694,glass,HIKARI-BaF,J-BAF4,glass\hikari\J-BAF4.yml,1,1,0.365015,2.05809,26
+1695,glass,HIKARI-BaF,J-BAF8,glass\hikari\J-BAF8.yml,1,1,0.365015,2.05809,26
+1696,glass,HIKARI-BaF,J-BAF10,glass\hikari\J-BAF10.yml,1,1,0.365015,2.05809,27
+1697,glass,HIKARI-BaF,J-BAF11,glass\hikari\J-BAF11.yml,1,1,0.365015,2.05809,27
+1698,glass,HIKARI-BaF,J-BAF12,glass\hikari\J-BAF12.yml,1,1,0.365015,2.05809,26
+1700,glass,HIKARI-BaLF,J-BALF4,glass\hikari\J-BALF4.yml,1,1,0.365015,2.05809,29
+1707,glass,HIKARI-BaSF,J-BASF2,glass\hikari\J-BASF2.yml,1,1,0.365015,2.05809,25
+1708,glass,HIKARI-BaSF,J-BASF6,glass\hikari\J-BASF6.yml,1,1,0.365015,2.05809,26
+1709,glass,HIKARI-BaSF,J-BASF7,glass\hikari\J-BASF7.yml,1,1,0.388865,2.05809,26
+1710,glass,HIKARI-BaSF,J-BASF8,glass\hikari\J-BASF8.yml,1,1,0.365015,2.05809,26
+1735,glass,HIKARI-LaF,J-LAF01,glass\hikari\J-LAF01.yml,1,1,0.388865,2.05809,27
+1736,glass,HIKARI-LaF,J-LAF2,glass\hikari\J-LAF2.yml,1,1,0.365015,2.05809,27
+1737,glass,HIKARI-LaF,J-LAF02,glass\hikari\J-LAF02.yml,1,1,0.365015,2.05809,27
+1738,glass,HIKARI-LaF,J-LAF3,glass\hikari\J-LAF3.yml,1,1,0.365015,2.05809,27
+1739,glass,HIKARI-LaF,J-LAFH3,glass\hikari\J-LAFH3.yml,1,1,0.388865,2.05809,23
+1741,glass,HIKARI-LaF,J-LAF04,glass\hikari\J-LAF04.yml,1,1,0.388865,2.05809,28
+1742,glass,HIKARI-LaF,J-LAF05,glass\hikari\J-LAF05.yml,1,1,0.365015,2.05809,28
+1743,glass,HIKARI-LaF,J-LAF7,glass\hikari\J-LAF7.yml,1,1,0.388865,2.05809,25
+1744,glass,HIKARI-LaF,J-LAF09,glass\hikari\J-LAF09.yml,1,1,0.388865,2.05809,27
+1745,glass,HIKARI-LaF,J-LAF010,glass\hikari\J-LAF010.yml,1,1,0.365015,2.05809,31
+1746,glass,HIKARI-LaF,J-LAF016,glass\hikari\J-LAF016.yml,1,1,0.388865,2.05809,26
+1750,glass,HIKARI-LaF,Q-LAF010S,glass\hikari\Q-LAF010S.yml,1,1,0.365015,2.05809,33
+1775,glass,HIKARI-LaSF,J-LASF01,glass\hikari\J-LASF01.yml,1,1,0.365015,2.05809,29
+1776,glass,HIKARI-LaSF,J-LASF02,glass\hikari\J-LASF02.yml,1,1,0.365015,2.05809,27
+1777,glass,HIKARI-LaSF,J-LASFH2,glass\hikari\J-LASFH2.yml,1,1,0.388865,2.05809,28
+1778,glass,HIKARI-LaSF,J-LASF03,glass\hikari\J-LASF03.yml,1,1,0.365015,2.05809,28
+1779,glass,HIKARI-LaSF,J-LASF05,glass\hikari\J-LASF05.yml,1,1,0.365015,2.05809,29
+1781,glass,HIKARI-LaSF,J-LASFH6,glass\hikari\J-LASFH6.yml,1,1,0.365015,2.05809,25
+1782,glass,HIKARI-LaSF,J-LASF08,glass\hikari\J-LASF08.yml,1,1,0.388865,2.05809,28
+1784,glass,HIKARI-LaSF,J-LASF09,glass\hikari\J-LASF09.yml,1,1,0.365015,2.05809,29
+1786,glass,HIKARI-LaSF,J-LASFH9,glass\hikari\J-LASFH9.yml,1,1,0.365015,2.05809,26
+1788,glass,HIKARI-LaSF,J-LASF010,glass\hikari\J-LASF010.yml,1,1,0.365015,2.05809,26
+1789,glass,HIKARI-LaSF,J-LASF013,glass\hikari\J-LASF013.yml,1,1,0.365015,2.05809,27
+1790,glass,HIKARI-LaSF,J-LASFH13,glass\hikari\J-LASFH13.yml,1,1,0.388865,2.05809,25
+1792,glass,HIKARI-LaSF,J-LASF014,glass\hikari\J-LASF014.yml,1,1,0.365015,2.05809,30
+1793,glass,HIKARI-LaSF,J-LASF015,glass\hikari\J-LASF015.yml,1,1,0.365015,2.05809,30
+1794,glass,HIKARI-LaSF,J-LASFH15,glass\hikari\J-LASFH15.yml,1,1,0.388865,2.05809,25
+1795,glass,HIKARI-LaSF,J-LASF016,glass\hikari\J-LASF016.yml,1,1,0.365015,2.05809,31
+1796,glass,HIKARI-LaSF,J-LASFH16,glass\hikari\J-LASFH16.yml,1,1,0.388865,2.05809,24
+1797,glass,HIKARI-LaSF,J-LASF017,glass\hikari\J-LASF017.yml,1,1,0.365015,2.05809,29
+1798,glass,HIKARI-LaSF,J-LASFH17,glass\hikari\J-LASFH17.yml,1,1,0.388865,2.05809,22
+1800,glass,HIKARI-LaSF,J-LASF021,glass\hikari\J-LASF021.yml,1,1,0.388865,2.05809,25
+1802,glass,HIKARI-LaSF,J-LASFH21,glass\hikari\J-LASFH21.yml,1,1,0.388865,2.05809,25
+1804,glass,HIKARI-LaSF,J-LASFH23,glass\hikari\J-LASFH23.yml,1,1,0.388865,2.05809,25
+1805,glass,HIKARI-LaSF,J-LASFH24,glass\hikari\J-LASFH24.yml,1,1,0.388865,2.05809,24
+1813,glass,HIKARI-LaSF,Q-LASF03S,glass\hikari\Q-LASF03S.yml,1,1,0.365015,2.05809,29
+1815,glass,HIKARI-LaSF,Q-LASFH11S,glass\hikari\Q-LASFH11S.yml,1,1,0.388865,2.05809,33
+1816,glass,HIKARI-LaSF,Q-LASFH12S,glass\hikari\Q-LASFH12S.yml,1,1,0.388865,2.05809,31
+1819,glass,HIKARI-LaSF,Q-LASFH58S,glass\hikari\Q-LASFH58S.yml,1,1,0.365015,2.05809,28
+1820,glass,HIKARI-LaSF,Q-LASFH59S,glass\hikari\Q-LASFH59S.yml,1,1,0.365015,2.05809,29
+1825,glass,HIKARI-KzF,J-KZFH1,glass\hikari\J-KZFH1.yml,1,1,0.365015,2.05809,28
+1829,glass,HIKARI-KF,J-KF6,glass\hikari\J-KF6.yml,1,1,0.365015,2.05809,27
+1830,glass,HIKARI-molding,Q-FK01S,glass\hikari\Q-FK01S.yml,1,1,0.365015,2.05809,33
+1831,glass,HIKARI-molding,Q-FKH2S,glass\hikari\Q-FKH2S.yml,1,1,0.365015,2.05809,31
+1832,glass,HIKARI-molding,Q-PSKH1S,glass\hikari\Q-PSKH1S.yml,1,1,0.388865,2.05809,31
+1833,glass,HIKARI-molding,Q-PSKH2S,glass\hikari\Q-PSKH2S.yml,1,1,0.365015,2.05809,33
+1834,glass,HIKARI-molding,Q-PSKH4S,glass\hikari\Q-PSKH4S.yml,1,1,0.365015,2.05809,32
+1835,glass,HIKARI-molding,Q-SK15S,glass\hikari\Q-SK15S.yml,1,1,0.365015,2.05809,33
+1836,glass,HIKARI-molding,Q-SK52S,glass\hikari\Q-SK52S.yml,1,1,0.365015,2.05809,33
+1837,glass,HIKARI-molding,Q-SK55S,glass\hikari\Q-SK55S.yml,1,1,0.365015,2.05809,33
+1838,glass,HIKARI-molding,Q-SF6S,glass\hikari\Q-SF6S.yml,1,1,0.3888865,2.05809,24
+1839,glass,HIKARI-molding,Q-LAK52S,glass\hikari\Q-LAK52S.yml,1,1,0.365015,2.05809,33
+1840,glass,HIKARI-molding,Q-LAK53S,glass\hikari\Q-LAK53S.yml,1,1,0.365015,2.05809,33
+1841,glass,HIKARI-molding,Q-LAF010S,glass\hikari\Q-LAF010S.yml,1,1,0.365015,2.05809,33
+1842,glass,HIKARI-molding,Q-LASF03S,glass\hikari\Q-LASF03S.yml,1,1,0.365015,2.05809,29
+1843,glass,HIKARI-molding,Q-LASFH11S,glass\hikari\Q-LASFH11S.yml,1,1,0.388865,2.05809,33
+1844,glass,HIKARI-molding,Q-LASFH12S,glass\hikari\Q-LASFH12S.yml,1,1,0.388865,2.05809,31
+1845,glass,HIKARI-molding,Q-LASFH58S,glass\hikari\Q-LASFH58S.yml,1,1,0.365015,2.05809,28
+1846,glass,HIKARI-molding,Q-LASFH59S,glass\hikari\Q-LASFH59S.yml,1,1,0.365015,2.05809,29
+1847,glass,CDGM-K,K4A,glass\cdgm\K4A.yml,1,0,0.365,0.7065,200
+1852,glass,CDGM-K,H-K5,glass\cdgm\H-K5.yml,1,0,0.365,0.7065,200
+1853,glass,CDGM-K,H-K6,glass\cdgm\H-K6.yml,1,0,0.365,0.7065,200
+1854,glass,CDGM-K,H-K7,glass\cdgm\H-K7.yml,1,0,0.365,0.7065,200
+1857,glass,CDGM-K,H-K9L,glass\cdgm\H-K9L.yml,1,0,0.365,0.7065,200
+1860,glass,CDGM-K,H-K10,glass\cdgm\H-K10.yml,1,0,0.365,0.7065,200
+1861,glass,CDGM-K,H-K11,glass\cdgm\H-K11.yml,1,0,0.365,0.7065,200
+1863,glass,CDGM-K,H-K50,glass\cdgm\H-K50.yml,1,0,0.365,0.7065,200
+1864,glass,CDGM-K,H-K51,glass\cdgm\H-K51.yml,1,0,0.365,0.7065,200
+1865,glass,CDGM-QK,H-QK1,glass\cdgm\H-QK1.yml,1,0,0.365,0.7065,200
+1866,glass,CDGM-QK,H-QK3L,glass\cdgm\H-QK3L.yml,1,0,0.365,0.7065,200
+1870,glass,CDGM-ZK,H-ZK1,glass\cdgm\H-ZK1.yml,1,0,0.365,0.7065,200
+1871,glass,CDGM-ZK,H-ZK2,glass\cdgm\H-ZK2.yml,1,0,0.365,0.7065,200
+1872,glass,CDGM-ZK,H-ZK3,glass\cdgm\H-ZK3.yml,1,0,0.365,0.7065,200
+1874,glass,CDGM-ZK,H-ZK4,glass\cdgm\H-ZK4.yml,1,0,0.365,0.7065,200
+1875,glass,CDGM-ZK,H-ZK5,glass\cdgm\H-ZK5.yml,1,0,0.365,0.7065,200
+1876,glass,CDGM-ZK,H-ZK6,glass\cdgm\H-ZK6.yml,1,0,0.365,0.7065,200
+1877,glass,CDGM-ZK,H-ZK7,glass\cdgm\H-ZK7.yml,1,0,0.365,0.7065,200
+1878,glass,CDGM-ZK,H-ZK8,glass\cdgm\H-ZK8.yml,1,0,0.365,0.7065,200
+1879,glass,CDGM-ZK,H-ZK9A,glass\cdgm\H-ZK9A.yml,1,0,0.365,0.7065,200
+1881,glass,CDGM-ZK,H-ZK10,glass\cdgm\H-ZK10.yml,1,0,0.365,0.7065,200
+1882,glass,CDGM-ZK,H-ZK10L,glass\cdgm\H-ZK10L.yml,1,0,0.365,0.7065,200
+1883,glass,CDGM-ZK,H-ZK11,glass\cdgm\H-ZK11.yml,1,0,0.365,0.7065,200
+1884,glass,CDGM-ZK,H-ZK14,glass\cdgm\H-ZK14.yml,1,0,0.365,0.7065,200
+1886,glass,CDGM-ZK,H-ZK21,glass\cdgm\H-ZK21.yml,1,0,0.365,0.7065,200
+1887,glass,CDGM-ZK,H-ZK50,glass\cdgm\H-ZK50.yml,1,0,0.365,0.7065,200
+1889,glass,CDGM-BAK,H-BAK1,glass\cdgm\H-BAK1.yml,1,0,0.365,0.7065,200
+1890,glass,CDGM-BAK,H-BAK2,glass\cdgm\H-BAK2.yml,1,0,0.365,0.7065,200
+1891,glass,CDGM-BAK,H-BAK3,glass\cdgm\H-BAK3.yml,1,0,0.365,0.7065,200
+1892,glass,CDGM-BAK,H-BAK4,glass\cdgm\H-BAK4.yml,1,0,0.365,0.7065,200
+1893,glass,CDGM-BAK,H-BAK5,glass\cdgm\H-BAK5.yml,1,0,0.365,0.7065,200
+1894,glass,CDGM-BAK,H-BAK6,glass\cdgm\H-BAK6.yml,1,0,0.365,0.7065,200
+1895,glass,CDGM-BAK,H-BAK7,glass\cdgm\H-BAK7.yml,1,0,0.365,0.7065,200
+1897,glass,CDGM-BAK,H-BAK8,glass\cdgm\H-BAK8.yml,1,0,0.365,0.7065,200
+1899,glass,CDGM-FK,H-KF6,glass\cdgm\H-KF6.yml,1,0,0.365,0.7065,200
+1900,glass,CDGM-FK,H-FK61,glass\cdgm\H-FK61.yml,1,0,0.365,0.7065,200
+1905,glass,CDGM-LAK,D-LAK70,glass\cdgm\D-LAK70.yml,1,0,0.365,0.7065,200
+1908,glass,CDGM-LAK,H-LAK3,glass\cdgm\H-LAK3.yml,1,0,0.365,0.7065,200
+1909,glass,CDGM-LAK,H-LAK4L,glass\cdgm\H-LAK4L.yml,1,0,0.365,0.7065,200
+1910,glass,CDGM-LAK,H-LAK5A,glass\cdgm\H-LAK5A.yml,1,0,0.365,0.7065,200
+1913,glass,CDGM-LAK,H-LAK8A,glass\cdgm\H-LAK8A.yml,1,0,0.365,0.7065,200
+1915,glass,CDGM-LAK,H-LAK10,glass\cdgm\H-LAK10.yml,1,0,0.365,0.7065,200
+1920,glass,CDGM-LAK,H-LAK52,glass\cdgm\H-LAK52.yml,1,0,0.365,0.7065,200
+1921,glass,CDGM-LAK,H-LAK53A,glass\cdgm\H-LAK53A.yml,1,0,0.365,0.7065,200
+1923,glass,CDGM-LAK,H-LAK54,glass\cdgm\H-LAK54.yml,1,0,0.365,0.7065,200
+1925,glass,CDGM-LAK,H-LAK61,glass\cdgm\H-LAK61.yml,1,0,0.365,0.7065,200
+1926,glass,CDGM-LAK,H-LAK67,glass\cdgm\H-LAK67.yml,1,0,0.365,0.7065,200
+1933,glass,CDGM-F,F1,glass\cdgm\F1.yml,1,0,0.365,0.7065,200
+1934,glass,CDGM-F,F2,glass\cdgm\F2.yml,1,0,0.365,0.7065,200
+1935,glass,CDGM-F,F3,glass\cdgm\F3.yml,1,0,0.365,0.7065,200
+1936,glass,CDGM-F,F4,glass\cdgm\F4.yml,1,0,0.365,0.7065,200
+1937,glass,CDGM-F,F5,glass\cdgm\F5.yml,1,0,0.365,0.7065,200
+1938,glass,CDGM-F,F6,glass\cdgm\F6.yml,1,0,0.365,0.7065,200
+1939,glass,CDGM-F,F7,glass\cdgm\F7.yml,1,0,0.365,0.7065,200
+1940,glass,CDGM-F,F13,glass\cdgm\F13.yml,1,0,0.365,0.7065,200
+1941,glass,CDGM-F,H-F1,glass\cdgm\H-F1.yml,1,0,0.365,0.7065,200
+1943,glass,CDGM-F,H-F4,glass\cdgm\H-F4.yml,1,0,0.365,0.7065,200
+1944,glass,CDGM-F,H-F13,glass\cdgm\H-F13.yml,1,0,0.365,0.7065,200
+1945,glass,CDGM-F,H-F51,glass\cdgm\H-F51.yml,1,0,0.365,0.7065,200
+1946,glass,CDGM-QF,QF1,glass\cdgm\QF1.yml,1,0,0.365,0.7065,200
+1947,glass,CDGM-QF,QF3,glass\cdgm\QF3.yml,1,0,0.365,0.7065,200
+1948,glass,CDGM-QF,QF5,glass\cdgm\QF5.yml,1,0,0.365,0.7065,200
+1949,glass,CDGM-QF,QF6,glass\cdgm\QF6.yml,1,0,0.365,0.7065,200
+1950,glass,CDGM-QF,QF8,glass\cdgm\QF8.yml,1,0,0.365,0.7065,200
+1951,glass,CDGM-QF,QF50,glass\cdgm\QF50.yml,1,0,0.365,0.7065,200
+1952,glass,CDGM-QF,H-QF1,glass\cdgm\H-QF1.yml,1,0,0.365,0.7065,200
+1953,glass,CDGM-QF,H-QF3,glass\cdgm\H-QF3.yml,1,0,0.365,0.7065,200
+1955,glass,CDGM-QF,H-QF8,glass\cdgm\H-QF8.yml,1,0,0.365,0.7065,200
+1958,glass,CDGM-QF,H-QF56,glass\cdgm\H-QF56.yml,1,0,0.365,0.7065,200
+1959,glass,CDGM-ZF,ZF1,glass\cdgm\ZF1.yml,1,0,0.365,0.7065,200
+1960,glass,CDGM-ZF,ZF2,glass\cdgm\ZF2.yml,1,0,0.365,0.7065,200
+1961,glass,CDGM-ZF,ZF3,glass\cdgm\ZF3.yml,1,0,0.365,0.7065,200
+1962,glass,CDGM-ZF,ZF4,glass\cdgm\ZF4.yml,1,0,0.365,0.7065,200
+1963,glass,CDGM-ZF,ZF5,glass\cdgm\ZF5.yml,1,0,0.365,0.7065,200
+1964,glass,CDGM-ZF,ZF6,glass\cdgm\ZF6.yml,1,0,0.365,0.7065,200
+1966,glass,CDGM-ZF,ZF7L,glass\cdgm\ZF7L.yml,1,0,0.365,0.7065,200
+1968,glass,CDGM-ZF,ZF8,glass\cdgm\ZF8.yml,1,0,0.365,0.7065,200
+1969,glass,CDGM-ZF,ZF10,glass\cdgm\ZF10.yml,1,0,0.365,0.7065,200
+1970,glass,CDGM-ZF,ZF11,glass\cdgm\ZF11.yml,1,0,0.365,0.7065,200
+1971,glass,CDGM-ZF,H-ZF11,glass\cdgm\H-ZF11.yml,1,0,0.365,0.7065,200
+1972,glass,CDGM-ZF,ZF12,glass\cdgm\ZF12.yml,1,0,0.365,0.7065,200
+1973,glass,CDGM-ZF,ZF13,glass\cdgm\ZF13.yml,1,0,0.365,0.7065,200
+1974,glass,CDGM-ZF,ZF50,glass\cdgm\ZF50.yml,1,0,0.365,0.7065,200
+1975,glass,CDGM-ZF,ZF51,glass\cdgm\ZF51.yml,1,0,0.365,0.7065,200
+1979,glass,CDGM-ZF,H-ZF1,glass\cdgm\H-ZF1.yml,1,0,0.365,0.7065,200
+1980,glass,CDGM-ZF,H-ZF2,glass\cdgm\H-ZF2.yml,1,0,0.365,0.7065,200
+1981,glass,CDGM-ZF,H-ZF3,glass\cdgm\H-ZF3.yml,1,0,0.365,0.7065,200
+1984,glass,CDGM-ZF,H-ZF5,glass\cdgm\H-ZF5.yml,1,0,0.365,0.7065,200
+1985,glass,CDGM-ZF,H-ZF6,glass\cdgm\H-ZF6.yml,1,0,0.365,0.7065,200
+1986,glass,CDGM-ZF,H-ZF7LA,glass\cdgm\H-ZF7LA.yml,1,0,0.365,0.7065,200
+1988,glass,CDGM-ZF,H-ZF10,glass\cdgm\H-ZF10.yml,1,0,0.365,0.7065,200
+1989,glass,CDGM-ZF,H-ZF12,glass\cdgm\H-ZF12.yml,1,0,0.365,0.7065,200
+1990,glass,CDGM-ZF,H-ZF13,glass\cdgm\H-ZF13.yml,1,0,0.365,0.7065,200
+1993,glass,CDGM-ZF,H-ZF50,glass\cdgm\H-ZF50.yml,1,0,0.365,0.7065,200
+1995,glass,CDGM-ZF,H-ZF52A,glass\cdgm\H-ZF52A.yml,1,0,0.365,0.7065,200
+1998,glass,CDGM-ZF,H-ZF62,glass\cdgm\H-ZF62.yml,1,0,0.365,1.014,200
+2002,glass,CDGM-TF,TF3,glass\cdgm\TF3.yml,1,0,0.365,0.7065,200
+2007,glass,CDGM-BAF,BAF4,glass\cdgm\BAF4.yml,1,0,0.365,0.7065,200
+2008,glass,CDGM-BAF,BAF5,glass\cdgm\BAF5.yml,1,0,0.365,0.7065,200
+2009,glass,CDGM-BAF,BAF7,glass\cdgm\BAF7.yml,1,0,0.365,0.7065,200
+2017,glass,CDGM-ZBAF,ZBAF2,glass\cdgm\ZBAF2.yml,1,0,0.365,0.7065,200
+2021,glass,CDGM-ZBAF,H-ZBAF3,glass\cdgm\H-ZBAF3.yml,1,0,0.365,0.7065,200
+2023,glass,CDGM-ZBAF,H-ZBAF5,glass\cdgm\H-ZBAF5.yml,1,0,0.365,0.7065,200
+2024,glass,CDGM-ZBAF,H-ZBAF16,glass\cdgm\H-ZBAF16.yml,1,0,0.365,0.7065,200
+2025,glass,CDGM-ZBAF,H-ZBAF20,glass\cdgm\H-ZBAF20.yml,1,0,0.365,0.7065,200
+2026,glass,CDGM-ZBAF,H-ZBAF21,glass\cdgm\H-ZBAF21.yml,1,0,0.365,0.7065,200
+2027,glass,CDGM-ZBAF,H-ZBAF50,glass\cdgm\H-ZBAF50.yml,1,0,0.365,0.7065,200
+2028,glass,CDGM-ZBAF,H-ZBAF52,glass\cdgm\H-ZBAF52.yml,1,0,0.365,0.7065,200
+2032,glass,CDGM-LAF,D-LAF79,glass\cdgm\D-LAF79.yml,1,0,0.365,0.7065,200
+2035,glass,CDGM-LAF,H-LAF2,glass\cdgm\H-LAF2.yml,1,0,0.365,0.7065,200
+2037,glass,CDGM-LAF,H-LAF4,glass\cdgm\H-LAF4.yml,1,0,0.365,0.7065,200
+2040,glass,CDGM-LAF,H-LAF6LA,glass\cdgm\H-LAF6LA.yml,1,0,0.365,0.7065,200
+2045,glass,CDGM-LAF,H-LAF52,glass\cdgm\H-LAF52.yml,1,0,0.365,0.7065,200
+2046,glass,CDGM-LAF,H-LAF53,glass\cdgm\H-LAF53.yml,1,0,0.365,0.7065,200
+2047,glass,CDGM-LAF,H-LAF54,glass\cdgm\H-LAF54.yml,1,0,0.365,0.7065,200
+2049,glass,CDGM-LAF,H-LAF62,glass\cdgm\H-LAF62.yml,1,0,0.365,0.7065,200
+2063,glass,CDGM-ZLAF,H-ZLAF51,glass\cdgm\H-ZLAF51.yml,1,0,0.365,0.7065,200
+2064,glass,CDGM-ZLAF,H-ZLAF52,glass\cdgm\H-ZLAF52.yml,1,0,0.365,0.7065,200
+2071,glass,CDGM-ZLAF,H-ZLAF66,glass\cdgm\H-ZLAF66.yml,1,0,0.365,0.7065,200
+2085,glass,CDGM-KF,H-KF6,glass\cdgm\H-KF6.yml,1,0,0.365,0.7065,200
+2086,glass,HOYA-C,E-C3,glass\hoya\E-C3.yml,1,0,0.28,1.55,200
+2087,glass,HOYA-BSC,BSC7,glass\hoya\BSC7.yml,1,0,0.28,1.55,200
+2088,glass,HOYA-BaC,BAC4,glass\hoya\BAC4.yml,1,0,0.28,1.55,200
+2089,glass,HOYA-BaCD,BACD2,glass\hoya\BACD2.yml,1,0,0.3,1.55,200
+2090,glass,HOYA-BaCD,BACD4,glass\hoya\BACD4.yml,1,0,0.29,1.55,200
+2091,glass,HOYA-BaCD,BACD5,glass\hoya\BACD5.yml,1,0,0.28,1.55,200
+2092,glass,HOYA-BaCD,BACD11,glass\hoya\BACD11.yml,1,0,0.29,1.55,200
+2093,glass,HOYA-BaCD,BACD14,glass\hoya\BACD14.yml,1,0,0.29,1.55,200
+2094,glass,HOYA-BaCD,BACD15,glass\hoya\BACD15.yml,1,0,0.28,1.55,200
+2095,glass,HOYA-BaCD,BACD16,glass\hoya\BACD16.yml,1,0,0.28,1.55,200
+2096,glass,HOYA-BaCD,BACD18,glass\hoya\BACD18.yml,1,0,0.32,1.55,200
+2097,glass,HOYA-BaCD,E-BACD10,glass\hoya\E-BACD10.yml,1,0,0.28,1.55,200
+2098,glass,HOYA-BaCD,M-BACD5N,glass\hoya\M-BACD5N.yml,1,0,0.28,1.55,200
+2099,glass,HOYA-BaCD,M-BACD12,glass\hoya\M-BACD12.yml,1,0,0.28,0.7,200
+2100,glass,HOYA-BaCD,M-BACD15,glass\hoya\M-BACD15.yml,1,0,0.28,1.55,200
+2106,glass,HOYA-BaCED,BACED5,glass\hoya\BACED5.yml,1,0,0.32,1.55,200
+2107,glass,HOYA-BaCED,E-BACED20,glass\hoya\E-BACED20.yml,1,0,0.28,1.55,200
+2108,glass,HOYA-FC,FC5,glass\hoya\FC5.yml,1,0,0.28,1.55,200
+2109,glass,HOYA-FCD,FCD1,glass\hoya\FCD1.yml,1,0,0.28,1.55,200
+2111,glass,HOYA-FCD,FCD10,glass\hoya\FCD10.yml,1,0,0.28,1.55,200
+2123,glass,HOYA-LaC,LAC7,glass\hoya\LAC7.yml,1,0,0.28,1.55,200
+2124,glass,HOYA-LaC,LAC8,glass\hoya\LAC8.yml,1,0,0.28,1.55,200
+2125,glass,HOYA-LaC,LAC9,glass\hoya\LAC9.yml,1,0,0.28,1.55,200
+2126,glass,HOYA-LaC,LAC10,glass\hoya\LAC10.yml,1,0,0.29,1.55,200
+2127,glass,HOYA-LaC,LAC12,glass\hoya\LAC12.yml,1,0,0.29,1.55,200
+2128,glass,HOYA-LaC,LAC13,glass\hoya\LAC13.yml,1,0,0.29,1.55,200
+2129,glass,HOYA-LaC,LAC14,glass\hoya\LAC14.yml,1,0,0.28,1.55,200
+2132,glass,HOYA-LaC,M-LAC130,glass\hoya\M-LAC130.yml,1,0,0.28,0.7,200
+2137,glass,HOYA-LaCL,LACL60,glass\hoya\LACL60.yml,1,0,0.28,1.55,200
+2138,glass,HOYA-LBC,LBC3N,glass\hoya\LBC3N.yml,1,0,0.28,1.55,200
+2139,glass,HOYA-PCD,PCD4,glass\hoya\PCD4.yml,1,0,0.28,1.55,200
+2142,glass,HOYA-PCD,M-PCD4,glass\hoya\M-PCD4.yml,1,0,0.33,1.55,200
+2143,glass,HOYA-PCD,M-PCD51,glass\hoya\M-PCD51.yml,1,0,0.28,1.55,200
+2148,glass,HOYA-TaC,TAC2,glass\hoya\TAC2.yml,1,0,0.28,1.55,200
+2149,glass,HOYA-TaC,TAC4,glass\hoya\TAC4.yml,1,0,0.28,1.55,200
+2150,glass,HOYA-TaC,TAC6,glass\hoya\TAC6.yml,1,0,0.28,1.55,200
+2151,glass,HOYA-TaC,TAC8,glass\hoya\TAC8.yml,1,0,0.28,1.55,200
+2156,glass,HOYA-F,E-F1,glass\hoya\E-F1.yml,1,0,0.35,1.55,200
+2157,glass,HOYA-F,E-F2,glass\hoya\E-F2.yml,1,0,0.35,1.55,200
+2158,glass,HOYA-F,E-F3,glass\hoya\E-F3.yml,1,0,0.35,1.55,200
+2159,glass,HOYA-F,E-F5,glass\hoya\E-F5.yml,1,0,0.35,1.55,200
+2160,glass,HOYA-F,E-F8,glass\hoya\E-F8.yml,1,0,0.35,1.55,200
+2161,glass,HOYA-FL,E-FL5,glass\hoya\E-FL5.yml,1,0,0.35,1.55,200
+2162,glass,HOYA-FL,E-FL6,glass\hoya\E-FL6.yml,1,0,0.35,1.55,200
+2163,glass,HOYA-FEL,E-FEL1,glass\hoya\E-FEL1.yml,1,0,0.34,1.55,200
+2164,glass,HOYA-FEL,E-FEL2,glass\hoya\E-FEL2.yml,1,0,0.34,1.55,200
+2165,glass,HOYA-FEL,E-FEL6,glass\hoya\E-FEL6.yml,1,0,0.33,1.55,200
+2166,glass,HOYA-FD,FD60,glass\hoya\FD60.yml,1,0,0.37,1.55,200
+2168,glass,HOYA-FD,FD110,glass\hoya\FD110.yml,1,0,0.36,1.55,200
+2169,glass,HOYA-FD,FD140,glass\hoya\FD140.yml,1,0,0.37,1.55,200
+2171,glass,HOYA-FD,E-FD1,glass\hoya\E-FD1.yml,1,0,0.36,1.55,200
+2172,glass,HOYA-FD,E-FD2,glass\hoya\E-FD2.yml,1,0,0.35,1.55,200
+2173,glass,HOYA-FD,E-FD4,glass\hoya\E-FD4.yml,1,0,0.36,1.55,200
+2174,glass,HOYA-FD,E-FD5,glass\hoya\E-FD5.yml,1,0,0.35,1.55,200
+2175,glass,HOYA-FD,E-FD7,glass\hoya\E-FD7.yml,1,0,0.35,1.55,200
+2176,glass,HOYA-FD,E-FD8,glass\hoya\E-FD8.yml,1,0,0.35,1.55,200
+2177,glass,HOYA-FD,E-FD10,glass\hoya\E-FD10.yml,1,0,0.36,1.55,200
+2178,glass,HOYA-FD,E-FD13,glass\hoya\E-FD13.yml,1,0,0.36,1.55,200
+2179,glass,HOYA-FD,E-FD15,glass\hoya\E-FD15.yml,1,0,0.36,1.55,200
+2180,glass,HOYA-FD,M-FD80,glass\hoya\M-FD80.yml,1,0,0.37,1.55,200
+2183,glass,HOYA-FDS,FDS18,glass\hoya\FDS18.yml,1,0,0.4,1.55,200
+2186,glass,HOYA-FDS,FDS90,glass\hoya\FDS90.yml,1,0,0.37,1.55,200
+2189,glass,HOYA-FDS,E-FDS1,glass\hoya\E-FDS1.yml,1,0,0.39,1.55,200
+2195,glass,HOYA-FDS,M-FDS910,glass\hoya\M-FDS910.yml,1,0,0.38,1.55,200
+2201,glass,HOYA-ADF,E-ADF10,glass\hoya\E-ADF10.yml,1,0,0.32,1.55,200
+2202,glass,HOYA-ADF,E-ADF50,glass\hoya\E-ADF50.yml,1,0,0.34,1.55,200
+2203,glass,HOYA-BaF,BAF10,glass\hoya\BAF10.yml,1,0,0.34,0.7,200
+2204,glass,HOYA-BaF,BAF11,glass\hoya\BAF11.yml,1,0,0.33,1.55,200
+2205,glass,HOYA-BaF,E-BAF8,glass\hoya\E-BAF8.yml,1,0,0.33,1.55,200
+2206,glass,HOYA-BaFD,BAFD7,glass\hoya\BAFD7.yml,1,0,0.34,1.55,200
+2207,glass,HOYA-BaFD,BAFD8,glass\hoya\BAFD8.yml,1,0,0.36,1.55,200
+2208,glass,HOYA-FF,FF5,glass\hoya\FF5.yml,1,0,0.35,0.7,200
+2209,glass,HOYA-FF,FF8,glass\hoya\FF8.yml,1,0,0.36,1.55,200
+2210,glass,HOYA-LaF,LAF2,glass\hoya\LAF2.yml,1,0,0.31,1.55,200
+2211,glass,HOYA-LaF,LAF3,glass\hoya\LAF3.yml,1,0,0.32,1.55,200
+2212,glass,HOYA-LaF,E-LAF7,glass\hoya\E-LAF7.yml,1,0,0.35,1.55,200
+2213,glass,HOYA-LaF,M-LAF81,glass\hoya\M-LAF81.yml,1,0,0.33,0.7,200
+2215,glass,HOYA-NbF,NBF1,glass\hoya\NBF1.yml,1,0,0.29,1.55,200
+2216,glass,HOYA-NbF,M-NBF1,glass\hoya\M-NBF1.yml,1,0,0.28,0.7,200
+2219,glass,HOYA-NbFD,NBFD3,glass\hoya\NBFD3.yml,1,0,0.35,1.55,200
+2220,glass,HOYA-NbFD,NBFD10,glass\hoya\NBFD10.yml,1,0,0.34,1.55,200
+2221,glass,HOYA-NbFD,NBFD11,glass\hoya\NBFD11.yml,1,0,0.31,1.55,200
+2222,glass,HOYA-NbFD,NBFD12,glass\hoya\NBFD12.yml,1,0,0.32,1.55,200
+2223,glass,HOYA-NbFD,NBFD13,glass\hoya\NBFD13.yml,1,0,0.34,1.55,200
+2224,glass,HOYA-NbFD,NBFD15,glass\hoya\NBFD15.yml,1,0,0.34,1.55,200
+2226,glass,HOYA-NbFD,M-NBFD10,glass\hoya\M-NBFD10.yml,1,0,0.35,1.55,200
+2227,glass,HOYA-NbFD,M-NBFD130,glass\hoya\M-NBFD130.yml,1,0,0.33,1.55,200
+2231,glass,HOYA-TaF,TAF1,glass\hoya\TAF1.yml,1,0,0.29,1.55,200
+2232,glass,HOYA-TaF,TAF2,glass\hoya\TAF2.yml,1,0,0.31,1.55,200
+2233,glass,HOYA-TaF,TAF3,glass\hoya\TAF3.yml,1,0,0.3,1.55,200
+2235,glass,HOYA-TaF,TAF4,glass\hoya\TAF4.yml,1,0,0.31,1.55,200
+2236,glass,HOYA-TaF,TAF5,glass\hoya\TAF5.yml,1,0,0.3,0.7,200
+2238,glass,HOYA-TaF,M-TAF31,glass\hoya\M-TAF31.yml,1,0,0.32,1.55,200
+2239,glass,HOYA-TaF,M-TAF101,glass\hoya\M-TAF101.yml,1,0,0.32,1.55,200
+2241,glass,HOYA-TaF,M-TAF401,glass\hoya\M-TAF401.yml,1,0,0.32,1.55,200
+2251,glass,HOYA-TaFD,TAFD5F,glass\hoya\TAFD5F.yml,1,0,0.33,1.55,200
+2253,glass,HOYA-TaFD,TAFD25,glass\hoya\TAFD25.yml,1,0,0.36,1.55,200
+2254,glass,HOYA-TaFD,TAFD30,glass\hoya\TAFD30.yml,1,0,0.3,1.55,200
+2260,glass,HOYA-TaFD,TAFD40,glass\hoya\TAFD40.yml,1,0,0.37,1.55,200
+2264,glass,HOYA-TaFD,M-TAFD51,glass\hoya\M-TAFD51.yml,1,0,0.35,1.55,200
+2265,glass,HOYA-TaFD,M-TAFD305,glass\hoya\M-TAFD305.yml,1,0,0.34,1.55,200
+2275,glass,HOYA-CF,E-CF6,glass\hoya\E-CF6.yml,1,0,0.33,1.55,200
+2276,glass,SUMITA-SK,K-SK4,glass\sumita\K-SK4.yml,1,0,0.365,1.548,200
+2277,glass,SUMITA-SK,K-SK5,glass\sumita\K-SK5.yml,1,0,0.365,1.548,200
+2278,glass,SUMITA-SK,K-SK7,glass\sumita\K-SK7.yml,1,0,0.365,1.548,200
+2279,glass,SUMITA-SK,K-SK14,glass\sumita\K-SK14.yml,1,0,0.365,1.548,200
+2280,glass,SUMITA-SK,K-SK15,glass\sumita\K-SK15.yml,1,0,0.365,1.548,200
+2281,glass,SUMITA-SK,K-SK16RH,glass\sumita\K-SK16RH.yml,1,0,0.365,1.548,200
+2282,glass,SUMITA-SK,K-SK18,glass\sumita\K-SK18.yml,1,0,0.365,1.548,200
+2283,glass,SUMITA-SK,K-SK18RH,glass\sumita\K-SK18RH.yml,1,0,0.365,1.548,200
+2284,glass,SUMITA-BK,K-BK7,glass\sumita\K-BK7.yml,1,0,0.365,1.548,200
+2285,glass,SUMITA-FK,K-FK5,glass\sumita\K-FK5.yml,1,0,0.365,1.548,200
+2286,glass,SUMITA-LaK,K-LaK6,glass\sumita\K-LaK6.yml,1,0,0.365,1.548,200
+2287,glass,SUMITA-LaK,K-LaK7,glass\sumita\K-LaK7.yml,1,0,0.365,1.548,200
+2288,glass,SUMITA-LaK,K-LaK8,glass\sumita\K-LaK8.yml,1,0,0.365,1.548,200
+2289,glass,SUMITA-LaK,K-LaK9,glass\sumita\K-LaK9.yml,1,0,0.365,1.548,200
+2290,glass,SUMITA-LaK,K-LaK10,glass\sumita\K-LaK10.yml,1,0,0.365,1.548,200
+2291,glass,SUMITA-LaK,K-LaK11,glass\sumita\K-LaK11.yml,1,0,0.365,1.548,200
+2292,glass,SUMITA-LaK,K-LaK12,glass\sumita\K-LaK12.yml,1,0,0.365,1.548,200
+2293,glass,SUMITA-LaK,K-LaK14,glass\sumita\K-LaK14.yml,1,0,0.365,1.548,200
+2294,glass,SUMITA-LaK,K-LaK18,glass\sumita\K-LaK18.yml,1,0,0.365,1.548,200
+2295,glass,SUMITA-LaK,K-LaKn2,glass\sumita\K-LaKn2.yml,1,0,0.365,1.548,200
+2298,glass,SUMITA-LaK,K-LaKn7,glass\sumita\K-LaKn7.yml,1,0,0.365,1.548,200
+2300,glass,SUMITA-LaK,K-LaKn14,glass\sumita\K-LaKn14.yml,1,0,0.365,1.548,200
+2301,glass,SUMITA-LaSK,K-LaSKn1,glass\sumita\K-LaSKn1.yml,1,0,0.365,1.548,200
+2302,glass,SUMITA-PSK,K-PSK11,glass\sumita\K-PSK11.yml,1,0,0.365,1.548,200
+2304,glass,SUMITA-PSK,K-PSK100,glass\sumita\K-PSK100.yml,1,0,0.365,1.548,200
+2306,glass,SUMITA-PSK,K-PSK200,glass\sumita\K-PSK200.yml,1,0,0.365,1.548,200
+2314,glass,SUMITA-PSK,K-PSKn2,glass\sumita\K-PSKn2.yml,1,0,0.365,1.548,200
+2315,glass,SUMITA-SSK,K-SSK1,glass\sumita\K-SSK1.yml,1,0,0.365,1.548,200
+2316,glass,SUMITA-SSK,K-SSK3,glass\sumita\K-SSK3.yml,1,0,0.365,1.548,200
+2317,glass,SUMITA-SSK,K-SSK4,glass\sumita\K-SSK4.yml,1,0,0.365,1.548,200
+2318,glass,SUMITA-SSK,K-SSK9,glass\sumita\K-SSK9.yml,1,0,0.365,1.548,200
+2319,glass,SUMITA-BaF,K-BaF8,glass\sumita\K-BaF8.yml,1,0,0.365,1.548,200
+2320,glass,SUMITA-BaF,K-BaF9,glass\sumita\K-BaF9.yml,1,0,0.365,1.548,200
+2321,glass,SUMITA-BaF,K-BaFn1,glass\sumita\K-BaFn1.yml,1,0,0.365,1.548,200
+2322,glass,SUMITA-BaF,K-BaFn3,glass\sumita\K-BaFn3.yml,1,0,0.365,1.548,200
+2323,glass,SUMITA-BaSF,K-BaSF4,glass\sumita\K-BaSF4.yml,1,0,0.365,1.548,200
+2324,glass,SUMITA-BaSF,K-BaSF5,glass\sumita\K-BaSF5.yml,1,0,0.365,1.548,200
+2325,glass,SUMITA-LaF,K-LaF2,glass\sumita\K-LaF2.yml,1,0,0.365,1.548,200
+2326,glass,SUMITA-LaF,K-LaFn3,glass\sumita\K-LaFn3.yml,1,0,0.365,1.548,200
+2327,glass,SUMITA-LaF,K-LaFn5,glass\sumita\K-LaFn5.yml,1,0,0.365,1.548,200
+2328,glass,SUMITA-LaF,K-LaFn11,glass\sumita\K-LaFn11.yml,1,0,0.365,1.548,200
+2329,glass,SUMITA-LaSF,K-LaSFn1,glass\sumita\K-LaSFn1.yml,1,0,0.365,1.548,200
+2330,glass,SUMITA-LaSF,K-LaSFn2,glass\sumita\K-LaSFn2.yml,1,0,0.365,1.548,200
+2331,glass,SUMITA-LaSF,K-LaSFn3,glass\sumita\K-LaSFn3.yml,1,0,0.365,1.548,200
+2332,glass,SUMITA-LaSF,K-LaSFn4,glass\sumita\K-LaSFn4.yml,1,0,0.365,1.548,200
+2333,glass,SUMITA-LaSF,K-LaSFn6,glass\sumita\K-LaSFn6.yml,1,0,0.365,1.548,200
+2334,glass,SUMITA-LaSF,K-LaSFn7,glass\sumita\K-LaSFn7.yml,1,0,0.365,1.548,200
+2335,glass,SUMITA-LaSF,K-LaSFn8,glass\sumita\K-LaSFn8.yml,1,0,0.365,1.548,200
+2336,glass,SUMITA-LaSF,K-LaSFn9,glass\sumita\K-LaSFn9.yml,1,0,0.365,1.548,200
+2337,glass,SUMITA-LaSF,K-LaSFn10,glass\sumita\K-LaSFn10.yml,1,0,0.365,1.548,200
+2338,glass,SUMITA-LaSF,K-LaSFn14,glass\sumita\K-LaSFn14.yml,1,0,0.365,1.548,200
+2339,glass,SUMITA-LaSF,K-LaSFn16,glass\sumita\K-LaSFn16.yml,1,0,0.365,1.548,200
+2340,glass,SUMITA-LaSF,K-LaSFn17,glass\sumita\K-LaSFn17.yml,1,0,0.365,1.548,200
+2341,glass,SUMITA-LaSF,K-LaSFn21,glass\sumita\K-LaSFn21.yml,1,0,0.365,1.548,200
+2342,glass,SUMITA-LaSF,K-LaSFn22,glass\sumita\K-LaSFn22.yml,1,0,0.365,1.548,200
+2344,glass,SUMITA-SFLD,K-SFLD1,glass\sumita\K-SFLD1.yml,1,0,0.365,1.548,200
+2345,glass,SUMITA-SFLD,K-SFLDn3,glass\sumita\K-SFLDn3.yml,1,0,0.365,1.548,200
+2346,glass,SUMITA-SFLD,K-SFLD4,glass\sumita\K-SFLD4.yml,1,0,0.365,1.548,200
+2347,glass,SUMITA-SFLD,K-SFLD6,glass\sumita\K-SFLD6.yml,1,0,0.365,1.548,200
+2348,glass,SUMITA-SFLD,K-SFLD8,glass\sumita\K-SFLD8.yml,1,0,0.365,1.548,200
+2349,glass,SUMITA-SFLD,K-SFLD11,glass\sumita\K-SFLD11.yml,1,0,0.365,1.548,200
+2350,glass,SUMITA-SFLD,K-SFLD14,glass\sumita\K-SFLD14.yml,1,0,0.365,1.548,200
+2351,glass,SUMITA-SFLD,K-SFLD66,glass\sumita\K-SFLD66.yml,1,0,0.365,1.548,200
+2352,glass,SUMITA-BPG,K-BPG2,glass\sumita\K-BPG2.yml,1,0,0.365,1.548,200
+2355,glass,SUMITA-CaFK,K-CaFK95,glass\sumita\K-CaFK95.yml,1,0,0.365,1.548,200
+2357,glass,SUMITA-CD,K-CD45,glass\sumita\K-CD45.yml,1,0,0.365,1.548,200
+2359,glass,SUMITA-CD,K-CD120,glass\sumita\K-CD120.yml,1,0,0.365,1.548,200
+2361,glass,SUMITA-CSK,K-CSK120,glass\sumita\K-CSK120.yml,1,0,0.365,1.548,200
+2367,glass,SUMITA-GFK,K-GFK68,glass\sumita\K-GFK68.yml,1,0,0.365,1.548,200
+2369,glass,SUMITA-GFK,K-GFK70,glass\sumita\K-GFK70.yml,1,0,0.365,1.548,200
+2371,glass,SUMITA-LaFK,K-LaFK50,glass\sumita\K-LaFK50.yml,1,0,0.365,1.548,200
+2375,glass,SUMITA-LaFK,K-LaFK55,glass\sumita\K-LaFK55.yml,1,0,0.365,1.548,200
+2379,glass,SUMITA-LaFK,K-LaFK60,glass\sumita\K-LaFK60.yml,1,0,0.365,1.548,200
+2385,glass,SUMITA-PBK,K-PBK40,glass\sumita\K-PBK40.yml,1,0,0.365,1.548,200
+2387,glass,SUMITA-PBK,K-PBK50,glass\sumita\K-PBK50.yml,1,0,0.365,1.548,200
+2389,glass,SUMITA-PFK,K-PFK80,glass\sumita\K-PFK80.yml,1,0,0.365,1.548,200
+2391,glass,SUMITA-PFK,K-PFK85,glass\sumita\K-PFK85.yml,1,0,0.365,1.548,200
+2393,glass,SUMITA-PFK,K-PFK90,glass\sumita\K-PFK90.yml,1,0,0.365,1.548,200
+2395,glass,SUMITA-PG,K-PG325,glass\sumita\K-PG325.yml,1,0,0.365,1.548,200
+2397,glass,SUMITA-PG,K-PG375,glass\sumita\K-PG375.yml,1,0,0.365,1.548,200
+2399,glass,SUMITA-PG,K-PG395,glass\sumita\K-PG395.yml,1,0,0.365,1.548,200
+2401,glass,SUMITA-PMK,K-PMK30,glass\sumita\K-PMK30.yml,1,0,0.365,1.548,200
+2403,glass,SUMITA-PSF,K-PSFn1,glass\sumita\K-PSFn1.yml,1,0,0.365,1.548,200
+2405,glass,SUMITA-PSF,K-PSFn2,glass\sumita\K-PSFn2.yml,1,0,0.365,1.548,200
+2407,glass,SUMITA-PSF,K-PSFn3,glass\sumita\K-PSFn3.yml,1,0,0.365,1.548,200
+2409,glass,SUMITA-PSF,K-PSFn4,glass\sumita\K-PSFn4.yml,1,0,0.365,1.548,200
+2411,glass,SUMITA-PSF,K-PSFn5,glass\sumita\K-PSFn5.yml,1,0,0.365,1.548,200
+2415,glass,SUMITA-PSF,K-PSFn202,glass\sumita\K-PSFn202.yml,1,0,0.365,1.548,200
+2419,glass,SUMITA-PSF,K-PSFn214,glass\sumita\K-PSFn214.yml,1,0,0.365,1.548,200
+2422,glass,SUMITA-SKF,K-SKF6,glass\sumita\K-SKF6.yml,1,0,0.365,1.548,200
+2426,glass,SUMITA-VC,K-VC78,glass\sumita\K-VC78.yml,1,0,0.365,1.548,200
+2428,glass,SUMITA-VC,K-VC79,glass\sumita\K-VC79.yml,1,0,0.365,1.548,200
+2430,glass,SUMITA-VC,K-VC80,glass\sumita\K-VC80.yml,1,0,0.365,1.548,200
+2432,glass,SUMITA-VC,K-VC82,glass\sumita\K-VC82.yml,1,0,0.365,1.548,200
+2434,glass,SUMITA-VC,K-VC89,glass\sumita\K-VC89.yml,1,0,0.365,1.548,200
+2436,glass,SUMITA-VC,K-VC90,glass\sumita\K-VC90.yml,1,0,0.365,1.548,200
+2438,glass,SUMITA-VC,K-VC91,glass\sumita\K-VC91.yml,1,0,0.365,1.548,200
+2440,glass,SUMITA-VC,K-VC99,glass\sumita\K-VC99.yml,1,0,0.365,1.548,200
+2450,glass,SUMITA-ZnSF,K-ZnSF8,glass\sumita\K-ZnSF8.yml,1,0,0.365,1.548,200
+2452,glass,LZOS-K,K8,glass\lzos\K8.yml,1,0,0.365,2.3254,31
+2453,glass,LZOS-LK,LK3,glass\lzos\LK3.yml,1,0,0.365,2.3254,31
+2454,glass,LZOS-LK,LK5,glass\lzos\LK5.yml,1,0,0.365,2.3254,31
+2455,glass,LZOS-LK,LK6,glass\lzos\LK6.yml,1,0,0.365,2.3254,31
+2456,glass,LZOS-LK,LK7,glass\lzos\LK7.yml,1,0,0.365,2.3254,31
+2457,glass,LZOS-TK,TK2,glass\lzos\TK2.yml,1,0,0.365,2.3254,31
+2458,glass,LZOS-TK,TK9,glass\lzos\TK9.yml,1,0,0.365,2.3254,31
+2459,glass,LZOS-TK,TK12,glass\lzos\TK12.yml,1,0,0.365,2.3254,31
+2460,glass,LZOS-TK,TK14,glass\lzos\TK14.yml,1,0,0.365,2.3254,31
+2461,glass,LZOS-TK,TK16,glass\lzos\TK16.yml,1,0,0.365,2.3254,31
+2462,glass,LZOS-TK,TK17,glass\lzos\TK17.yml,1,0,0.365,2.3254,31
+2463,glass,LZOS-TK,TK20,glass\lzos\TK20.yml,1,0,0.365,2.3254,31
+2464,glass,LZOS-TK,TK21,glass\lzos\TK21.yml,1,0,0.365,2.3254,31
+2465,glass,LZOS-TK,TK23,glass\lzos\TK23.yml,1,0,0.365,2.3254,31
+2466,glass,LZOS-CTK,CTK3,glass\lzos\CTK3.yml,1,0,0.365,2.3254,31
+2467,glass,LZOS-CTK,CTK8,glass\lzos\CTK8.yml,1,0,0.365,2.3254,31
+2468,glass,LZOS-CTK,CTK9,glass\lzos\CTK9.yml,1,0,0.365,2.3254,31
+2469,glass,LZOS-CTK,CTK12,glass\lzos\CTK12.yml,1,0,0.365,2.3254,31
+2470,glass,LZOS-CTK,CTK19,glass\lzos\CTK19.yml,1,0,0.365,2.3254,31
+2471,glass,LZOS-OK,OK4,glass\lzos\OK4.yml,1,0,0.365,0.70652,11
+2472,glass,LZOS-BK,BK4,glass\lzos\BK4.yml,1,0,0.365,2.3254,31
+2473,glass,LZOS-BK,BK6,glass\lzos\BK6.yml,1,0,0.365,2.3254,31
+2474,glass,LZOS-BK,BK8,glass\lzos\BK8.yml,1,0,0.365,2.3254,31
+2475,glass,LZOS-BK,BK10,glass\lzos\BK10.yml,1,0,0.365,2.3254,31
+2476,glass,LZOS-F,F1,glass\lzos\F1.yml,1,0,0.365,2.3254,31
+2477,glass,LZOS-F,F4,glass\lzos\F4.yml,1,0,0.365,2.3254,31
+2478,glass,LZOS-F,F6,glass\lzos\F6.yml,1,0,0.365,2.3254,31
+2479,glass,LZOS-F,F8,glass\lzos\F8.yml,1,0,0.365,2.3254,31
+2480,glass,LZOS-F,F13,glass\lzos\F13.yml,1,0,0.365,2.3254,31
+2481,glass,LZOS-LF,LF5,glass\lzos\LF5.yml,1,0,0.365,2.3254,31
+2482,glass,LZOS-LF,LF7,glass\lzos\LF7.yml,1,0,0.365,2.3254,31
+2483,glass,LZOS-LF,LF9,glass\lzos\LF9.yml,1,0,0.365,2.3254,31
+2484,glass,LZOS-TF,TF1,glass\lzos\TF1.yml,1,0,0.365,2.3254,31
+2485,glass,LZOS-TF,TF2,glass\lzos\TF2.yml,1,0,0.365,2.3254,31
+2486,glass,LZOS-TF,TF3,glass\lzos\TF3.yml,1,0,0.365,2.3254,31
+2487,glass,LZOS-TF,TF4,glass\lzos\TF4.yml,1,0,0.365,2.3254,31
+2488,glass,LZOS-TF,TF5,glass\lzos\TF5.yml,1,0,0.365,2.3254,31
+2489,glass,LZOS-TF,TF7,glass\lzos\TF7.yml,1,0,0.365,2.3254,31
+2490,glass,LZOS-TF,TF8,glass\lzos\TF8.yml,1,0,0.365,2.3254,31
+2491,glass,LZOS-TF,TF10,glass\lzos\TF10.yml,1,0,0.365,2.3254,31
+2492,glass,LZOS-OF,OF1,glass\lzos\OF1.yml,1,0,0.365,2.3254,31
+2493,glass,LZOS-BF,BF1,glass\lzos\BF1.yml,1,0,0.365,2.3254,31
+2494,glass,LZOS-BF,BF8,glass\lzos\BF8.yml,1,0,0.365,2.3254,31
+2495,glass,LZOS-BF,BF11,glass\lzos\BF11.yml,1,0,0.365,2.3254,31
+2496,glass,LZOS-BF,BF16,glass\lzos\BF16.yml,1,0,0.365,2.3254,31
+2497,glass,LZOS-BF,BF21,glass\lzos\BF21.yml,1,0,0.365,2.3254,31
+2498,glass,LZOS-BF,BF24,glass\lzos\BF24.yml,1,0,0.365,2.3254,31
+2499,glass,LZOS-BF,BF25,glass\lzos\BF25.yml,1,0,0.365,2.3254,31
+2500,glass,LZOS-BF,BF28,glass\lzos\BF28.yml,1,0,0.365,2.3254,31
+2501,glass,LZOS-KF,KF6,glass\lzos\KF6.yml,1,0,0.365,2.3254,31
+2502,glass,LZOS-KF,KF7,glass\lzos\KF7.yml,1,0,0.365,2.3254,31
+2503,other,air,Ciddor,mixed gases\air\Ciddor.yml,1,0,0.23,1.69,200
+2508,other,air,Peck,mixed gases\air\Peck.yml,1,0,0.185,1.7,200
+2509,other,Au-Ag,Rioux-Au100Ag0,alloys\Au-Ag\Rioux-Au100Ag0.yml,1,1,0.27,1.2,931
+2510,other,Au-Ag,Rioux-Au90Ag10,alloys\Au-Ag\Rioux-Au90Ag10.yml,1,1,0.27,1.2,931
+2511,other,Au-Ag,Rioux-Au80Ag20,alloys\Au-Ag\Rioux-Au80Ag20.yml,1,1,0.27,1.2,931
+2512,other,Au-Ag,Rioux-Au70Ag30,alloys\Au-Ag\Rioux-Au70Ag30.yml,1,1,0.27,1.2,931
+2513,other,Au-Ag,Rioux-Au60Ag40,alloys\Au-Ag\Rioux-Au60Ag40.yml,1,1,0.27,1.2,931
+2514,other,Au-Ag,Rioux-Au50Ag50,alloys\Au-Ag\Rioux-Au50Ag50.yml,1,1,0.27,1.2,931
+2515,other,Au-Ag,Rioux-Au40Ag60,alloys\Au-Ag\Rioux-Au40Ag60.yml,1,1,0.27,1.2,931
+2516,other,Au-Ag,Rioux-Au30Ag70,alloys\Au-Ag\Rioux-Au30Ag70.yml,1,1,0.27,1.2,931
+2517,other,Au-Ag,Rioux-Au20Ag80,alloys\Au-Ag\Rioux-Au20Ag80.yml,1,1,0.27,1.2,931
+2518,other,Au-Ag,Rioux-Au10Ag90,alloys\Au-Ag\Rioux-Au10Ag90.yml,1,1,0.27,1.2,931
+2519,other,Au-Ag,Rioux-Au0Ag100,alloys\Au-Ag\Rioux-Au0Ag100.yml,1,1,0.27,1.2,931
+2520,other,Cu-Zn,Querry-Cu90Zn10,alloys\Cu-Zn\Querry-Cu90Zn10.yml,1,1,0.21,55.5556,612
+2521,other,Cu-Zn,Querry-Cu85Zn15,alloys\Cu-Zn\Querry-Cu85Zn15.yml,1,1,0.21,55.5556,612
+2522,other,Cu-Zn,Querry-Cu70Zn30,alloys\Cu-Zn\Querry-Cu70Zn30.yml,1,1,0.21,55.5556,611
+2523,other,Nb-Sn,Golovashkin-06,alloys\Nb-Sn\Golovashkin-06.yml,1,1,1.0,9.0,19
+2524,other,Nb-Sn,Golovashkin-22,alloys\Nb-Sn\Golovashkin-22.yml,1,1,1.0,10.0,21
+2525,other,Nb-Sn,Golovashkin-28,alloys\Nb-Sn\Golovashkin-28.yml,1,1,1.0,10.0,21
+2526,other,Nb-Sn,Golovashkin-30,alloys\Nb-Sn\Golovashkin-30.yml,1,1,1.0,9.0,19
+2527,other,Nb-Sn,Golovashkin-34,alloys\Nb-Sn\Golovashkin-34.yml,1,1,1.0,8.0,17
+2528,other,Nb-Sn,Golovashkin-40,alloys\Nb-Sn\Golovashkin-40.yml,1,1,1.0,8.0,17
+2529,other,Nb-Sn,Golovashkin-55,alloys\Nb-Sn\Golovashkin-55.yml,1,1,1.0,8.0,17
+2536,other,AlAs-GaAs,Aspnes-0,semiconductor alloys\AlAs-GaAs\Aspnes-0.yml,1,1,0.2066,0.8266,46
+2537,other,AlAs-GaAs,Aspnes-9.9,semiconductor alloys\AlAs-GaAs\Aspnes-9.9.yml,1,1,0.2066,0.8266,46
+2538,other,AlAs-GaAs,Aspnes-19.8,semiconductor alloys\AlAs-GaAs\Aspnes-19.8.yml,1,1,0.2066,0.8266,46
+2539,other,AlAs-GaAs,Aspnes-31.5,semiconductor alloys\AlAs-GaAs\Aspnes-31.5.yml,1,1,0.2066,0.8266,46
+2540,other,AlAs-GaAs,Aspnes-41.9,semiconductor alloys\AlAs-GaAs\Aspnes-41.9.yml,1,1,0.2066,0.8266,46
+2541,other,AlAs-GaAs,Aspnes-49.1,semiconductor alloys\AlAs-GaAs\Aspnes-49.1.yml,1,1,0.2066,0.8266,46
+2542,other,AlAs-GaAs,Aspnes-59.0,semiconductor alloys\AlAs-GaAs\Aspnes-59.0.yml,1,1,0.2066,0.8266,46
+2543,other,AlAs-GaAs,Aspnes-70.0,semiconductor alloys\AlAs-GaAs\Aspnes-70.0.yml,1,1,0.2066,0.8266,46
+2544,other,AlAs-GaAs,Aspnes-80.4,semiconductor alloys\AlAs-GaAs\Aspnes-80.4.yml,1,1,0.2066,0.8266,46
+2545,other,AlAs-GaAs,Adachi-0.315,semiconductor alloys\AlAs-GaAs\Adachi-0.315.yml,1,1,0.20664,12.398,200
+2546,other,AlAs-GaAs,Adachi-0.700,semiconductor alloys\AlAs-GaAs\Adachi-0.700.yml,1,1,0.20664,12.398,200
+2547,other,AlSb-GaSb,Ferrini-0,semiconductor alloys\AlSb-GaSb\Ferrini-0.yml,1,1,0.207,2.48,56
+2548,other,AlSb-GaSb,Ferrini-10,semiconductor alloys\AlSb-GaSb\Ferrini-10.yml,1,1,0.207,2.48,56
+2549,other,AlSb-GaSb,Ferrini-30,semiconductor alloys\AlSb-GaSb\Ferrini-30.yml,1,1,0.207,2.48,56
+2550,other,AlSb-GaSb,Ferrini-50,semiconductor alloys\AlSb-GaSb\Ferrini-50.yml,1,1,0.207,2.48,56
+2551,other,AlN-Al2O3,Hartnett-6.69,semiconductor alloys\AlN-Al2O3\Hartnett-6.69.yml,1,0,0.24,5.6,200
+2552,other,AlN-Al2O3,Hartnett-5.88,semiconductor alloys\AlN-Al2O3\Hartnett-5.88.yml,1,1,0.24,5.6,12
+2553,other,AlN-Al2O3,Hartnett-6.53,semiconductor alloys\AlN-Al2O3\Hartnett-6.53.yml,1,1,0.24,5.6,12
+2554,other,AlN-Al2O3,Hartnett-7.17,semiconductor alloys\AlN-Al2O3\Hartnett-7.17.yml,1,1,0.24,5.6,12
+2555,other,GaAs-InAs,Adachi,semiconductor alloys\GaAs-InAs\Adachi.yml,1,1,0.20664,12.398,200
+2556,other,GaP-InP,Schubert,semiconductor alloys\GaP-InP\Schubert.yml,1,1,0.24961,0.95395,98
+2557,other,GaAs-InAs-GaP-InP,Adachi,semiconductor alloys\GaAs-InAs-GaP-InP\Adachi.yml,1,1,0.20664,12.398,200
+2558,other,Si-Ge,Jellison-11,semiconductor alloys\Si-Ge\Jellison-11.yml,1,1,0.24,0.84,103
+2559,other,Si-Ge,Jellison-20,semiconductor alloys\Si-Ge\Jellison-20.yml,1,1,0.24,0.84,103
+2560,other,Si-Ge,Jellison-28,semiconductor alloys\Si-Ge\Jellison-28.yml,1,1,0.24,0.84,103
+2561,other,Si-Ge,Jellison-48,semiconductor alloys\Si-Ge\Jellison-48.yml,1,1,0.24,0.84,103
+2562,other,Si-Ge,Jellison-47,semiconductor alloys\Si-Ge\Jellison-47.yml,1,1,0.24,0.84,103
+2563,other,Si-Ge,Jellison-65,semiconductor alloys\Si-Ge\Jellison-65.yml,1,1,0.24,0.84,103
+2564,other,Si-Ge,Jellison-85,semiconductor alloys\Si-Ge\Jellison-85.yml,1,1,0.24,0.84,103
+2565,other,Si-Ge,Jellison-98,semiconductor alloys\Si-Ge\Jellison-98.yml,1,1,0.24,0.84,103
+2566,other,AuAl2,Supansomboon,intermetallics\AuAl2\Supansomboon.yml,1,1,0.3,1.32,35
+2567,other,HfO2-Y2O3,Wood,mixed crystals\HfO2-Y2O3\Wood.yml,1,0,0.365,5.0,200
+2568,other,In2O3-SnO2,Moerland,mixed crystals\In2O3-SnO2\Moerland.yml,1,1,0.401047791,0.99996106,381
+2569,other,In2O3-SnO2,Konig,mixed crystals\In2O3-SnO2\Konig.yml,1,1,0.25157,1.0,474
+2570,other,In2O3-SnO2,Konig-EMA,mixed crystals\In2O3-SnO2\Konig-EMA.yml,1,1,0.25157,1.0,474
+2571,other,TlBr-TlCl,Hettner,mixed crystals\TlBr-TlCl\Hettner.yml,1,0,0.6,24.0,200
+2572,other,TlBr-TlI,Rodney,mixed crystals\TlBr-TlI\Rodney.yml,1,0,0.577,39.38,200
+2573,other,ZrO2-Y2O3,Wood,mixed crystals\ZrO2-Y2O3\Wood.yml,1,0,0.361,5.135,200
+2574,other,Mg-LiTaO3,Moutzouris-o,doped crystals\Mg-LiTaO3\Moutzouris-o.yml,1,0,0.45,1.551,200
+2575,other,Mg-LiTaO3,Moutzouris-e,doped crystals\Mg-LiTaO3\Moutzouris-e.yml,1,0,0.45,1.551,200
+2576,other,Nb-RbTiOPO4,Carvajal-Î±,doped crystals\Nb-RbTiOPO4\Carvajal-alpha.yml,1,0,0.4,1.5,200
+2577,other,Nb-RbTiOPO4,Carvajal-Î²,doped crystals\Nb-RbTiOPO4\Carvajal-beta.yml,1,0,0.4,1.5,200
+2578,other,Nb-RbTiOPO4,Carvajal-Î³,doped crystals\Nb-RbTiOPO4\Carvajal-gamma.yml,1,0,0.4,1.5,200
+2579,other,Al-ZnO,Treharne,doped crystals\Al-ZnO\Treharne.yml,1,1,0.3,0.9,101
+2580,other,(C8H8)n-(C3H3N)m,Sultanova,mixed organic\(C8H8)n-(C3H3N)m\Sultanova.yml,1,0,0.4368,1.052,200
+2581,other,C6H4S4-C12H4N4,Querry,mixed organic\C6H4S4-C12H4N4\Querry.yml,1,1,0.21,55.5556,612
+2582,other,PTB7-PC71BM,Stelling,mixed organic\PTB7-PC71BM\Stelling.yml,1,1,0.30158,1.68492,640
+2583,other,P3HT-PC61BM,Stelling,mixed organic\P3HT-PC61BM\Stelling.yml,1,1,0.24718,1.68492,674
+2584,other,Cu-C12H4N4,Querry,mixed organic-inorganic\Cu-C12H4N4\Querry.yml,1,1,0.21,55.5556,612
+2585,other,Li-C12H4N4,Querry,mixed organic-inorganic\Li-C12H4N4\Querry.yml,1,1,0.21,55.5556,609
+2586,other,CR-39,poly,commercial plastics\CR-39\poly.yml,1,0,0.58929,0.58929,1
+2587,other,CR-39,mono,commercial plastics\CR-39\mono.yml,1,0,0.58929,0.58929,1
+2590,other,NAS-21,Sultanova,commercial plastics\NAS-21\Sultanova.yml,1,0,0.4368,1.052,200
+2591,other,Optorez1330,Sultanova,commercial plastics\Optorez1330\Sultanova.yml,1,0,0.4368,1.052,200
+2592,other,ZeonexE48R,Sultanova,commercial plastics\ZeonexE48R\Sultanova.yml,1,0,0.4368,1.052,200
+2593,other,5CB,Li-o,liquid crystals\5CB\Li-o.yml,1,0,0.45,0.656,200
+2594,other,5CB,Li-e,liquid crystals\5CB\Li-e.yml,1,0,0.45,0.656,200
+2597,other,5PCH,Li-o,liquid crystals\5PCH\Li-o.yml,1,0,0.45,0.656,200
+2598,other,5PCH,Li-e,liquid crystals\5PCH\Li-e.yml,1,0,0.45,0.656,200
+2599,other,E7,Li-o,liquid crystals\E7\Li-o.yml,1,0,0.45,0.656,200
+2600,other,E7,Li-e,liquid crystals\E7\Li-e.yml,1,0,0.45,0.656,200
+2603,other,E44,Li-o,liquid crystals\E44\Li-o.yml,1,0,0.45,0.656,200
+2604,other,E44,Li-e,liquid crystals\E44\Li-e.yml,1,0,0.45,0.656,200
+2605,other,MLC-6241-000,Li-o,liquid crystals\MLC-6241-000\Li-o.yml,1,0,0.45,0.656,200
+2606,other,MLC-6241-000,Li-e,liquid crystals\MLC-6241-000\Li-e.yml,1,0,0.45,0.656,200
+2607,other,MLC-6608,Li-o,liquid crystals\MLC-6608\Li-o.yml,1,0,0.45,0.656,200
+2608,other,MLC-6608,Li-e,liquid crystals\MLC-6608\Li-e.yml,1,0,0.45,0.656,200
+2609,other,MLC-9200-000,Li-o,liquid crystals\MLC-9200-000\Li-o.yml,1,0,0.45,0.656,200
+2610,other,MLC-9200-000,Li-e,liquid crystals\MLC-9200-000\Li-e.yml,1,0,0.45,0.656,200
+2611,other,MLC-9200-100,Li-o,liquid crystals\MLC-9200-100\Li-o.yml,1,0,0.45,0.656,200
+2612,other,MLC-9200-100,Li-e,liquid crystals\MLC-9200-100\Li-e.yml,1,0,0.45,0.656,200
+2613,other,TL-216,Li-o,liquid crystals\TL-216\Li-o.yml,1,0,0.45,0.656,200
+2614,other,TL-216,Li-e,liquid crystals\TL-216\Li-e.yml,1,0,0.45,0.656,200
+2618,other,BK7_matching_liquid,Cargille,index-matching liquids\cargille\BK7_matching_liquid.yml,1,0,0.31,1.55,200
+2619,other,fused_silica_matching_liquid,Cargille-06350,index-matching liquids\cargille\fused_silica_matching_liquid-06350.yml,1,0,0.225,1.55,200
+2620,other,fused_silica_matching_liquid,Cargille-50350,index-matching liquids\cargille\fused_silica_matching_liquid-50350.yml,1,0,0.225,1.55,200
+2621,other,acrylic_matching_liquid,Cargille,index-matching liquids\cargille\acrylic_matching_liquid.yml,1,0,0.31,1.55,200
+2622,other,Leica_Type_F,Wang,immersion oils\Leica Type F\Wang.yml,0,1,1.2,1.9,351
+2623,other,Olympus_IMMOIL-F30CC,Wang,immersion oils\Olympus IMMOIL-F30CC\Wang.yml,0,1,1.2,1.9,351
+2624,other,Sigma_Aldrich_M5904,Wang,immersion oils\Sigma Aldrich M5904\Wang.yml,0,1,1.2,1.9,351
+2625,other,Optical_adhesives,Norland_NOA61,other\optical adhesives\Norland NOA 61.yml,1,0,0.45,1.55,200
+2626,other,pmma_resists,Microchem495,other\resists\Microchem 495.yml,1,0,0.2,1.1,200
+2627,other,pmma_resists,Microchem950,other\resists\Microchem 950.yml,1,0,0.2,1.1,200
+2628,other,copolymer_resists,Microchem85mEL,other\resists\Microchem 8.5 mEL.yml,1,0,0.2,1.1,200
+2629,other,negative_tone_photoresists,MicroresistEpoCore,other\resists\Micro resist EpoCore.yml,1,0,0.45,1.55,200
+2630,other,negative_tone_photoresists,MicroresistEpoClad,other\resists\Micro resist EpoClad.yml,1,0,0.45,1.55,200
+2633,other,CH3NH3PbI3,Leguy,perovskite\CH3NH3PbI3\Leguy.yml,1,1,0.249,0.789,541
+2634,other,CH3NH3PbI3,Leguy-hydrated,perovskite\CH3NH3PbI3\Leguy-hydrated.yml,1,1,0.207,0.427,221
+2635,other,CH3NH3PbI3,Ball,perovskite\CH3NH3PbI3\Ball.yml,1,1,0.301,0.899,599
+2636,other,CH3NH3PbI3,Phillips,perovskite\CH3NH3PbI3\Phillips.yml,1,1,0.300009583,1.501320923,586
+2637,other,TherminolVP-1,Otanicar,heat transfer fluids\Therminol VP-1\Otanicar.yml,0,1,0.2,1.5,66
+2639,other,liver,Giannios,human body\liver\Giannios.yml,1,1,0.45,1.551,368
+2640,other,colon,Giannios-mucosa,human body\colon\Giannios-mucosa.yml,1,1,0.45,1.551,368
+2641,other,colon,Giannios-submucosa,human body\colon\Giannios-submucosa.yml,1,1,0.45,1.551,368
+2642,other,colon,Giannios-serosa,human body\colon\Giannios-serosa.yml,1,1,0.45,1.551,368
+2643,other,acetylene_soot,Dlazell,soots\acetylene soot\Dalzell.yml,1,1,0.4358,10.0,13
+2644,other,propane_soot,Dlazell,soots\propane soot\Dalzell.yml,1,1,0.4358,10.0,13
+2645,other,diesel_soot,Querry-NMSU,soots\diesel soot\Querry-NMSU.yml,1,1,0.26,55.5556,304
+2646,other,diesel_soot,Querry-NMSU-heated,soots\diesel soot\Querry-NMSU-heated.yml,1,1,0.26,55.5556,304
+2647,other,diesel_soot,Querry-UMKC,soots\diesel soot\Querry-UMKC.yml,1,1,2.5,55.5556,192
+2648,other,montmorillonite,Querry,clays\montmorillonite\Querry.yml,1,1,2.5,200.0,396
+2649,other,kaolinite,Querry,clays\kaolinite\Querry.yml,1,1,2.5,200.0,395
+2650,other,illite,Querry,clays\illite\Querry.yml,1,1,2.5,200.0,392
+2664,other,metamaterials,Valentine,exotic\metamaterials\Valentine.yml,1,0,1.2,1.775,24
+2665,3d,metals,aluminium,main\Al\Rakic-BB.yml,1,1,0.061992,247.97,200
+2666,3d,metals,brass,alloys\Cu-Zn\Querry-Cu70Zn30.yml,1,1,0.21,55.5556,611
+2667,3d,metals,copper,main\Cu\Rakic-BB.yml,1,1,0.20664,12.398,200
+2668,3d,metals,gold,main\Au\Rakic-BB.yml,1,1,0.24797,6.1992,200
+2669,3d,metals,iron,main\Fe\Johnson.yml,1,1,0.188,1.937,49
+2671,3d,metals,mercury,main\Hg\Inagaki.yml,1,1,0.06358,6.19921,76
+2672,3d,metals,platinum,main\Pt\Rakic-BB.yml,1,1,0.24797,12.398,200
+2673,3d,metals,silver,main\Ag\Rakic-BB.yml,1,1,0.24797,12.398,200
+2674,3d,metals,titanium,main\Ti\Johnson.yml,1,1,0.188,1.937,49
+2675,3d,plastics,pmma,organic\(C5H8O2)n - poly(methyl methacrylate)\Sultanova.yml,1,0,0.4368,1.052,200
+2676,3d,plastics,pvp,organic\(C6H9NO)n - polyvinylpyrrolidone\Konig.yml,1,1,0.375,1.0,26
+2677,3d,plastics,ps,organic\(C8H8)n - polystyren\Sultanova.yml,1,0,0.4368,1.052,200
+2678,3d,plastics,pc,organic\(C16H14O3)n - polycarbonate\Sultanova.yml,1,0,0.4368,1.052,200
+2679,3d,plastics,Cellulose,organic\(C6H10O5)n - cellulose\Sultanova.yml,1,0,0.4368,1.052,200
+2680,3d,plastics,NAS-21,commercial plastics\NAS-21\Sultanova.yml,1,0,0.4368,1.052,200
+2681,3d,plastics,Optorez1330,commercial plastics\Optorez1330\Sultanova.yml,1,0,0.4368,1.052,200
+2682,3d,plastics,ZeonexE48R,commercial plastics\ZeonexE48R\Sultanova.yml,1,0,0.4368,1.052,200
+2683,3d,crystals,diamond,main\C\Phillip.yml,1,1,0.035424054,10.0,176
+2684,3d,crystals,germanium,main\Ge\Aspnes.yml,1,1,0.2066,0.8266,46
+2685,3d,crystals,ice,main\H2O\Warren.yml,1,1,0.0443,167.0,468
+2686,3d,crystals,quartz,main\SiO2\Malitson.yml,1,0,0.21,6.7,200
+2687,3d,crystals,salt,main\NaCl\Li.yml,1,0,0.2,30.0,200
+2688,3d,crystals,sapphire,main\Al2O3\Malitson-o.yml,1,0,0.2,5.0,200
+2689,3d,crystals,silicon,main\Si\Vuye-20C.yml,1,1,0.2638,0.8266,129
+2690,3d,glass,BK7,glass\schott\N-BK7.yml,1,1,0.3,2.5,25
+2691,3d,glass,BAF10,glass\schott\N-BAF10.yml,1,1,0.35,2.5,21
+2692,3d,glass,soda-lime-clear,misc\soda-lime\Rubin-clear.yml,1,1,0.31,4.6,106
+2693,3d,glass,soda-lime-bronze,misc\soda-lime\Rubin-bronze.yml,1,1,0.32,4.6,105
+2694,3d,glass,soda-lime-grey,misc\soda-lime\Rubin-grey.yml,1,1,0.32,4.6,105
+2695,3d,glass,soda-lime-green,misc\soda-lime\Rubin-green.yml,1,1,0.32,4.6,105
+2696,3d,liquids,water,main\H2O\Hale.yml,1,1,0.2,200.0,169
+2697,3d,liquids,acetone,organic\C3H6O - acetone\Rheims.yml,1,0,0.4765,0.83,200
+2698,3d,liquids,benzene,organic\C6H6 - benzene\Moutzouris.yml,1,0,0.45,1.551,200
+2699,3d,liquids,mercury,main\Hg\Inagaki.yml,1,1,0.06358,6.19921,76
+2700,3d,misc,acetylene_soot,soots\acetylene soot\Dalzell.yml,1,1,0.4358,10.0,13
+2701,3d,misc,propane_soot,soots\propane soot\Dalzell.yml,1,1,0.4358,10.0,13
+2702,3d,misc,diesel_soot,soots\diesel soot\Querry-NMSU.yml,1,1,0.26,55.5556,304

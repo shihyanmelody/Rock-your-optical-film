@@ -1,0 +1,5 @@
+LOAD DATA INFILE 'C://Users/Shiyan Zhang/Box Sync/academic/CS411/Rock_the_Optical_Film/data_csv/pages.csv' INTO TABLE optical_parameter_pages FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 ROWS
+
+LOAD DATA INFILE 'C://Users/Shiyan Zhang/Box Sync/academic/CS411/Rock_the_Optical_Film/data_csv/refractiveindex.csv' INTO TABLE optical_parameter_refractiveindex FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 ROWS (@col1,@col2,@col3) set pageid_id=@col1,wave=@col2,refindex=@col3;
+
+LOAD DATA INFILE 'C://Users/Shiyan Zhang/Box Sync/academic/CS411/Rock_the_Optical_Film/data_csv/extcoeff.csv' INTO TABLE optical_parameter_extcoeff FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 ROWS (@col1,@col2,@col3) set pageid_id=@col1,wave=@col2,coeff=@col3;
