@@ -1,0 +1,33 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <script type="text/javascript">
+    function populate(s1, s2){
+        var s1 = document.getElementById(s1);
+        var s2 = document.getElementById(s2);
+        s2.innerHTML = "";
+        var test_array = ["a|a","b|b","c|c"]
+        if (s1.value == "Common Inorganic Materials"){
+            for (var mat in test_array){
+                var pair = test_array[mat].split("|")
+                var newOption = document.createElement("option");
+                newOption.value = pair[0];
+                newOption.innerHTML = pair[1];
+                s2.options.add(newOption);
+            }
+        }
+    }
+    </script>
+    <h1>Explore your Film Design<h1>
+        <form method="POST" novalidate>
+{#            {% csrf_token %}#}
+            <select id="type" name="type" class = "lead" onchange="populate('type', 'mater')">
+                <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+                <option value="Organic Materials">Organic Materials</option>
+                <option value="Glass">Glass</option>
+                <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+            </select>
+            <select id="mater" name="mater"></select>
+
+            <input class="lead" type = "submit" value = "Submit"/>
+        </form>
+{% endblock %}

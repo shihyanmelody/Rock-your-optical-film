@@ -1,0 +1,68 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <h1>{{ Title }}<h1>
+    <p class = "lead">Here you can review all  materials in the database and filter them according to their type. Note that one material might be characterized by several scientists. You can check their detailed optical parameters by clicking details.</p>
+{#    <div class = "listbox-area">#}
+{#        <ul role = "listbox">#}
+{#            {% for mat in materials %}#}
+{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </div>#}
+
+    <div>
+    <form method = 'GET' action='' id = 'type'>
+        <font class="lead">Select Materials Type:</font>
+      <input list="browsers" class = "lead" id="materials_type" name="materials_type">
+      <datalist id="browsers">
+          <option value="Common Inorganic Material"></option>
+          <option value="Organic Material"></option>
+          <option value="Glass"></option>
+          <option value="Miscellaneous/Composite material"></option>
+      </datalist>
+      <input type="submit" class = "lead">
+    </form>
+{#    <form method = 'GET' action='' id = 'name'>#}
+{#    <p class="lead">Select Material:</p>#}
+{#    <select id="materials_name" name="materials_name" class="LongSelect" onchange="form.submit()">#}
+{#          { % for mat in material_names %}#}
+{#          <option value="{{  mat.book  }}">{{ mat.book }}</option>#}
+{#          { % endfor % }#}
+{#    </select>#}
+{#    </form>#}
+{#      <input type="submit" class = "lead">#}
+{#    </form>#}
+    </div>
+{#        <h1>Debug {{ material_names }}</h1>#}
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Material</th>
+              <th scope="col">Type</th>
+              <th scope="col">Source Author</th>
+              <th scope="col">Range</th>
+              <th scope="col">Has Refractive index?</th>
+              <th scope="col">Has Extinction index?</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in materials %}
+            <tr>
+{#              <th scope="row">{{ mat.pageid}}</th>#}
+              <td>{{ mat.book}}</td>
+              <td>{{ mat.shelf}}</td>
+              <td>{{ mat.page}}</td>
+              <td>{{ mat.rangeMin}}-{{ mat.rangeMax }} &#956m</td>
+              <td>{{ mat.hasrefractive }}</td>
+              <td>{{ mat.hasextinction }}</td>
+              <th scope="col"><a href="/optical_parameter/details/{{ mat.pageid }}/" >details</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+
+
+
+{% endblock %}
