@@ -1,0 +1,129 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <h1>Design Your Optical Film<h1>
+    <p class = "lead">Here you can design your own optical film. In order to do it, you will need to specify the material, thickness, and layer order of each single layer. Note that if you go back to the Home page, you will clean all your design except the first one as an example</p>
+{#    <div class = "listbox-area">#}
+{#        <ul role = "listbox">#}
+{#            {% for mat in materials %}#}
+{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </div>#}
+
+{#        <h1>Debug {{ material_names }}</h1>#}
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Layer Order</th>
+              <th scope="col">Material</th>
+              <th scope="col">Type</th>
+              <th scope="col">Thickness</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in Design %}
+            <tr>
+              <td>{{ mat.layer_sequence }}</td>
+              <td>{{ mat.material}}</td>
+              <td>{{ mat.type}}</td>
+              <td>{{ mat.thickness}} nm</td>
+              <th scope="col"><a href="/film/update/{{ mat.layer_sequence }}" >Modify</a></th>
+              <th scope="col"><a href="film/delete/{{ mat.layer_sequence }}/" >Delete</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+    <a class="lead" href = "/optical_parameter/film/">Add New Layer</a>
+    <p class="lead">Maximum Wavelength Working Range (determined by the dataset) of your film is: {{ Working_range }} </p>
+    <center>
+    <form method = 'GET' action='' id = 'Incident_angle'>
+      <font class="lead">Specify your insident Angle (default is 0&#176):</font>
+      <input list="browsers" class = "lead" id="Incident_angle" name="Incident_angle">
+      <font class="lead">&#176</font>
+      <input type="submit" class = "lead">
+    </form>
+    <div id="reflection_Trans_image" style="width:800px;height:500px;"></div>
+    <form method = 'GET' action='' id = 'lamda_poynting'>
+      <font class="lead">Specify your lamda for Poynting vector calculation (default is 400 nm):</font>
+      <input list="browsers" class = "lead" id="lamda_poynting" name="lamda_poynting">
+      <font class="lead">nm</font>
+      <input type="submit" class = "lead">
+    </form>
+    <div id="ponyting" style="width:800px;height:500px;"></div>
+    </center>
+        <script>
+            TESTER = document.getElementById('reflection_Trans_image');
+            var trace1 = {
+              x: {{  Wavelength  }},
+              y: {{ Reflectance }},
+              name: 'Reflection',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var trace2 = {
+              x: {{ Wavelength }},
+              y: {{ Transmitance }},
+              name: 'Transmittance',
+              yaxis: 'y2',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var data = [trace1, trace2];
+
+            var layout = {
+              title: 'Reflectance/Transmittance of your film at {{ Angle }} degree',
+              xaxis: {title: 'Wavelength(nm)', tickformat : ":04,2f"},
+              yaxis: {title: 'Fraction Reflected'},
+              yaxis2: {
+                title: 'Fraction Transmitted',
+                titlefont: {color: 'rgb(148, 103, 189)'},
+                tickfont: {color: 'rgb(148, 103, 189)'},
+                overlaying: 'y',
+                side: 'right'
+              }
+            };
+            Plotly.newPlot(TESTER, data, layout);
+        </script>
+
+    <script>
+            TESTER = document.getElementById('ponyting');
+            var trace3 = {
+              x: {{  Depth  }},
+              y: {{ Absorption }},
+              name: 'Absorption',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var trace4 = {
+              x: {{ Depth }},
+              y: {{ Ponyting }},
+              name: 'Ponyting',
+              yaxis: 'y2',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var data2 = [trace3, trace4];
+
+            var layout2 = {
+              title: 'Local Absorption and Poynting vector',
+              xaxis: {title: 'Depth(nm)', tickformat : ":04,2f"},
+              yaxis: {title: 'Absorption (AU)'},
+              yaxis2: {
+                title: 'Poynting Vector (AU)',
+                titlefont: {color: 'rgb(148, 103, 189)'},
+                tickfont: {color: 'rgb(148, 103, 189)'},
+                overlaying: 'y',
+                side: 'right'
+              }
+            };
+            Plotly.newPlot(TESTER, data2, layout2);
+        </script>
+
+
+{% endblock %}

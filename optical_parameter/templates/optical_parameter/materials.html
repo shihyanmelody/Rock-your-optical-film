@@ -1,0 +1,128 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <h1>{{ Title }}<h1>
+    <p class = "lead">Here you can review all  materials in the database and filter them according to their type. Note that one material might be characterized by several scientists. You can check their detailed optical parameters by clicking details.</p>
+{#    <div class = "listbox-area">#}
+{#        <ul role = "listbox">#}
+{#            {% for mat in materials %}#}
+{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </div>#}
+
+{#    <div>#}
+{#    <form method = 'GET' action='' id = 'type'>#}
+{#        <font class="lead">Select Materials Type:</font>#}
+{#      <input list="browsers" class = "lead" id="materials_type" name="materials_type">#}
+{#      <datalist id="browsers">#}
+{#          <option value="Common Inorganic Material"></option>#}
+{#          <option value="Organic Material"></option>#}
+{#          <option value="Glass"></option>#}
+{#          <option value="Miscellaneous/Composite material"></option>#}
+{#      </datalist>#}
+{#      <input type="submit" class = "lead">#}
+{#    </form>#}
+{#    </div>#}
+<script>
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+	s2.innerHTML = "";
+	if(s1.value == "Common Inorganic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_main %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+{#        for (var i; i<{{ option_main }}.length; i++){optionArray.push("{{ option_main.i }}")};#}
+		{#var optionArray = ["|","camaro|Camaro","corvette|Corvette","impala|Impala"];#}
+	} else if(s1.value == "Organic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_organic %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Glass"){
+	    var optionArray = ["-----"];
+        {% for op in option_glass %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Miscellaneous and Composite Materials") {
+        var optionArray = ["-----"];
+        {% for op in option_other %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+    }
+	for(var option in optionArray){
+		{#var pair = optionArray[option].split("|");#}
+        var pair = optionArray[option];
+		var newOption = document.createElement("option");
+		newOption.value = pair;
+		newOption.innerHTML = pair;
+		s2.options.add(newOption);
+	}
+}
+{#            {% if messages %}#}
+{#                {% for message in messages %}#}
+{#                    The Material Film Is Not Valid! Try Again!;#}
+{#                {% endfor %}#}
+{#            {% endif %}#}
+</script>
+
+            {% if messages %}
+                {% for message in messages %}
+                    The Material Film Is Not Valid! Try Again!
+                {% endfor %}
+            {% endif %}
+
+
+{#<h2>Specify Your Material Film</h2>#}
+{#<hr />#}
+<form method="GET", id = "materials_type">
+    {% csrf_token %}
+    <table>
+    <label for="type", class="lead">Choose Material Type:</label>
+    <select id="type" name="type" class="lead" onchange="populate(this.id,'material')" required>
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <hr />
+    <label for="material", class="lead">Choose Material:</label>
+    <select id="material" class="lead" name="material" required></select>
+    <input class="lead" type = "submit" value = "Submit"/>
+    </table>
+</form>
+
+{#        <h1>Debug {{ material_names }}</h1>#}
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Material</th>
+              <th scope="col">Type</th>
+              <th scope="col">Source Author</th>
+              <th scope="col">Range</th>
+              <th scope="col">Has Refractive index?</th>
+              <th scope="col">Has Extinction index?</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in materials %}
+            <tr>
+{#              <th scope="row">{{ mat.pageid}}</th>#}
+              <td>{{ mat.book}}</td>
+              <td>{{ mat.shelf}}</td>
+              <td>{{ mat.page}}</td>
+              <td>{{ mat.rangeMin}}-{{ mat.rangeMax }} &#956m</td>
+              <td>{{ mat.hasrefractive }}</td>
+              <td>{{ mat.hasextinction }}</td>
+              <th scope="col"><a href="/optical_parameter/details/{{ mat.pageid }}/" >details</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+
+
+{% endblock %}

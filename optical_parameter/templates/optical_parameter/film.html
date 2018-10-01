@@ -1,0 +1,92 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+<script>
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+	s2.innerHTML = "";
+	if(s1.value == "Common Inorganic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_main %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+{#        for (var i; i<{{ option_main }}.length; i++){optionArray.push("{{ option_main.i }}")};#}
+		{#var optionArray = ["|","camaro|Camaro","corvette|Corvette","impala|Impala"];#}
+	} else if(s1.value == "Organic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_organic %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Glass"){
+	    var optionArray = ["-----"];
+        {% for op in option_glass %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Miscellaneous and Composite Materials") {
+        var optionArray = ["-----"];
+        {% for op in option_other %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+    }
+	for(var option in optionArray){
+		{#var pair = optionArray[option].split("|");#}
+        var pair = optionArray[option];
+		var newOption = document.createElement("option");
+		newOption.value = pair;
+		newOption.innerHTML = pair;
+		s2.options.add(newOption);
+	}
+}
+{#            {% if messages %}#}
+{#                {% for message in messages %}#}
+{#                    The Material Film Is Not Valid! Try Again!;#}
+{#                {% endfor %}#}
+{#            {% endif %}#}
+</script>
+
+            {% if messages %}
+                {% for message in messages %}
+                    The Material Film Is Not Valid! Try Again!
+                {% endfor %}
+            {% endif %}
+
+
+<h2>Specify Your Material Film</h2>
+<hr />
+<form method="POST" novalidate>
+    {% csrf_token %}
+    <table>
+    <label for="type">Choose Material Type:</label>
+    <select id="type" name="type" onchange="populate(this.id,'material')" required>
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <hr />
+    <label for="material">Choose Material:</label>
+    <select id="material" name="material" required></select>
+     <hr />
+    <label for="thickness">Layer Thickness (unit:nm)</label>
+    <input id="thickness" type="number" name="thickness" maxlength="10000000000" required>
+     <hr />
+    <label for="layer_sequence">Layer Number(must be an interger, order from the incident light direction):</label>
+    <input id="layer_sequence" type="number" name="layer_sequence" maxlength="10000000000" required>
+    <hr />
+    <input class="lead" type = "submit" value = "Submit"/>
+    </table>
+</form>
+
+{#<form method="POST">#}
+{#    {% csrf_token %}#}
+{#    {{ TestNewFilm }}#}
+{#    <input class="lead" type = "submit" value = "Submit"/>#}
+{#</form>#}
+
+
+
+{#    <p>type is: {{ Mat_form.type }}, mat is {{ Mat_form.material }}, thick is {{ Mat_form.thickness }}, layer is {{ Mat_form.layer_sequence }}</p>#}
+
+<hr />
+{% endblock %}
