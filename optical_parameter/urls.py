@@ -9,8 +9,5 @@ urlpatterns = [
     path('film/', views.testfilm, name='testfilm'),
     path('film/update/<id>/', views.updatelayer, name='updatelayer'),
     path('design/film/delete/<id>/', views.dellayer, name='dellayer'),
-    #path('player/', views.player, name='player'),
-
-    #path('details/<int:id_input>/', views.details, name='details'),
-    #path('newpost/', views.newpost, name = 'newpost'),
+    path('visualization/', views.visualize, name='visualize'),
 ];
