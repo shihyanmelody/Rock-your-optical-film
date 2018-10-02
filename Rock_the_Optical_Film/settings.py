@@ -80,8 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'rocktheopticalfilm',
         'USER': 'root',
-        #'PASSWORD': 'YTdTQe9-k,f',
-        'PASSWORD':'zhangshiyan0313#',
+        'PASSWORD':'**********',
         'HOST': 'localhost',
         'PORT': '',
         # 'OPTIONS': {
