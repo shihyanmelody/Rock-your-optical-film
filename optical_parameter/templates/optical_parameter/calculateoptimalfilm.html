@@ -1,0 +1,136 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <h1>Optimal Result of Your Design<h1>
+    <p class = "lead">Note! To avoid too long waiting time, the max number of stacks is set to be 4, so if the optimized result is None, try to minimize your maximum thickness!</p>
+    <h2>Original Coating Materials Set</h2>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Material</th>
+              <th scope="col">Type</th>
+              <th scope="col">Source Author</th>
+              <th scope="col">Range</th>
+              <th scope="col">Has Refractive index?</th>
+              <th scope="col">Has Extinction index?</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in coat_mat %}
+            <tr>
+{#              <th scope="row">{{ mat.pageid}}</th>#}
+              <td>{{ mat.book}}</td>
+              <td>{{ mat.shelf}}</td>
+              <td>{{ mat.page}}</td>
+              <td>{{ mat.rangeMin}}-{{ mat.rangeMax }} &#956m</td>
+              <td>{{ mat.hasrefractive }}</td>
+              <td>{{ mat.hasextinction }}</td>
+              <th scope="col"><a href="/optical_parameter/details/{{ mat.pageid }}/" >details</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+    <h2>Substrate Material</h2>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Material</th>
+              <th scope="col">Type</th>
+              <th scope="col">Source Author</th>
+              <th scope="col">Range</th>
+              <th scope="col">Has Refractive index?</th>
+              <th scope="col">Has Extinction index?</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in substrate_mat %}
+            <tr>
+{#              <th scope="row">{{ mat.pageid}}</th>#}
+              <td>{{ mat.book}}</td>
+              <td>{{ mat.shelf}}</td>
+              <td>{{ mat.page}}</td>
+              <td>{{ mat.rangeMin}}-{{ mat.rangeMax }} &#956m</td>
+              <td>{{ mat.hasrefractive }}</td>
+              <td>{{ mat.hasextinction }}</td>
+              <th scope="col"><a href="/optical_parameter/details/{{ mat.pageid }}/" >details</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+    <p class = "lead">Goal: Optimize the {{ design_condition.goal}} film in range {{ design_condition.minrange }}-{{ design_condition.maxrange }} within thicknes {{ design_condition.maxthickness }} nm</p>
+    <h2>Best Coating Design</h2>
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Order</th>
+              <th scope="col">Material</th>
+              <th scope="col">Thickness</th>
+
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in best_design_coatings %}
+            <tr>
+              <td>{{ mat.order }}</td>
+              <td>{{ mat.name }}</td>
+              <td>{{ mat.thickness }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+    <p class = "lead">The optimized average reflection within range {{ design_condition.minrange }}-{{ design_condition.maxrange }} is {{ best_reflectance }}</p>
+
+    <center>
+    <div id="rt_image" style="width:800px;height:500px;"></div>
+
+
+    </center>
+        <script>
+            TESTER = document.getElementById('rt_image');
+            var trace1 = {
+              x: {{  plot_wave  }},
+              y: {{ plot_reflection }},
+              name: 'Reflection',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var trace2 = {
+              x: {{ plot_wave }},
+              y: {{ plot_transmission }},
+              name: 'Transmittance',
+              yaxis: 'y2',
+              mode:'lines+markers',
+              type: 'scatter+Lines'
+            };
+
+            var data = [trace1, trace2];
+
+            var layout = {
+              title: 'Reflection/Transmission of the Optimized Design',
+              xaxis: {title: 'Wavelength(nm)', tickformat : ":04,2f"},
+              yaxis: {title: 'Fraction Reflected'},
+              yaxis2: {
+                title: 'Fraction Transmitted',
+                titlefont: {color: 'rgb(148, 103, 189)'},
+                tickfont: {color: 'rgb(148, 103, 189)'},
+                overlaying: 'y',
+                side: 'right'
+              }
+            };
+            Plotly.newPlot(TESTER, data, layout);
+        </script>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+

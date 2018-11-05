@@ -1,0 +1,151 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+<script>
+function populate(s1,s2){
+	var s1 = document.getElementById(s1);
+	var s2 = document.getElementById(s2);
+	s2.innerHTML = "";
+	if(s1.value == "Common Inorganic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_main %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+{#        for (var i; i<{{ option_main }}.length; i++){optionArray.push("{{ option_main.i }}")};#}
+		{#var optionArray = ["|","camaro|Camaro","corvette|Corvette","impala|Impala"];#}
+	} else if(s1.value == "Organic Materials"){
+	    var optionArray = ["-----"];
+        {% for op in option_organic %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Glass"){
+	    var optionArray = ["-----"];
+        {% for op in option_glass %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+	} else if(s1.value == "Miscellaneous and Composite Materials") {
+        var optionArray = ["-----"];
+        {% for op in option_other %}
+            optionArray.push("{{ op }}");
+        {% endfor %}
+    }
+	for(var option in optionArray){
+		{#var pair = optionArray[option].split("|");#}
+        var pair = optionArray[option];
+		var newOption = document.createElement("option");
+		newOption.value = pair;
+		newOption.innerHTML = pair;
+		s2.options.add(newOption);
+	}
+}
+{#            {% if messages %}#}
+{#                {% for message in messages %}#}
+{#                    The Material Film Is Not Valid! Try Again!;#}
+{#                {% endfor %}#}
+{#            {% endif %}#}
+</script>
+
+            {% if messages %}
+                {% for message in messages %}
+                    The Material Film Is Not Valid! Try Again!
+                {% endfor %}
+            {% endif %}
+<p>{{ Mat_form.fieldname.errors.as_text }}</p>
+
+<h2>Specify Your Design</h2>
+    <p>Note: every field are required, however, if you hope to choose less than 4 coating materials, you can select other coating materials the same as previous ones</p>
+<hr />
+<form method="POST" novalidate>
+    {% csrf_token %}
+    <table>
+    <label for="type_1">Choose Coating Material Type 1:</label>
+    <select id="type_1" name="type_1" onchange="populate(this.id,'material_1')" required>
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <label for="material_1">Choose Material 1:</label>
+    <select id="material_1" name="material_1" required></select>
+     <hr />
+
+    <label for="type_2">Choose Coating Material Type 2:</label>
+    <select id="type_2" name="type_2" onchange="populate(this.id,'material_2')" >
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <label for="material_2">Choose Material 2:</label>
+    <select id="material_2" name="material_2" ></select>
+    <hr />
+
+    <label for="type_3">Choose Coating Material Type 3:</label>
+    <select id="type_3" name="type_3" onchange="populate(this.id,'material_3')">
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <label for="material_3">Choose Material 3:</label>
+    <select id="material_3" name="material_3"></select>
+        <hr />
+
+    <label for="type_4">Choose Coating Material Type 4:</label>
+    <select id="type_4" name="type_4" onchange="populate(this.id,'material_4')">
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <label for="material_4">Choose Material 4:</label>
+    <select id="material_4" name="material_4"></select>
+        <hr />
+
+    <label for="type_substrate">Choose Substrate Material Type:</label>
+    <select id="type_substrate" name="type_substrate" onchange="populate(this.id,'material_substrate')" required>
+      <option value=""></option>
+      <option value="Common Inorganic Materials">Common Inorganic Materials</option>
+      <option value="Organic Materials">Organic Materials</option>
+      <option value="Glass">Glass</option>
+      <option value="Miscellaneous and Composite Materials">Miscellaneous and Composite Materials</option>
+    </select>
+    <label for="material_substrate">Choose Substrate Material:</label>
+    <select id="material_substrate" name="material_substrate" required></select>
+        <hr />
+
+    <label for="wave_min">Wavelength Range(unit:nm) : </label>
+    <input id="wave_min" type="number" name="wave_min" maxlength="10000000000" required>
+        -
+    <label for="wave_max"></label>
+    <input id="wave_max" type="number" name="wave_max" maxlength="10000000000" required>
+    <hr/>
+    <label for="max_thickness">Maximum Thickness : </label>
+    <input id="max_thickness" type="number" name="max_thickness" maxlength="10000000000" required>
+
+    <label for="filmtype">Your goal of this design:</label>
+    <select id="filmtype" name="filmtype" required>
+      <option value=""></option>
+      <option value="Antireflection">Antireflection</option>
+      <option value="Highreflection">Highreflection</option>
+    </select>
+    <hr />
+    <input class="lead" type = "submit" value = "Submit"/>
+    </table>
+</form>
+
+{#<form method="POST">#}
+{#    {% csrf_token %}#}
+{#    {{ TestNewFilm }}#}
+{#    <input class="lead" type = "submit" value = "Submit"/>#}
+{#</form>#}
+
+
+
+{#    <p>type is: {{ Mat_form.type }}, mat is {{ Mat_form.material }}, thick is {{ Mat_form.thickness }}, layer is {{ Mat_form.layer_sequence }}</p>#}
+
+<hr />
+{% endblock %}

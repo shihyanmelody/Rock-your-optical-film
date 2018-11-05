@@ -1,0 +1,48 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+    <h1>Optimization of your design</h1>
+    <p class="lead">Here, you can create a set of conditions of the optical film to optimize. Just click the "add a new design to optimize" to design your own film and click corresponding "see result" to run the optimization algorithm!</p>
+    <hr>
+    <p class="lead">Note! the default maximum number of stacks is 4, so I suggest you to set the maximum thickness no more than the max range.</p>
+    <hr>
+    <h2>List: Targed Optimal Optical Film<h2>
+
+        {#    <div class = "listbox-area">#}
+{#        <ul role = "listbox">#}
+{#            {% for mat in materials %}#}
+{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
+{#            {% endfor %}#}
+{#        </ul>#}
+{#    </div>#}
+
+{#        <h1>Debug {{ material_names }}</h1>#}
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Substrate</th>
+              <th scope="col">Material</th>
+              <th scope="col">Range</th>
+              <th scope="col">Maximum Thickness</th>
+              <th scope="col">Goal</th>
+              <th scope="col">Result</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for mat in design %}
+            <tr>
+              <td>{{ mat.material_substrate }}</td>
+              <td>{{ mat.material_1}}, {{ mat.material_2}}, {{ mat.material_3}}, {{ mat.material_4}}</td>
+              <td>{{ mat.wave_min }} - {{ mat.wave_max }}  nm</td>
+              <td>{{ mat.max_thickness }}</td>
+              <td>{{ mat.filmtype}}</td>
+              <th scope="col"><a href="optimal/result/{{ mat.id }}/" >See Result</a></th>
+              <th scope="col"><a href="optimal/delete/{{ mat.id }}/" >Delete</a></th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+    <a class="lead" href = "/optimal/optimalfilm/">Add a new design to optimize</a>
+
+        <h2>The optimization algorithm is a lot of calculation, please be patient waiting for the result!!!</h2>
+{% endblock %}
