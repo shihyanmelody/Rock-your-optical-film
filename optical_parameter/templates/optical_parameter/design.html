@@ -1,16 +1,14 @@
 {% extends 'optical_parameter/layout.html' %}
 {% block content %}
-    <h1>Design Your Optical Film<h1>
-    <p class = "lead">Here you can design your own optical film. In order to do it, you will need to specify the material, thickness, and layer order of each single layer. Note that if you go back to the Home page, you will clean all your design except the first one as an example</p>
-{#    <div class = "listbox-area">#}
-{#        <ul role = "listbox">#}
-{#            {% for mat in materials %}#}
-{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
-{#            {% endfor %}#}
-{#        </ul>#}
-{#    </div>#}
 
-{#        <h1>Debug {{ material_names }}</h1>#}
+    {% if user.is_authenticated %}
+    <h2>Design Your Optical Film<h2>
+   {% else %}
+    <h2>Example Optical Film Design<h2>
+   {% endif %}
+
+    <p class = "lead">Here you can design your own optical film. In order to do it, you will need to specify the material, thickness, and layer order of each single layer. Note that if you go back to the Home page, you will clean all your design except the first one as an example</p>
+    <p class="lead">Note: in our database we missed several extinction coefficient especially for low extinction coefficient materials, for these materials, we set the default as 10e(-9). </p>
         <table class="table">
           <thead class="thead-light">
             <tr>
@@ -35,6 +33,7 @@
           {% endfor %}
           </tbody>
         </table>
+        <p class="lead">Attention: these materials in the design are missing extinction coefficient and using default extinction coefficient: {{ Miss_ex_mat }}</p>
     <a class="lead" href = "/optical_parameter/film/">Add New Layer</a>
     <p class="lead">Maximum Wavelength Working Range (determined by the dataset) of your film is: {{ Working_range }} </p>
     <center>

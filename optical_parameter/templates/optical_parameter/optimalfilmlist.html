@@ -5,17 +5,14 @@
     <hr>
     <p class="lead">Note! the default maximum number of stacks is 4, so I suggest you to set the maximum thickness no more than the max range.</p>
     <hr>
-    <h2>List: Targed Optimal Optical Film<h2>
+    {% if user.is_authenticated %}
+    <h2>Your Optical Film Specifications<h2>
+   {% else %}
+    <h2>Example Optical Film Specifications<h2>
+   {% endif %}
 
-        {#    <div class = "listbox-area">#}
-{#        <ul role = "listbox">#}
-{#            {% for mat in materials %}#}
-{#                <li role = "option"><a href = "/optical_parameter/materials/{{ mat.pageid }}">{{ mat.book }}</a>></li>#}
-{#            {% endfor %}#}
-{#        </ul>#}
-{#    </div>#}
 
-{#        <h1>Debug {{ material_names }}</h1>#}
+
         <table class="table">
           <thead class="thead-light">
             <tr>

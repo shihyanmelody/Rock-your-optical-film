@@ -1,0 +1,15 @@
+{% extends 'optical_parameter/layout.html' %}
+{% block content %}
+
+  <h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+{#    <hr>#}
+{#    {{ form.as_table }}#}
+        <table border="1">
+        {{ form }}
+        </table>
+    <button type="submit">Sign up</button>
+  </form>
+
+{% endblock %}

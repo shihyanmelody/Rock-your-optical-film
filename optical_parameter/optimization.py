@@ -17,7 +17,6 @@ def establish_coating(order, coating):
 # given the set of coating materials and boundaries such as substrate, min and max wavelength, maximumthickness, type, this function can come up of multiple set of coating film design, use the opticalcoating function to find the best layer thicknesses, and find the best result among all of them
 def optimizedesign(substrate, coating, design_min, design_max, maxthickness, type):
     maximum_stacks = int(6*maxthickness//(design_max+design_min)) # here 1.5 is selected because it is an very general average refractive index of dielectric materials
-    # maximum_stacks = 1
     mid_wave = (design_min + design_max) / 2
     if maximum_stacks>4:
         return None
@@ -53,14 +52,12 @@ def optimizedesign(substrate, coating, design_min, design_max, maxthickness, typ
         best_results = []
         if type =='Antireflection':
             for option in coating_index_combine:
-                # print('------------new option begin----')
                 design_coating = establish_coating(option, coating)
                 ds, best_result = optimizecoating(substrate, design_coating, design_min, design_max, maxthickness, type)
                 design_results.append((design_coating, ds, 1-best_result))
                 best_results.append(best_result[0])
         elif type =='Highreflection':
             for option in coating_index_combine:
-                # print('------------new option begin----')
                 design_coating = establish_coating(option, coating)
                 ds, best_result = optimizecoating(substrate, design_coating, design_min, design_max, maxthickness, type)
                 design_results.append((design_coating, ds, best_result))
@@ -75,7 +72,6 @@ def optimizedesign(substrate, coating, design_min, design_max, maxthickness, typ
 
 # The genetic algorithm to optimize the thickness of each layer according to the substrate, coating sequence, min and max wavelength range, maximum thickness and type of materials
 def optimizecoating(substrate, coating, min, max, maxthickness, type):
-    # print(design_condition['minrange'], design_condition['maxrange'])
     coating_complex_functions = []
     for i in range(len(coating)):
         function = coating[i].get_complex_function()
@@ -92,11 +88,9 @@ def optimizecoating(substrate, coating, min, max, maxthickness, type):
 
     refractive_medium = [1]
     for i in range(len(coating_refractive_functions)):
-        # print(coating_refractive_functions[i](medium_wavelength))
         refractive_medium.append(coating_refractive_functions[i](medium_wavelength))
     refractive_medium.append(substrate_refractive_function(medium_wavelength))
     refractive_medium = np.asarray(refractive_medium)
-    # print(refractive_medium)
 
     num_coatings = len(coating)
     sol_per_pop = 50
@@ -107,16 +101,10 @@ def optimizecoating(substrate, coating, min, max, maxthickness, type):
     # Creating the initial population, which refers to the thickness
     substrate_paths = np.ones((sol_per_pop, 1)) * np.inf
     coating_paths = np.random.normal(medium_wavelength/4, medium_wavelength/12, size=pop_size)
-    # coating_paths = np.random.normal(medium_wavelength/4, 0, size=pop_size)
     system_paths = np.c_[substrate_paths, coating_paths, substrate_paths]
     new_population = system_paths / refractive_medium[:, None].reshape(1, -1)
-    # print("------------------")
-    # print(new_population[0].tolist())
-    # print('--------------')
-
     num_generations = 10
     for generation in range(num_generations):
-        # print("Generation : ", generation)
         # Measing the fitness of each chromosome in the population.
 
         fitness = cal_pop_fitness(coating_complex_functions, substrate_complex_function, new_population, min, max, type)
@@ -135,17 +123,12 @@ def optimizecoating(substrate, coating, min, max, maxthickness, type):
         new_population[0:parents.shape[0], :] = parents
         new_population[parents.shape[0]:, :] = offspring_mutation
 
-        # The best result in the current iteration.
-        # print("Best result : ", np.max(fitness))
 
     # Getting the best solution after iterating finishing all generations.
     # At first, the fitness is calculated for each solution in the final generation.
     fitness = cal_pop_fitness(coating_complex_functions, substrate_complex_function, new_population, min, max, type)
     # Then return the index of that solution corresponding to the best fitness.
     best_match_idx = np.where(fitness == np.max(fitness))
-    print("Best solution : ", new_population[best_match_idx, :])
-    print("Best solution fitness : ", fitness[best_match_idx])
-
     ds = new_population[best_match_idx, :]
     best_result = fitness[best_match_idx]
 

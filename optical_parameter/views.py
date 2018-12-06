@@ -1,13 +1,20 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.http import HttpResponse
-from .models import Pages, Refractiveindex, Extcoeff, Film, NewFilm, OptimalFilmDesign, FormOptimalFilmDesign
+from .models import Pages, Refractiveindex, Film, NewFilm, Extcoeff, OptimalFilmDesign, FormOptimalFilmDesign
 from scipy import interpolate
 import numpy as np
 import tmm as tmm
 import math as math
 from .classes import OpticalMaterial
 from .optimization import optimizedesign
+from django.contrib.auth.decorators import login_required
+
+from django.contrib.auth.forms import UserCreationForm
+from django.urls import reverse_lazy
+from django.views import generic
+
+
 
 # Create your views here.
 
@@ -19,19 +26,17 @@ def index(request):
 
 
 def materials(request):
-    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct())
-    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct())
-    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct())
-    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct())
+    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct().order_by('book'))
+    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct().order_by('book'))
+    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct().order_by('book'))
+    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct().order_by('book'))
     shelf_dict = {'Common Inorganic Materials':'main','Organic Materials':'organic','Glass': 'glass','Miscellaneous and Composite materials':'other'}
     material_type = request.GET.get("type")
-    print('Materials Type is:',material_type)
     material_name = request.GET.get('material')
-    print('Materials name is:',material_name)
     type = None
     if material_type != None:
         type = shelf_dict[material_type]
-        material_names = Pages.objects.filter(shelf= type).values('book').distinct()
+        material_names = Pages.objects.filter(shelf= type).values('book').distinct().order_by('book')
         if material_name is not None and material_name != "-----":
             materials = Pages.objects.filter(book= material_name)
         else:
@@ -103,15 +108,21 @@ def details(request, id):
     }
     return render(request, 'optical_parameter/details.html', context)
 
+@login_required
 def film(request):
-    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct())
-    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct())
-    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct())
-    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct())
+    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct().order_by('book'))
+    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct().order_by('book'))
+    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct().order_by('book'))
+    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct().order_by('book'))
     if request.method =='POST':
         form = NewFilm(request.POST)
         if form.is_valid():
-            form.save()
+            test = form.save(commit = False)
+            print('testtest', test.optical_designer_id, request.user.id)
+            test.optical_designer_id = request.user.id
+            test.save()
+            # form.optical_designer = request.user
+            # form.save()
             return redirect("/optical_parameter/film")
     else:
         form = NewFilm()
@@ -125,16 +136,21 @@ def film(request):
     }
     return render(request, 'optical_parameter/film.html', context)
 
+@login_required
 def testfilm(request):
-    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct())
-    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct())
-    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct())
-    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct())
+    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct().order_by('book'))
+    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct().order_by('book'))
+    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct().order_by('book'))
+    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct().order_by('book'))
     if request.method == 'POST':
         form = NewFilm(request.POST)
         print(form)
         if form.is_valid():
-            form.save()
+            test = form.save(commit = False)
+            # print('testtest', test.optical_designer_id, request.user.id)
+            test.optical_designer_id = request.user.id
+            test.save()
+            # form.save()
             return redirect("/optical_parameter/design")
         else:
             # print("not valid")
@@ -152,6 +168,7 @@ def testfilm(request):
     return render(request, 'optical_parameter/film.html', context)
 
 # the function corresponding to the simulation result of the designed optical film
+
 def design(request):
     incident_angle = request.GET.get("Incident_angle")
     incident_angle_radians = 0
@@ -162,7 +179,10 @@ def design(request):
     lamda_poynting  = request.GET.get("lamda_poynting")
     if lamda_poynting == None:
         lamda_poynting = 400
-    design = Film.objects.all()
+    if request.user.is_authenticated:
+        design = Film.objects.filter(optical_designer_id = request.user.id)
+    else:
+        design = Film.objects.filter(optical_designer_id = 1)
     mat_type = list(design.values_list("type", flat=True))
     mat_mat = list(design.values_list("material", flat=True))
     mat_thick = [np.inf]
@@ -177,7 +197,6 @@ def design(request):
     miss_ex_mats = []
     for i in range(0, len(mat_type)):
         results = Pages.objects.filter(book=str(mat_mat[i]), hasrefractive=1, hasextinction = 1).values_list("pageid", flat=True)
-        # print('objects is', objects)
         if results.exists():
             objects = results
         else:
@@ -246,21 +265,24 @@ def design(request):
         'Depth':ds,
         'Miss_ex_mat':miss_ex_mats,
     }
-    print('test', tmm.coh_tmm('s', [1, 1.3, 1.95, 2.25], [np.inf, 100, 66.67, np.inf], 0, 520)['R'])
     return render(request, 'optical_parameter/design.html', context)
 
-
+@login_required
 def updatelayer(request, id):
-    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct())
-    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct())
-    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct())
-    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct())
+    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct().order_by('book'))
+    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct().order_by('book'))
+    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct().order_by('book'))
+    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct().order_by('book'))
     a = Film.objects.get(layer_sequence=id)
     uform = NewFilm(instance=a)
     if request.method == 'POST':
         uform = NewFilm(request.POST, instance=a)
         if uform.is_valid():
-            uform.save()
+            test = uform.save(commit = False)
+            # print('testtest', test.optical_designer_id, request.user.id)
+            test.optical_designer_id = request.user.id
+            test.save()
+            # uform.save()
             return redirect("/optical_parameter/design/")
     context = {
         'a': a,
@@ -273,6 +295,7 @@ def updatelayer(request, id):
     }
     return render(request, 'optical_parameter/layer_update.html', context)
 
+@login_required
 def dellayer(request,id):
     a = Film.objects.get(layer_sequence=id).delete()
     return redirect("/optical_parameter/design/")
@@ -282,17 +305,20 @@ def visualize(request):
         'content':'Here we visualize major measured data in different ranges'
     })
 
-
+@login_required
 def optimalfilm(request):
-    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct())
-    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct())
-    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct())
-    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct())
+    option_main = list(Pages.objects.filter(shelf="main").values_list("book", flat=True).distinct().order_by('book'))
+    option_organic = list(Pages.objects.filter(shelf="organic").values_list("book", flat=True).distinct().order_by('book'))
+    option_glass = list(Pages.objects.filter(shelf="glass").values_list("book", flat=True).distinct().order_by('book'))
+    option_other = list(Pages.objects.filter(shelf="other").values_list("book", flat=True).distinct().order_by('book'))
     if request.method =='POST':
         form = FormOptimalFilmDesign(request.POST)
-        print(form)
         if form.is_valid():
-            form.save()
+            test = form.save(commit = False)
+            # print('testtest', test.optical_designer_id, request.user.id)
+            test.optical_designer_id = request.user.id
+            test.save()
+            # form.save()
             return redirect("/optimal/list/")
         else:
             # print("not valid")
@@ -310,13 +336,16 @@ def optimalfilm(request):
     return render(request, 'optical_parameter/optimalfilm.html', context)
 
 def optimallist(request):
-    design = OptimalFilmDesign.objects.all()
-    print(design)
+    if request.user.is_authenticated:
+        design = OptimalFilmDesign.objects.filter(optical_designer_id = request.user.id)
+    else:
+        design = OptimalFilmDesign.objects.filter(optical_designer_id = 1)
     context = {
         'design':design,
     }
     return render(request, 'optical_parameter/optimalfilmlist.html', context)
 
+@login_required
 def deloptimaldesign(request,id):
     a = OptimalFilmDesign.objects.get(id=id).delete()
     return redirect("/optimal/list/")
@@ -324,10 +353,7 @@ def deloptimaldesign(request,id):
 
 # according to the design boundaries including the types of materials, total film thickness, and the target functions, this function can optimize the design accordingly.
 def calculateoptimaldesign(request, id):
-
-    # design_condition = {'substrate':None, 'coat_material', 'minrange', 'maxrange', 'maxthickness', 'goal'}
     design_condition = {}
-
     coat_mat = []
     coat_mat_id = []
     working_min = list(OptimalFilmDesign.objects.filter(id=id).values_list("wave_min", flat=True))
@@ -343,7 +369,6 @@ def calculateoptimaldesign(request, id):
             mat_id = search
         else:
             mat_id = Pages.objects.filter(book=mat, hasrefractive=1, rangeMax__gte=working_max[0]/1000, rangeMin__lte=working_min[0]/1000).values_list("pageid", flat=True)
-        # coat_mat.append(mat)
         if mat_id.exists():
             coat_mat_id.append(list(mat_id)[0])
         coat_mat_id = list(set(coat_mat_id))
@@ -442,3 +467,17 @@ def calculateoptimaldesign(request, id):
         'best_reflectance':best_reflection,
     }
     return render(request, 'optical_parameter/calculateoptimalfilm.html', context)
+
+
+
+@login_required
+def my_view(request):
+    context = {
+
+    }
+    return render(request, 'optical_parameter/user_authentification_test.html', context)
+
+class SignUp(generic.CreateView):
+    form_class = UserCreationForm
+    success_url = reverse_lazy('login')
+    template_name = 'optical_parameter/signup.html'

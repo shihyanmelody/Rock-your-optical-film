@@ -10,8 +10,6 @@ function populate(s1,s2){
         {% for op in option_main %}
             optionArray.push("{{ op }}");
         {% endfor %}
-{#        for (var i; i<{{ option_main }}.length; i++){optionArray.push("{{ option_main.i }}")};#}
-		{#var optionArray = ["|","camaro|Camaro","corvette|Corvette","impala|Impala"];#}
 	} else if(s1.value == "Organic Materials"){
 	    var optionArray = ["-----"];
         {% for op in option_organic %}
@@ -37,11 +35,7 @@ function populate(s1,s2){
 		s2.options.add(newOption);
 	}
 }
-{#            {% if messages %}#}
-{#                {% for message in messages %}#}
-{#                    The Material Film Is Not Valid! Try Again!;#}
-{#                {% endfor %}#}
-{#            {% endif %}#}
+
 </script>
 
             {% if messages %}
@@ -77,16 +71,6 @@ function populate(s1,s2){
     <input class="lead" type = "submit" value = "Submit"/>
     </table>
 </form>
-
-{#<form method="POST">#}
-{#    {% csrf_token %}#}
-{#    {{ TestNewFilm }}#}
-{#    <input class="lead" type = "submit" value = "Submit"/>#}
-{#</form>#}
-
-
-
-{#    <p>type is: {{ Mat_form.type }}, mat is {{ Mat_form.material }}, thick is {{ Mat_form.thickness }}, layer is {{ Mat_form.layer_sequence }}</p>#}
 
 <hr />
 {% endblock %}

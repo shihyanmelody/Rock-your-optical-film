@@ -3,6 +3,8 @@ from django.forms import ModelForm
 from django import forms
 import matplotlib
 from datetime import datetime
+from django.contrib.auth.models import User
+
 
 # Create your models here.
 
@@ -43,21 +45,26 @@ class Extcoeff(models.Model):
 
 
 class Film(models.Model):
-    type = models. CharField(max_length = 50, null=True)
-    material = models.CharField(max_length = 50, null=True)
-    thickness = models.FloatField(null=True)
-    layer_sequence = models.IntegerField(primary_key=True)
+    # auto_increment_id = models.AutoField(primary_key=True)
+    optical_designer = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+    type = models. CharField(max_length = 50, null=False)
+    material = models.CharField(max_length = 50, null=False)
+    thickness = models.FloatField(null=False)
+    layer_sequence = models.IntegerField(max_length = 2, null = True)
     class Meta:
         order_with_respect_to = 'layer_sequence'
     def __str__(self):
         return 'Material: %s; : %s; Thickness: %s nm; Layer: %s' % (self.material, self.type, self.thickness, self.layer_sequence)
+
 
 class NewFilm(ModelForm):
     class Meta:
         model= Film
         fields = ['type', 'material', 'thickness', 'layer_sequence']
 
+
 class OptimalFilmDesign(models.Model):
+    optical_designer = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     filmtypes = (('Antireflection','Minimize the reflection'),
         ('Highreflection','Maximize the reflection'))
     type_1 = models. CharField(max_length = 50, null=False)

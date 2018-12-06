@@ -14,4 +14,8 @@ urlpatterns = [
     path('optimal/list/', views.optimallist, name='optimallist'),
     path('optimal/list/optimal/delete/<id>/', views.deloptimaldesign, name='deloptimaldesign'),
     path('optimal/list/optimal/result/<id>/', views.calculateoptimaldesign, name='calculateoptimaldesign'),
+
+    path('test/', views.my_view, name='my_view'),
+    path('signup/', views.SignUp.as_view(), name='signup'),
+
 ];

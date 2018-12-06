@@ -6,9 +6,7 @@ import tmm
 def cal_pop_fitness(coating_complex_functions, substrate_complex_function, new_population, min, max, type):
 
     fitness = np.ones(new_population.shape[0])*(-99999999999)
-    # print('shape of new population', new_population.shape)
     for i in range(new_population.shape[0]):
-        # print('i is', i)
         lamda_size = (max-min)//10+1
         lamdas = np.linspace(min, max, num = lamda_size)
         # print('wavelength ranges is', lamdas)
@@ -16,10 +14,8 @@ def cal_pop_fitness(coating_complex_functions, substrate_complex_function, new_p
         for wa in lamdas:
             refractive_element = [1]
             for k in range(len(coating_complex_functions)):
-                # print(coating_refractive_functions[i](medium_wavelength))
                 refractive_element.append(coating_complex_functions[k](wa))
             refractive_element.append(substrate_complex_function(wa))
-            # print(refractive_element)
             reflections.append(tmm.coh_tmm('s', refractive_element, new_population[i].tolist(), 0, wa)['R'])
         if type == 'Antireflection':
             fitness[i] = 1-np.average(reflections)
